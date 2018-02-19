@@ -1,4 +1,4 @@
-baseurl         = "https://zief0002.github.io/"
+baseurl         = "https://priceless-wiles-535968.netlify.com/"
 theme = "hugo-casper-two"
 languageCode    = "en-US"
 disqusShortname = ""
