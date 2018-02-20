@@ -7,13 +7,13 @@ categories: []
 tags: []
 ---
 
-College in the Schools is a concurrent enrollment program in which existing University of Minnesota courses are taught in high schools by high school teachers. All schools wishing to offer a CIS course go through an application process, including an interview and approval by the post-secondary academic department sponsoring the course of any high school teachers who will be teaching the course.
+[College in the Schools](https://ccaps.umn.edu/college-in-the-schools) is a concurrent enrollment program in which existing University of Minnesota courses are taught in high schools by high school teachers. All schools wishing to offer a CIS course go through an application process, including an interview and approval by the post-secondary academic department sponsoring the course of any high school teachers who will be teaching the course.
 
 Since CIS is a concurrent enrollment program, students are enrolled simultaneously in the University of Minnesota course (*EPsy 3264: Basic and Applied Statistics*) and a course at their high school. (As such, they receive two separate grades.) This setup allows for variation between the university and high school schedules. It also allows high schools to cover additional material or devote additional time to topics as needed (e.g., to accommodate requirements of state testing).
 
 ## CIS Statistics
 
-We first implemented a CIS statistics course in the 2015&ndash;2016 academic year. Since that time, we have had 17 high schools teach a CIS statistics course. The map below shows these schools.
+We implemented the CIS statistics course in the 2015&ndash;2016 academic year. Since that time, we have had 17 high schools teach a CIS statistics course. The map below shows these schools.
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, fig.height=6, fig.width=6, out.width='500px'}
 cis = read.csv("~/Dropbox/college-in-the-schools/maps/00-cis-locations.csv")
@@ -48,7 +48,7 @@ ggplot() +
 
 Students who recehe curriculum from 
 
-To meet the University of Minnesota requirements, the high school students experience the same curriculum and assessments that is used at the university. (They are also graded using the same standards as students at the university.) The course uses the CATALST curriculum which immerses students in the nuts-and-bolts of statistical inference from the first day of the course via a focus on modeling and simulation. One of the primary goals of the CATALST curriculum is the promotion of statistical thinking. This is achieved by emphasizing the "core logic of statistical inference" throughout the curriculum, rather than procedural knowledge.
+To meet the University of Minnesota requirements, the high school students experience the same curriculum and assessments that is used at the university. (They are also graded using the same standards as students at the university.) The course uses the [CATALST curriculum](https://priceless-wiles-535968.netlify.com/post/catalst-project/) which immerses students in the nuts-and-bolts of statistical inference from the first day of the course via a focus on modeling and simulation. One of the primary goals of the CATALST curriculum is the promotion of statistical thinking. This is achieved by emphasizing the "core logic of statistical inference" throughout the curriculum, rather than procedural knowledge.
 
 The underlying philosophy of CATALST is that students are primarily responsible for their own learning. Students meet that responsibility by reading the materials, completing the homework, and carrying out any other preparation prior to each class period.
 

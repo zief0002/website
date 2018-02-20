@@ -52,7 +52,7 @@ canonifyurls    = true
 
 [[menu.main]]
   name = "CV"
-  url = "misc/zieffler-cv-2018-01-01.pdf"
+  url = "https://github.com/zief0002/website/raw/master/misc/zieffler-cv-2018-01-01.pdf"
   weight = 100
 
 [[menu.main]]
