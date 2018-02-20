@@ -4,7 +4,7 @@ date = "2018-02-19"
 draft = false
 noauthor = true
 share = false
-title = "Contact Information"
+title = "Contact"
 type = "page"
 [menu.main]
 weight = 112
