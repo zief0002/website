@@ -2,51 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://zief0002.github.io/</link>
+    <link>/</link>
     <description>Recent content on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://zief0002.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CATALST Project</title>
-      <link>https://zief0002.github.io/post/catalst-project/</link>
+      <link>/post/catalst-project/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://zief0002.github.io/post/catalst-project/</guid>
+      <guid>/post/catalst-project/</guid>
       <description>Change Agents for Teaching and Learning Statistics (CATALST) This NSF-funded project developed materials for teaching a radically different introductory statistics course based on randomization and bootstrap methods to provide students a deep understanding of statistical inference.
 The materials were turned into a free, online book, Statistical Thinking: A Simulation Approach to Modeling Uncertainty, available at: http://zief0002.github.io/statistical-thinking/. The data sets and PDF version of the lab manual are available at the book&amp;rsquo;s Github repository: https://github.</description>
     </item>
     
     <item>
       <title>AIMS Project</title>
-      <link>https://zief0002.github.io/post/aims-project/</link>
+      <link>/post/aims-project/</link>
       <pubDate>Fri, 26 Sep 2014 00:00:00 +0000</pubDate>
       
-      <guid>https://zief0002.github.io/post/aims-project/</guid>
+      <guid>/post/aims-project/</guid>
       <description>Adapting and Implementing Innovative Material in Statistics (AIMS) This NSF-funded project developed lesson plans and activities based on innovative materials that have been produced for introductory statistics courses. These lesson plans and student activity guides were developed to help transform an introductory statistics course into one that is aligned with the Guidelines for Assessment and Instruction in Statistics Education (GAISE) for teaching introductory statistics courses. The lessons, which build on implications from educational research, involve students in small and large group discussion, computer explorations, and hands-on activities.</description>
     </item>
     
     <item>
       <title>About me</title>
-      <link>https://zief0002.github.io/about/</link>
+      <link>/about/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://zief0002.github.io/about/</guid>
+      <guid>/about/</guid>
       <description>I am a Senior Lecturer and researcher in the Quantitative Methods in Education program within the Department of Educational Psychology at the University of Minnesota. I currently teach undergaraduate and graduate-level courses in statistics and train and supervise graduate students in statistics education. In a previous life I taught mathematics and A.P. Statistics at ROCORI High School in Cold Spring, MN.
 My scholarship focuses on statistics education. I have authored/co-authored several papers and book chapters related to statistics education, and have been a co-PI on many NSF-funded statistics education research projects.</description>
     </item>
     
     <item>
       <title>College in the Schools</title>
-      <link>https://zief0002.github.io/post/college-in-the-schools/</link>
+      <link>/post/college-in-the-schools/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://zief0002.github.io/post/college-in-the-schools/</guid>
-      <description>College in the Schools Implementation of the Basic and Applied Statistics (EPsy 3264) in 12 high schools across Minnesota</description>
+      <guid>/post/college-in-the-schools/</guid>
+      <description>College in the Schools is a concurrent enrollment program in which existing University of Minnesota courses are taught in high schools by high school teachers. All schools wishing to offer a CIS course go through an application process, including an interview and approval by the post-secondary academic department sponsoring the course of any high school teachers who will be teaching the course.
+Since CIS is a concurrent enrollment program, students are enrolled simultaneously in the University of Minnesota course (EPsy 3264: Basic and Applied Statistics) and a course at their high school.</description>
     </item>
     
   </channel>
