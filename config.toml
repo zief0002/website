@@ -55,13 +55,15 @@ canonifyurls    = true
   url = "https://github.com/zief0002/website/raw/master/misc/zieffler-cv-2018-01-01.pdf"
   weight = 100
 
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact"
+  weight = 95
+
+
 [[menu.main]]
   name = "Categories"
   url = "/categories/"
   weight = 99
-
-[[menu.main]]
-  name = "External"
-  url = "https://google.com/"
-  weight = 95
   
