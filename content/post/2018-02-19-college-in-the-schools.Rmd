@@ -3,9 +3,12 @@ title: College in the Schools
 author: ~
 date: '2018-02-19'
 slug: college-in-the-schools
-categories: []
-tags: []
+authorAvatar: img/andy.png
+categories: [project]
+tags: [CIS, teaching, EPsy-3264]
 ---
+
+Implementation of the EPsy 3264: Basic and Applied Statistics course in 17 high schools across Minnesota.
 
 [College in the Schools](https://ccaps.umn.edu/college-in-the-schools) is a concurrent enrollment program in which existing University of Minnesota courses are taught in high schools by high school teachers. All schools wishing to offer a CIS course go through an application process, including an interview and approval by the post-secondary academic department sponsoring the course of any high school teachers who will be teaching the course.
 

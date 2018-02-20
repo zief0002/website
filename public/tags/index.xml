@@ -6,9 +6,64 @@
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
+    <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Aims</title>
+      <link>/tags/aims/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/aims/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Catalst</title>
+      <link>/tags/catalst/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/catalst/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cis</title>
+      <link>/tags/cis/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Epsy 3264</title>
+      <link>/tags/epsy-3264/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/epsy-3264/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grant</title>
+      <link>/tags/grant/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/grant/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/tags/teaching/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/teaching/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
