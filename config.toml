@@ -60,6 +60,12 @@ canonifyurls    = true
   name = "Contact"
   url = "/contact"
   weight = 95
+ 
+  
+[[menu.main]]
+  name = "Colophon"
+  url = "/colophon"
+  weight = 95  
 
 
 [[menu.main]]
