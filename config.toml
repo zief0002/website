@@ -12,7 +12,7 @@ canonifyurls    = true
   copyright   = "© 2018"
 
   cover       = "img/blog-cover.jpg"
-  description = "Here is a description of your site."
+  description = "Website for Andrew Zieffler"
   metaDescription = ""
   googleAnalytics = ""
   customCSS = []
@@ -35,7 +35,7 @@ canonifyurls    = true
   authorAvatar = "img/andy.png"
   authorLocation = "Minneapolis, MN"
   authorWebsite = "https://zief0002.github.io"
-  authorDescription = "Your description here"
+  authorDescription = "Statistics Enthusiast"
 
   pageNotFoundTitle = "404 - Page not found"
 
@@ -51,8 +51,8 @@ canonifyurls    = true
   weight = 200
 
 [[menu.main]]
-  name = "Go"
-  url = "/tags/golang/"
+  name = "CV"
+  url = "misc/zieffler-cv-2018-01-01.pdf"
   weight = 100
 
 [[menu.main]]
