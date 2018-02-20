@@ -20,15 +20,3 @@ weight = 112
 - [code.close()](https://www.flickr.com/photos/ruiwen/3260095534/), a Flickr photo by [Ruiwen Chua](https://www.flickr.com/photos/ruiwen/). License: [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0/).
 - [Light Reading](https://www.flickr.com/photos/quattrostagioni/6363562459/), a Flickr photo by [Martin](https://www.flickr.com/photos/quattrostagioni/). License: [CC BY 2.0](https://creativecommons.org/licenses/by/2.0/).
 
-
-
-### address: 
-
-250 EdSciB <br/>
-56 East River Road <br />
-Minneapolis, MN 55455
-
-
-### office:
-
-[178 EdSciB](https://www.google.com/maps/place/Education+Sciences+Building/@44.9784043,-93.2394586,17z/data=!3m1!4b1!4m2!3m1!1s0x52b32d136a8cd98d:0x45656dac481b9150)
