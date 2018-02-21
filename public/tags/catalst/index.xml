@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Catalst on </title>
-    <link>https://priceless-wiles-535968.netlify.com/tags/catalst/</link>
+    <link>/tags/catalst/</link>
     <description>Recent content in Catalst on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://priceless-wiles-535968.netlify.com/tags/catalst/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/catalst/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>CATALST Project</title>
-      <link>https://priceless-wiles-535968.netlify.com/post/catalst-project/</link>
+      <link>/post/catalst-project/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://priceless-wiles-535968.netlify.com/post/catalst-project/</guid>
+      <guid>/post/catalst-project/</guid>
       <description>Change Agents for Teaching and Learning Statistics (CATALST) was an NSF-funded project that developed materials for teaching a radically different introductory statistics course based on randomization and bootstrap methods to provide students a deep understanding of statistical inference.
 The materials were turned into a free, online book, Statistical Thinking: A Simulation Approach to Modeling Uncertainty, available at: http://zief0002.github.io/statistical-thinking/.
 The data sets and PDF version of the lab manual are available at the book&amp;rsquo;s Github repository: https://github.</description>
