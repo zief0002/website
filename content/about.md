@@ -7,7 +7,7 @@ share = false
 title = "About me"
 type = "page"
 [menu.main]
-weight = 111
+weight = 3
 
 +++
 

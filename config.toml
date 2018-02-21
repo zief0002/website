@@ -48,28 +48,29 @@ canonifyurls    = true
 [[menu.main]]
   name = "Home"
   url = "/"
-  weight = 200
-
-[[menu.main]]
-  name = "CV"
-  url = "https://github.com/zief0002/website/raw/master/misc/zieffler-cv-2018-01-01.pdf"
-  weight = 100
+  weight = 6
 
 
 [[menu.main]]
   name = "Contact"
   url = "/contact"
-  weight = 95
+  weight = 5
+
+
+[[menu.main]]
+  name = "CV"
+  url = "https://github.com/zief0002/website/raw/master/misc/zieffler-cv-2018-01-01.pdf"
+  weight = 4
  
   
 [[menu.main]]
   name = "Colophon"
   url = "/colophon"
-  weight = 95  
+  weight = 2  
 
 
 [[menu.main]]
   name = "Categories"
   url = "/categories/"
-  weight = 99
+  weight = 1
   
