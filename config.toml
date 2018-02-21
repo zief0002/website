@@ -52,21 +52,10 @@ canonifyurls    = true
 
 
 [[menu.main]]
-  name = "Contact"
-  url = "/contact"
-  weight = 5
-
-
-[[menu.main]]
   name = "CV"
   url = "https://github.com/zief0002/website/raw/master/misc/zieffler-cv-2018-01-01.pdf"
   weight = 4
  
-  
-[[menu.main]]
-  name = "Colophon"
-  url = "/colophon"
-  weight = 2  
 
 
 [[menu.main]]

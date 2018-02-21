@@ -7,7 +7,7 @@ share = false
 title = "Colophon"
 type = "page"
 [menu.main]
-weight = 112
+weight = 2
 
 +++
 

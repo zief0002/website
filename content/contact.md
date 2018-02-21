@@ -7,7 +7,7 @@ share = false
 title = "Contact"
 type = "page"
 [menu.main]
-weight = 112
+weight = 5
 
 +++
 
