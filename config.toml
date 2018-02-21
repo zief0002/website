@@ -19,9 +19,9 @@ canonifyurls    = true
   RSSLink = ""
 
   twitterName = ""
-  fbName = "zief0002"
+  fbName = ""
   githubName = "zief0002"
-  linkedinName = ""
+  linkedinName = "zief0002"
   mediumName = ""
 
   logo = "img/zieffler-logo.png"
