@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Teaching on </title>
-    <link>/tags/teaching/</link>
+    <link>https://priceless-wiles-535968.netlify.com/tags/teaching/</link>
     <description>Recent content in Teaching on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <lastBuildDate>Mon, 19 Feb 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://priceless-wiles-535968.netlify.com/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>AIMS Project</title>
-      <link>/post/aims-project/</link>
+      <link>https://priceless-wiles-535968.netlify.com/post/aims-project/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/aims-project/</guid>
+      <guid>https://priceless-wiles-535968.netlify.com/post/aims-project/</guid>
       <description>The NSF-funded project Adapting and Implementing Innovative Material in Statistics (AIMS) developed lesson plans and activities based on innovative materials that have been produced for introductory statistics courses. These lesson plans and student activity guides were developed to help transform an introductory statistics course into one that is aligned with the Guidelines for Assessment and Instruction in Statistics Education (GAISE) for teaching introductory statistics courses. The lessons, which build on implications from educational research, involve students in small and large group discussion, computer explorations, and hands-on activities.</description>
     </item>
     
     <item>
       <title>CATALST Project</title>
-      <link>/post/catalst-project/</link>
+      <link>https://priceless-wiles-535968.netlify.com/post/catalst-project/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/catalst-project/</guid>
+      <guid>https://priceless-wiles-535968.netlify.com/post/catalst-project/</guid>
       <description>Change Agents for Teaching and Learning Statistics (CATALST) was an NSF-funded project that developed materials for teaching a radically different introductory statistics course based on randomization and bootstrap methods to provide students a deep understanding of statistical inference.
 The materials were turned into a free, online book, Statistical Thinking: A Simulation Approach to Modeling Uncertainty, available at: http://zief0002.github.io/statistical-thinking/.
 The data sets and PDF version of the lab manual are available at the book&amp;rsquo;s Github repository: https://github.</description>
@@ -33,10 +33,10 @@ The data sets and PDF version of the lab manual are available at the book&amp;rs
     
     <item>
       <title>College in the Schools</title>
-      <link>/post/college-in-the-schools/</link>
+      <link>https://priceless-wiles-535968.netlify.com/post/college-in-the-schools/</link>
       <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/college-in-the-schools/</guid>
+      <guid>https://priceless-wiles-535968.netlify.com/post/college-in-the-schools/</guid>
       <description>Implementation of the EPsy 3264: Basic and Applied Statistics course in 17 high schools across Minnesota.
 College in the Schools is a concurrent enrollment program in which existing University of Minnesota courses are taught in high schools by high school teachers. All schools wishing to offer a CIS course go through an application process, including an interview and approval by the post-secondary academic department sponsoring the course of any high school teachers who will be teaching the course.</description>
     </item>
