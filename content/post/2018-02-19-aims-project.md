@@ -3,7 +3,6 @@ title: AIMS Project
 author: ~
 date: '2018-02-19'
 slug: aims-project
-authorAvatar: img/andy.png
 categories: [project]
 tags: [AIMS, teaching, grant]
 ---

@@ -3,7 +3,6 @@ title: CATALST Project
 author: ~
 date: '2018-02-19'
 slug: catalst-project
-authorAvatar: img/andy.png
 categories: [project]
 tags: [CATALST, teaching, EPsy-3264, grant]
 ---
