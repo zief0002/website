@@ -6,6 +6,7 @@ paginate        = 6
 #SectionPagesMenu = "main"
 canonifyurls    = true
 
+
 [params]
   title       = "Andrew Zieffler"
   subtitle    = "biography, CV, portfolio"
