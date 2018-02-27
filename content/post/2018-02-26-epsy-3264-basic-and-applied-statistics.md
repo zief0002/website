@@ -1,5 +1,5 @@
 ---
-title: EPsy 3264: Basic and Applied Statistics
+title: 'EPsy 3264: Basic and Applied Statistics'
 author: ~
 date: '2018-02-26'
 slug: epsy-3264-basic-and-applied-statistics

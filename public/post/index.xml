@@ -6,20 +6,18 @@
     <description>Recent content in Posts on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Wed, 21 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 26 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>BioSQuaRE</title>
-      <link>/post/biosquare/</link>
-      <pubDate>Wed, 21 Feb 2018 00:00:00 +0000</pubDate>
+      <title>EPsy 3264: Basic and Applied Statistics</title>
+      <link>/post/epsy-3264-basic-and-applied-statistics/</link>
+      <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/biosquare/</guid>
-      <description>BioSQuaRE is an instrument, created via an HHMI grant, to assess the quantitative readiness of students planning on majoring in biology or the life sciences.
-Background In 2012, several PIs who had received grants from HHMI to implement institution-level curriculum projects wrote a proposal to write an assessment that could be commonly used to evaluate their curricular efforts. These PIs were from the following institutions:
- Macalester Bryn Mawr Oberlin St.</description>
+      <guid>/post/epsy-3264-basic-and-applied-statistics/</guid>
+      <description>EPsy 3264 is a 3-credit course designed to engage students using a modeling and simulation approach to inference. This course fulfills the Mathematical Thinking component of the Liberal Education requirements at the University of Minnesota. Statistics is more than just an application of mathematics or a methodology used in some other discipline. Statistics is a principled way of thinking about the world. In particular, it is a principled approach to data collection, prediction, and scientific inference.</description>
     </item>
     
     <item>
