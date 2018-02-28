@@ -93,6 +93,48 @@
     </item>
     
     <item>
+      <title>BioSQuaRE</title>
+      <link>/project/2018-02-21-biosquare/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/2018-02-21-biosquare/</guid>
+      <description>
+
+&lt;p&gt;BioSQuaRE is an instrument, created via an HHMI grant, to assess the quantitative readiness of students planning on majoring in biology or the life sciences.&lt;/p&gt;
+
+&lt;h2 id=&#34;background&#34;&gt;Background&lt;/h2&gt;
+
+&lt;p&gt;In 2012, several PIs who had received grants from HHMI to implement institution-level curriculum projects wrote a proposal to write an assessment that could be commonly used to evaluate their curricular efforts. These PIs were from the following institutions:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Macalester&lt;/li&gt;
+&lt;li&gt;Bryn Mawr&lt;/li&gt;
+&lt;li&gt;Oberlin&lt;/li&gt;
+&lt;li&gt;St. Olaf&lt;/li&gt;
+&lt;li&gt;Lewis and Clark, and&lt;/li&gt;
+&lt;li&gt;The Claremont Colleges&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;I joined this project shortly thereafter as an expert in assessment development. I also brought with me two graduate students, Laura Le and Laura Ziegler, who joined the project as research assistants. (Both Lauras continued to work on the project even after they graduated and matriculated into academic jobs.)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://d2ihvqrbsd9p9p.cloudfront.net/contentAsset/image/19329a63-3049-4a0a-889f-3ef2fc9d18e0/fileAsset/inode/d71404c4-d89c-4547-8232-cd236fc4fd80/filter/Resize,Jpeg/jpeg_q/85/resize_w/1080&#34; alt=&#34;Q6 Phote&#34; /&gt;
+&lt;p style=&#34;font-size:70%;&#34;&gt;Q6 group at Keck Science Center (Claremont, CA) Feb. 2016&lt;/p&gt;&lt;/p&gt;
+
+&lt;p&gt;It took several years to develop what is now BioSQuaRE (v.5). AFter the initial work to develop items, there were many iterations of piloting, data analysis, and assessment-revision. The current iteration of the assessment includes 29 items that cover content related to: (1) Algebra, functions, and modeling; (2) Statistics and probability; and (3) Visualization.&lt;/p&gt;
+
+&lt;p&gt;Ultimately we hope that results from BioSQuaRE can be used to address and evaluate curricular change in biology and life science courses. For more technical detail about the development of BioSQuaRE, see:&lt;/p&gt;
+
+&lt;p&gt;Stanhope, E., Ziegler, L., Haque, T., Le, L., Vinces, M., Davis, G. K., Zieffler, A., Brodfuehrer, P., Preest, M., Belisky, J., Umbanhowar, Jr., C., &amp;amp; Overvoorde, P. J. (2017). &lt;a href=&#34;https://www.ncbi.nlm.nih.gov/pubmed/29196427&#34; target=&#34;_blank&#34;&gt;Development of a Biological Science Quantitative Reasoning Exam (BioSQuaRE).&lt;/a&gt; CBE–Life Sciences Education, 16(4), ar66. doi: 10.1187/cbe.16-10-0301&lt;/p&gt;
+
+&lt;h2 id=&#34;for-instructors&#34;&gt;For Instructors&lt;/h2&gt;
+
+&lt;p&gt;If you are an instructor interested in considering the use of BioSQuARE with your students, please complete this brief &lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLSevIoHPbU3CQSX2Jal3QTbudNU1rvAfj_evNyK1TOkWNj0UZw/viewform?usp=sf_link&#34; target=&#34;_blank&#34;&gt;online survey&lt;/a&gt;, which gathers some basic contact information (e.g., institutional type, departmental listing, class size, range of students, etc.). One of the BioSQuARE team will then follow-up with additional information and instruction.&lt;/p&gt;
+
+&lt;p&gt;We will provide faculty liaisons with a report that summarizes the responses of their students. Please note, these summaries will be aggregated to the course or institution level and will only be provided if the number of students completing BioSQuaRE is large enough to protect individual students&amp;rsquo; anonymity. We also show comparisons of your average course performance to the averages of all students who have completed the instrument.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>CATALST Project</title>
       <link>/project/catalst-project/</link>
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
@@ -104,6 +146,53 @@
 
 &lt;p&gt;The data sets and PDF version of the lab manual are available at the book&amp;rsquo;s Github repository: &lt;a href=&#34;https://github.com/zief0002/statistical-thinking&#34; target=&#34;_blank&#34;&gt;https://github.com/zief0002/statistical-thinking&lt;/a&gt;.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>College in the Schools</title>
+      <link>/project/college-in-the-schools/</link>
+      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/college-in-the-schools/</guid>
+      <description>&lt;p&gt;Implementation of the EPsy 3264: Basic and Applied Statistics course in 17 high schools across Minnesota.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://ccaps.umn.edu/college-in-the-schools&#34;&gt;College in the Schools&lt;/a&gt; is a concurrent enrollment program in which existing University of Minnesota courses are taught in high schools by high school teachers. All schools wishing to offer a CIS course go through an application process, including an interview and approval by the post-secondary academic department sponsoring the course of any high school teachers who will be teaching the course.&lt;/p&gt;
+&lt;p&gt;Since CIS is a concurrent enrollment program, students are enrolled simultaneously in the University of Minnesota course (&lt;em&gt;EPsy 3264: Basic and Applied Statistics&lt;/em&gt;) and a course at their high school. (As such, they receive two separate grades.) This setup allows for variation between the university and high school schedules. It also allows high schools to cover additional material or devote additional time to topics as needed (e.g., to accommodate requirements of state testing).&lt;/p&gt;
+&lt;div id=&#34;cis-statistics&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;CIS Statistics&lt;/h2&gt;
+&lt;p&gt;We implemented the CIS statistics course in the 2015–2016 academic year. Since that time, we have had 17 high schools teach a CIS statistics course. The map below shows these schools.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/project/2018-02-19-college-in-the-schools_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;500px&#34; /&gt;&lt;/p&gt;
+&lt;div id=&#34;curriculum-pedagogy-and-assessment&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Curriculum, Pedagogy, and Assessment&lt;/h3&gt;
+&lt;p&gt;To meet the University of Minnesota requirements, the high school students experience the same curriculum and assessments that is used at the university. (They are also graded using the same standards as students at the university.) The course uses the &lt;a href=&#34;https://priceless-wiles-535968.netlify.com/post/catalst-project/&#34;&gt;CATALST curriculum&lt;/a&gt; which immerses students in the nuts-and-bolts of statistical inference from the first day of the course via a focus on modeling and simulation. One of the primary goals of the CATALST curriculum is the promotion of statistical thinking. This is achieved by emphasizing the “core logic of statistical inference” throughout the curriculum, rather than procedural knowledge.&lt;/p&gt;
+&lt;p&gt;The underlying philosophy of CATALST is that students are primarily responsible for their own learning. Students meet that responsibility by reading the materials, completing the homework, and carrying out any other preparation prior to each class period.&lt;/p&gt;
+&lt;p&gt;This is also true in the classroom, where students work with 2–3 other students through a series of structured activities and discussions. This group-work is where a majority of the student learning takes place. In the classroom, the role of the instructor is more “guide-on-the-side”: leading larger classroom discussions, posing questions, and helping students draw connections and make sense of the material.&lt;/p&gt;
+&lt;p&gt;Students use the &lt;a href=&#34;http://tinkerplots.com/&#34;&gt;TinkerPlots™ software&lt;/a&gt; during class and as a part of their at-home preparation and homework. TinkerPlots™ employs allows students to create models and simulate date using an interactive set of tools. The visual display of the simulation process helps students gain a deeper conceptual understanding of the underlying data generation process used in statistical inference.&lt;/p&gt;
+&lt;p&gt;Because of the emphasis on cooperative group learning in the course, students are evaluated using both group and individual assessments. Individual-level assessments offer students an opportunity to show they have learned the material, while group assessments push students’ understanding of the course material through questions that extend the content in ways they may not have previously encountered (while at the same time offering these extensions via the relative safety of the group).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;professional-development&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Professional Development&lt;/h3&gt;
+&lt;p&gt;High school teachers who are accepted to teach the CIS course engage in ongoing professional development (PD). Each year they are required to complete 30 hours of PD: a 3-day workshop each summer and and a 1-day workshop in both the fall and spring semester.&lt;/p&gt;
+&lt;p&gt;In addition to the PD, CIS teachers are also observed by University of Minnesota faculty. These observations occur at least once during the initial year that a school adopts a CIS course and at least once every three years thereafter.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;resources&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Resources&lt;/h2&gt;
+&lt;p&gt;More information about the CIS statistics course and the CATALST curriculum can be found in the following resources:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Garfield, J., delMas, R., &amp;amp; Zieffler, A. (2012). Developing statistical modelers and thinkers in an introductory, tertiary-level statistics course. &lt;em&gt;ZDM—The International Journal on Mathematics Education, 44&lt;/em&gt;(4), 883–898.&lt;/li&gt;
+&lt;li&gt;Zieffler, A., &amp;amp; Huberty, M. (2015). A catalyst for change in the high school math curriculum. &lt;em&gt;CHANCE, 28&lt;/em&gt;(3), 44–49. doi: 10.1080/09332480.2015.1099365&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Development of a Biological Science Quantitative Reasoning Exam (BioSQuaRE)</title>
+      <link>/publication/2017-biosquare/</link>
+      <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2017-biosquare/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -359,16 +448,6 @@ Figure 1: A fancy pie chart.
 &lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>My article</title>
-      <link>/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
 </description>
     </item>
     

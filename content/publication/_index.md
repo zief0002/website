@@ -14,5 +14,5 @@ list_format = 2
 # Optional featured image (relative to `static/img/` folder).
 [header]
 image = "typewriter.png"
-caption = ""
+caption = "Image Credit: Typewriter, a Flickr photo by Mateusz Łapsa-Malawski"
 +++
