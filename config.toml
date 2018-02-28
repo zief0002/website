@@ -16,7 +16,7 @@ canonifyurls    = true
   description = "Website for Andrew Zieffler"
   metaDescription = ""
   googleAnalytics = ""
-  customCSS = []
+  customCSS = ["css/zieffler.css"]
   RSSLink = ""
 
   twitterName = ""
