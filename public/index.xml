@@ -150,17 +150,16 @@
     
     <item>
       <title>College in the Schools</title>
-      <link>/project/college-in-the-schools/</link>
-      <pubDate>Mon, 19 Feb 2018 00:00:00 +0000</pubDate>
+      <link>/post/2018-02-19-college-in-the-schools/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
       
-      <guid>/project/college-in-the-schools/</guid>
-      <description>&lt;p&gt;Implementation of the EPsy 3264: Basic and Applied Statistics course in 17 high schools across Minnesota.&lt;/p&gt;
-&lt;p&gt;&lt;a href=&#34;https://ccaps.umn.edu/college-in-the-schools&#34;&gt;College in the Schools&lt;/a&gt; is a concurrent enrollment program in which existing University of Minnesota courses are taught in high schools by high school teachers. All schools wishing to offer a CIS course go through an application process, including an interview and approval by the post-secondary academic department sponsoring the course of any high school teachers who will be teaching the course.&lt;/p&gt;
+      <guid>/post/2018-02-19-college-in-the-schools/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://ccaps.umn.edu/college-in-the-schools&#34;&gt;College in the Schools&lt;/a&gt; is a concurrent enrollment program in which existing University of Minnesota courses are taught in high schools by high school teachers. All schools wishing to offer a CIS course go through an application process, including an interview and approval by the post-secondary academic department sponsoring the course of any high school teachers who will be teaching the course.&lt;/p&gt;
 &lt;p&gt;Since CIS is a concurrent enrollment program, students are enrolled simultaneously in the University of Minnesota course (&lt;em&gt;EPsy 3264: Basic and Applied Statistics&lt;/em&gt;) and a course at their high school. (As such, they receive two separate grades.) This setup allows for variation between the university and high school schedules. It also allows high schools to cover additional material or devote additional time to topics as needed (e.g., to accommodate requirements of state testing).&lt;/p&gt;
 &lt;div id=&#34;cis-statistics&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;CIS Statistics&lt;/h2&gt;
 &lt;p&gt;We implemented the CIS statistics course in the 2015–2016 academic year. Since that time, we have had 17 high schools teach a CIS statistics course. The map below shows these schools.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/project/2018-02-19-college-in-the-schools_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;500px&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/post/2018-02-19-college-in-the-schools_files/figure-html/unnamed-chunk-1-1.png&#34; width=&#34;500px&#34; /&gt;&lt;/p&gt;
 &lt;div id=&#34;curriculum-pedagogy-and-assessment&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Curriculum, Pedagogy, and Assessment&lt;/h3&gt;
 &lt;p&gt;To meet the University of Minnesota requirements, the high school students experience the same curriculum and assessments that is used at the university. (They are also graded using the same standards as students at the university.) The course uses the &lt;a href=&#34;https://priceless-wiles-535968.netlify.com/post/catalst-project/&#34;&gt;CATALST curriculum&lt;/a&gt; which immerses students in the nuts-and-bolts of statistical inference from the first day of the course via a focus on modeling and simulation. One of the primary goals of the CATALST curriculum is the promotion of statistical thinking. This is achieved by emphasizing the “core logic of statistical inference” throughout the curriculum, rather than procedural knowledge.&lt;/p&gt;
@@ -184,6 +183,15 @@
 &lt;/ul&gt;
 &lt;/div&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Hello</title>
+      <link>/post/hello/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/hello/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -394,13 +402,21 @@ git submodule update --init --recursive
     </item>
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>/publication/person-re-identification/</link>
+      <title>Statistics graduate teaching assistants&#39; beliefs, practices, and preparation for teaching introductory statistics</title>
+      <link>/publication/2017-serj/</link>
       <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
       
-      <guid>/publication/person-re-identification/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <guid>/publication/2017-serj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Statistics graduate teaching assistants&#39; beliefs, practices, and preparation for teaching introductory statistics</title>
+      <link>/publication/_example/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/_example/</guid>
+      <description></description>
     </item>
     
     <item>

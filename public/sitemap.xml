@@ -32,6 +32,24 @@
     
     <url>
     
+      <loc>/post/2018-02-19-college-in-the-schools/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/hello/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/2017-biosquare/</loc>
       <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     </url>
@@ -95,6 +113,15 @@
     
     <url>
     
+      <loc>/publication/2017-serj/</loc>
+      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/_example/</loc>
       <lastmod>2015-09-01T00:00:00+00:00</lastmod>
     </url>
@@ -106,14 +133,6 @@
     
       <loc>/post/2015-07-23-r-rmarkdown/</loc>
       <lastmod>2015-07-23T21:13:14-05:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/project/2018-02-19-college-in-the-schools/</loc>
     </url>
     
   
@@ -172,6 +191,16 @@
     <url>
     
       <loc>/tags/catalst/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/cis/</loc>
       <lastmod>2018-02-28T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
