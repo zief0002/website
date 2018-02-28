@@ -33,12 +33,16 @@ filter_default = 0
   tag = "*"
 
 [[filter]]
-  name = "Deep Learning"
-  tag = ".deep-learning"
+  name = "assessment"
+  tag = ".assessment"
 
 [[filter]]
-  name = "Other"
-  tag = ".demo"
+  name = "teaching"
+  tag = ".teaching"
+  
+[[filter]]
+  name = "grant"
+  tag = ".grant"
 
 +++
 
