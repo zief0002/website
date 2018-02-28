@@ -1,7 +1,13 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
+@import url('https://fonts.googleapis.com/css?family=Lato');
 
 p, li{
   font-family: 'Lora', serif;
+  font-size: 1.5rem;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Lato', serif;
 }
 
 
