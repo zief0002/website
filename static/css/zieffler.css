@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display');
+@import url('https://fonts.googleapis.com/css?family=Lora');
 
-p{
-  font-family: 'Playfair Display', serif;
+p, li{
+  font-family: 'Lora', serif;
 }
 
 
