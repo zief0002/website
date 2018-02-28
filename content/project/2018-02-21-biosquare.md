@@ -4,15 +4,15 @@ title = "BioSQuaRE"
 
 summary = "BioSQuaRE is an instrument, created via an HHMI grant, to assess the quantitative readiness of students planning on majoring in biology or the life sciences."
 
-image_preview = "data-tiles.jpg"
+image_preview = "lauren-brown.jpg"
 tags = ["BioSQuaRE", "grant", "assessment"]
 external_link = ""
 math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/data-tiles.jpg"
-caption = "Image Credit: Research Data Management, a Flickr photo by janneke staaks"
+image = "headers/lauren-brown-header.jpg"
+caption = "Image Credit: A flickr photo by lauren brown"
 
 +++
 
@@ -34,8 +34,7 @@ I joined this project shortly thereafter as an expert in assessment development.
 
 
 ![Q6 Phote](https://d2ihvqrbsd9p9p.cloudfront.net/contentAsset/image/19329a63-3049-4a0a-889f-3ef2fc9d18e0/fileAsset/inode/d71404c4-d89c-4547-8232-cd236fc4fd80/filter/Resize,Jpeg/jpeg_q/85/resize_w/1080)
-<p style="font-size:70%;">Q6 group at Keck Science Center (Claremont, CA) Feb. 2016</p>
-
+<p style="font-size:70%;">**Q6 group at Keck Science Center (Claremont, CA) Feb. 2016.**<br />*Front row:* Marion Preest, Paul Overvoorde, Laura Ziegler, Liz Stanhope, Jason Belitsky, Tabassum Haque<br />*Back row:* Charles Umbanhowar, Peter Brodfuehrer, Greg Davis, Laura Le, Marcelo Vinces, Andrew Zieffler</p>
 
 
 It took several years to develop what is now BioSQuaRE (v.5). AFter the initial work to develop items, there were many iterations of piloting, data analysis, and assessment-revision. The current iteration of the assessment includes 29 items that cover content related to: (1) Algebra, functions, and modeling; (2) Statistics and probability; and (3) Visualization.

@@ -9,7 +9,7 @@ title = "AIMS Project"
 summary = "The NSF-funded project *Adapting and Implementing Innovative Material in Statistics (AIMS)* developed lesson plans and activities based on innovative materials that have been produced for introductory statistics courses."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
-image_preview = "marcin-ignac.png"
+image_preview = "pshab.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
@@ -23,8 +23,8 @@ math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/marcin-ignac-header.jpg"
-caption = "Image Credit: A Flickr photo by Marcin Ignac"
+image = "headers/pshab-header.jpg"
+caption = "Image Credit: A flickr photo by pshab"
 
 +++
 

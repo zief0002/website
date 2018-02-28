@@ -4,15 +4,15 @@ title = "CATALST Project"
 
 summary = "*Change Agents for Teaching and Learning Statistics (CATALST)* was an NSF-funded project that developed materials for teaching a radically different introductory statistics course based on randomization and bootstrap methods to provide students a deep understanding of statistical inference."
 
-image_preview = "data-tiles.jpg"
+image_preview = "janneke-staaks.jpg"
 tags = ["CATALST", "teaching", "grant", "EPsy-3264"]
 external_link = ""
 math = false
 
 # Optional featured image (relative to `static/img/` folder).
 [header]
-image = "headers/data-tiles.jpg"
-caption = "Image Credit: Research Data Management, a Flickr photo by janneke staaks"
+image = "headers/janneke-staaks-header.jpg"
+caption = "Image Credit: A flickr photo by janneke staaks"
 
 +++
 

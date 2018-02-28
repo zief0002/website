@@ -23,7 +23,7 @@ highlight = true
 
 [header]
 image = "typewriter.png"
-caption = "Image Credit: Typewriter, a Flickr photo by Mateusz Łapsa-Malawski"
+caption = "Image Credit: A flickr photo by Mateusz Łapsa-Malawski"
 
 +++
 

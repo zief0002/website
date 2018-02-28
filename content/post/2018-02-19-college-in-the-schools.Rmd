@@ -4,8 +4,8 @@ author: "~"
 date: 2018-02-28
 tags: ["CATALST", "teaching", "CIS", "EPsy-3264"]
 header:
-  image: "headers/data-tiles.jpg"
-  caption: "Image Credit: Research Data Management, a Flickr photo by janneke staaks"
+  image: "headers/janneke-staaks-header-02.jpg"
+  caption: "Image Credit: A flickr photo by janneke staaks"
 ---
 
 
