@@ -1,13 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
 @import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
 
 p, li{
-  font-family: 'Lora', serif;
+  font-family: 'Raleway', serif;
   font-size: 1.8rem;
 }
 
-h1,h2,h3,h4,h5,h6{
-  font-family: 'Lato', serif;
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.8rem;
 }
+
+
 
 
