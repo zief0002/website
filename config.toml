@@ -60,7 +60,7 @@ defaultContentLanguageInSubdir = false
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "andy.png"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
   email = "zief0002@umn.edu"
-  address = "178 EdSciB, 56 E. River Rd., Minneapolis, MN, 55455, USA"
+  address = "178 EdSciB <br/>56 East River Road <br />Minneapolis, MN 55455"
   office_hours = "Tuesday 9:30 to 10:30 or email for appointment"
   phone = ""
   skype = "zief0002"
@@ -94,8 +94,8 @@ defaultContentLanguageInSubdir = false
   #   3: OpenStreetMap (Mapbox)
   map = 0
   map_api_key = ""
-  latitude = "44.9784527"
-  longitude = "-93.2416898"
+  latitude = "44.9784043"
+  longitude = "-93.2394586"
   zoom = 17
 
   # Date and time format (refer to Go's date format: http://fuckinggodateformat.com )
@@ -225,14 +225,9 @@ defaultContentLanguageInSubdir = false
     link = "zief0002"
 
   [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = "https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ"
-
-  [[params.social]]
     icon = "linkedin"
     icon_pack = "fa"
-    link = "zieffler"
+    link = "andrewzieffler"
 
 
 # Navigation Links

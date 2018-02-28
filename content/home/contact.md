@@ -2,16 +2,19 @@
 # Contact widget.
 widget = "contact"
 active = true
-date = "2016-04-20T00:00:00"
+date = "2018-02-28"
 
 title = "Contact"
-subtitle = ""
+subtitle = "location, email, what-not"
 
 # Order that this section will appear in.
-weight = 70
+weight = 100
 
 # Automatically link email and phone?
 autolink = true
 
 +++
+
+
+
 
