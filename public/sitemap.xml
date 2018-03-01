@@ -59,6 +59,15 @@
     
     <url>
     
+      <loc>/publication/2017-serj/</loc>
+      <lastmod>2017-05-31T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/talk/example-talk/</loc>
       <lastmod>2017-01-01T00:00:00-06:00</lastmod>
     </url>
@@ -104,8 +113,54 @@
     
     <url>
     
-      <loc>/publication/2017-serj/</loc>
-      <lastmod>2015-09-01T00:00:00+00:00</lastmod>
+      <loc>/publication/2015-tas/</loc>
+      <lastmod>2015-12-29T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/2015-serj/</loc>
+      <lastmod>2015-11-30T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/2015-biosquare/</loc>
+      <lastmod>2015-10-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/2015-chance/</loc>
+      <lastmod>2015-10-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/2014-esm/</loc>
+      <lastmod>2014-03-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/0/</loc>
+      <lastmod>2015-10-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -233,7 +288,7 @@
     <url>
     
       <loc>/publication_types/</loc>
-      <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+      <lastmod>2015-10-27T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
