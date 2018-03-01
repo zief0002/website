@@ -114,14 +114,14 @@ h4, h5, h6 {
 
 a,
 h3.article-title a:hover {
-  color: #0095eb;
+  color: rgb(255, 45, 33);
   text-decoration: none;
   transition: color 0.6s ease;
 }
 
 a:hover,
 a:focus {
-  color: #0095eb;
+  color: rgb(255, 45, 33);
 }
 
 img,
@@ -431,7 +431,7 @@ a[data-fancybox] img {
 .featurette-icon {
   display: block;
   width: 100%;
-  color: #0095eb;
+  color: rgb(255, 45, 33);
   font-size: 3rem;
   text-align: center;
 }
@@ -647,7 +647,7 @@ article .article-metadata {
 }
 
 .article-metadata a:hover {
-  color: #0095eb;
+  color: rgb(255, 45, 33);
 }
 
 .middot-divider {
@@ -982,8 +982,8 @@ footer a#back_to_top i {
  **************************************************/
 
 .btn-primary {
-  border-color: #0095eb !important;
-  background: #0095eb !important;
+  border-color: rgb(255, 45, 33) !important;
+  background: rgb(255, 45, 33) !important;
 }
 
 .btn-primary:hover,
@@ -991,7 +991,7 @@ footer a#back_to_top i {
 .btn-primary.active,
 .btn-primary:visited,
 .open > .dropdown-toggle.btn-primary {
-  background: #0095eb !important;
+  background: rgb(255, 45, 33) !important;
 }
 
 .btn-light {
@@ -1025,12 +1025,12 @@ footer a#back_to_top i {
 
 .btn-toolbar .btn.btn-primary:hover,
 .btn-toolbar .btn.btn-primary:focus {
-  background-color: #0069c0 !important;
+  background-color: rgb(255, 47, 24) !important;
 }
 
 .btn-toolbar .btn.btn-primary:active,
 .btn-toolbar .btn.btn-primary.active {
-  background-color: #6ec6ff !important;
+  background-color: rgb(255, 98, 99) !important;
 }
 
 /*************************************************
@@ -1044,12 +1044,12 @@ footer a#back_to_top i {
 }
 
 .btn-primary.btn-outline {
-  color: #0095eb !important;
-  border-color: #0095eb !important;
+  color: rgb(255, 45, 33) !important;
+  border-color: rgb(255, 45, 33) !important;
 }
 
 .btn-primary.btn-outline:focus {
-  color: #0095eb !important;
+  color: rgb(255, 45, 33) !important;
 }
 
 .btn-primary.btn-outline:active {
@@ -1136,14 +1136,14 @@ nav#navbar-main li {
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: #0095eb;
+  color: rgb(255, 45, 33);
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-  color: #0095eb;
+  color: rgb(255, 45, 33);
   font-weight: 700;
   background-color: transparent !important; /* Override Bootstrap. */
 }
@@ -1180,7 +1180,7 @@ nav#navbar-main li {
 
 .dropdown-menu>li>a:focus,
 .dropdown-menu>li>a:hover {
-  color: #0095eb;
+  color: rgb(255, 45, 33);
   text-decoration: none;
   background-color: #fff;
 }
@@ -1190,7 +1190,7 @@ nav#navbar-main li {
 .dropdown-menu > .active > a:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #0095eb;
+  background-color: rgb(255, 45, 33);
   outline: 0;
 }
 
@@ -1305,7 +1305,7 @@ nav#navbar-main li {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
-    color: #0095eb;
+    color: rgb(255, 45, 33);
     background-color: transparent;
   }
 
@@ -1460,7 +1460,7 @@ body.dark {
 }
 
 .dark ul.share li a {
-  background-color: #0095eb;
+  background-color: rgb(255, 45, 33);
 }
 
 .dark table table {
@@ -1514,7 +1514,7 @@ body.dark {
 }
 
 .dark .card h4 a {
-  color: #0095eb;
+  color: rgb(255, 45, 33);
   border-bottom: solid 1px transparent;
 }
 
