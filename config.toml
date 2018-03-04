@@ -274,6 +274,11 @@ defaultContentLanguageInSubdir = false
   category = "categories"
   publication_type = "publication_types"
 
+[[menu.main]]
+  name = "Blogroll"
+  url = "#blogroll"
+  weight = 7
+
 # Languages
 #   Create a [languages.X] block for each language you want, where X is the language ID.
 

@@ -104,5 +104,15 @@ My scholarship focuses on statistics education. I have authored/co-authored seve
       <description></description>
     </item>
     
+    <item>
+      <title>Blogroll</title>
+      <link>/home/blogroll/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/home/blogroll/</guid>
+      <description>Blogs I follow:
+ R Bloggers Educate-R  </description>
+    </item>
+    
   </channel>
 </rss>
