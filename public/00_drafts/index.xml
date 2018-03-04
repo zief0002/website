@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>00_drafts on Andrew Zieffler</title>
+    <link>/00_drafts/</link>
+    <description>Recent content in 00_drafts on Andrew Zieffler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 28 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/00_drafts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>College in the Schools</title>
+      <link>/00_drafts/girls_hockey/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/00_drafts/girls_hockey/</guid>
+      <description>Links Home ice advantage
+Hockey Hub Bracket
+elo package vignette
+ </description>
+    </item>
+    
+  </channel>
+</rss>
