@@ -16,7 +16,7 @@
       <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/2018-03-03-boys-hockey/</guid>
-      <description>&lt;p&gt;The state high school boys hockey tournament, scheduled for March7–10, is one of the premiere sporting events in the state of Minnesota. According to &lt;a href=&#34;https://en.wikipedia.org/wiki/High_school_boys_ice_hockey_in_Minnesota&#34;&gt;Wikipedia&lt;/a&gt;, this event has drawn over 100,000 spectators 22 times in its history, eclipsing 135,000 spectoators in 2015. Many national caliber players played high school hockey in Minnesota, several taking part in the state tournament. Names like Neal Broten, Herb Brooks, and T. J. Oshie are alumni of state tournaments past.&lt;/p&gt;
+      <description>&lt;p&gt;The state high school boys hockey tournament, scheduled for March 7–10, is one of the premiere sporting events in the state of Minnesota. According to &lt;a href=&#34;https://en.wikipedia.org/wiki/High_school_boys_ice_hockey_in_Minnesota&#34;&gt;Wikipedia&lt;/a&gt;, this event has drawn over 100,000 spectators 22 times in its history, eclipsing 135,000 spectoators in 2015. Many national caliber players played high school hockey in Minnesota, several taking part in the state tournament. Names like Neal Broten, Herb Brooks, and T. J. Oshie are alumni of state tournaments past.&lt;/p&gt;
 &lt;p&gt;Minnesota high school hockey teams are split into two classes based on school enrollment sizes; the largest 64 schools are classified as Class AA and the remainder are classified as Class A. Each of these classes are subdivided into eight sections. (Sections are based on a combination of school location and competitivness.)&lt;/p&gt;
 &lt;p&gt;This year’s state tournament features 16 teams (8 from Class A and 8 from Class AA) that qualified for the tournament by winning their section tournament. Within each class, the top five teams are seeded (ranked) by the coaches of the teams that qualified for the state tournament. The #4 and #5 seeds play each other and the remaining three teams in each class are assigned by lottery to play the #1, #2, and #3 seeded teams. The seeds in the 2018 tournament, announced on March 3, are:&lt;/p&gt;
 &lt;table&gt;
@@ -156,17 +156,6 @@ hockey = hockey %&amp;gt;%
 elo_reg_season = elo.run(score(home_score, visitor_score) ~ home + visitor +
                     k(15*log(abs(home_score - visitor_score) + 1)), data = hockey)&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;The final Elo ratings and rankings for teams that qualified for the state tournament are shown below.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;e = data.frame(final.elos(elo_reg_season))
-names(e) = &amp;quot;Elo&amp;quot;
-     
-class_a = e %&amp;gt;% 
-  mutate(Team = row.names(e)) %&amp;gt;% 
-  arrange(desc(Elo)) %&amp;gt;%
-  mutate(Rank = 1:nrow(e)) %&amp;gt;%
-  filter(Team %in% c(&amp;quot;Hermantown&amp;quot;, &amp;quot;Mahtomedi&amp;quot;, &amp;quot;Orono&amp;quot;, &amp;quot;Alexandria&amp;quot;, &amp;quot;Thief River Falls&amp;quot;, &amp;quot;Litchfield/Dassel-Cokato&amp;quot;, &amp;quot;Mankato East&amp;quot;, &amp;quot;Monticello&amp;quot;)) %&amp;gt;%
-  select(Team, Elo, Rank)
-
-knitr::kable(class_a, caption = &amp;quot;Elo ratings and rankings for the eight Class A teams that qualified for the state tournament.&amp;quot;, align = c(&amp;quot;l&amp;quot;, &amp;quot;c&amp;quot;, &amp;quot;c&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
 &lt;table&gt;
 &lt;caption&gt;&lt;span id=&#34;tab:unnamed-chunk-6&#34;&gt;Table 2: &lt;/span&gt;Elo ratings and rankings for the eight Class A teams that qualified for the state tournament.&lt;/caption&gt;
 &lt;thead&gt;
@@ -219,14 +208,6 @@ knitr::kable(class_a, caption = &amp;quot;Elo ratings and rankings for the eight
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;class_aa = e %&amp;gt;% 
-  mutate(Team = row.names(e)) %&amp;gt;% 
-  arrange(desc(Elo)) %&amp;gt;%
-  mutate(Rank = 1:nrow(e)) %&amp;gt;%
-  filter(Team %in% c(&amp;quot;Minnetonka&amp;quot;, &amp;quot;Edina&amp;quot;, &amp;quot;Duluth East&amp;quot;, &amp;quot;St. Thomas Academy&amp;quot;, &amp;quot;Centennial&amp;quot;, &amp;quot;STMA&amp;quot;, &amp;quot;Lakeville North&amp;quot;, &amp;quot;Hill-Murray&amp;quot;)) %&amp;gt;%
-  select(Team, Elo, Rank)
-
-knitr::kable(class_aa, caption = &amp;quot;Elo ratings and rankings for the eight Class AA teams that qualified for the state tournament.&amp;quot;, align = c(&amp;quot;l&amp;quot;, &amp;quot;c&amp;quot;, &amp;quot;c&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
 &lt;table&gt;
 &lt;caption&gt;&lt;span id=&#34;tab:unnamed-chunk-7&#34;&gt;Table 3: &lt;/span&gt;Elo ratings and rankings for the eight Class AA teams that qualified for the state tournament.&lt;/caption&gt;
 &lt;thead&gt;

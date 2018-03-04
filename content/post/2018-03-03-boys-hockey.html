@@ -10,7 +10,7 @@ header:
 
 
 
-<p>The state high school boys hockey tournament, scheduled for March7–10, is one of the premiere sporting events in the state of Minnesota. According to <a href="https://en.wikipedia.org/wiki/High_school_boys_ice_hockey_in_Minnesota">Wikipedia</a>, this event has drawn over 100,000 spectators 22 times in its history, eclipsing 135,000 spectoators in 2015. Many national caliber players played high school hockey in Minnesota, several taking part in the state tournament. Names like Neal Broten, Herb Brooks, and T. J. Oshie are alumni of state tournaments past.</p>
+<p>The state high school boys hockey tournament, scheduled for March 7–10, is one of the premiere sporting events in the state of Minnesota. According to <a href="https://en.wikipedia.org/wiki/High_school_boys_ice_hockey_in_Minnesota">Wikipedia</a>, this event has drawn over 100,000 spectators 22 times in its history, eclipsing 135,000 spectoators in 2015. Many national caliber players played high school hockey in Minnesota, several taking part in the state tournament. Names like Neal Broten, Herb Brooks, and T. J. Oshie are alumni of state tournaments past.</p>
 <p>Minnesota high school hockey teams are split into two classes based on school enrollment sizes; the largest 64 schools are classified as Class AA and the remainder are classified as Class A. Each of these classes are subdivided into eight sections. (Sections are based on a combination of school location and competitivness.)</p>
 <p>This year’s state tournament features 16 teams (8 from Class A and 8 from Class AA) that qualified for the tournament by winning their section tournament. Within each class, the top five teams are seeded (ranked) by the coaches of the teams that qualified for the state tournament. The #4 and #5 seeds play each other and the remaining three teams in each class are assigned by lottery to play the #1, #2, and #3 seeded teams. The seeds in the 2018 tournament, announced on March 3, are:</p>
 <table>
@@ -150,17 +150,6 @@ hockey = hockey %&gt;%
 elo_reg_season = elo.run(score(home_score, visitor_score) ~ home + visitor +
                     k(15*log(abs(home_score - visitor_score) + 1)), data = hockey)</code></pre>
 <p>The final Elo ratings and rankings for teams that qualified for the state tournament are shown below.</p>
-<pre class="r"><code>e = data.frame(final.elos(elo_reg_season))
-names(e) = &quot;Elo&quot;
-     
-class_a = e %&gt;% 
-  mutate(Team = row.names(e)) %&gt;% 
-  arrange(desc(Elo)) %&gt;%
-  mutate(Rank = 1:nrow(e)) %&gt;%
-  filter(Team %in% c(&quot;Hermantown&quot;, &quot;Mahtomedi&quot;, &quot;Orono&quot;, &quot;Alexandria&quot;, &quot;Thief River Falls&quot;, &quot;Litchfield/Dassel-Cokato&quot;, &quot;Mankato East&quot;, &quot;Monticello&quot;)) %&gt;%
-  select(Team, Elo, Rank)
-
-knitr::kable(class_a, caption = &quot;Elo ratings and rankings for the eight Class A teams that qualified for the state tournament.&quot;, align = c(&quot;l&quot;, &quot;c&quot;, &quot;c&quot;))</code></pre>
 <table>
 <caption><span id="tab:unnamed-chunk-6">Table 2: </span>Elo ratings and rankings for the eight Class A teams that qualified for the state tournament.</caption>
 <thead>
@@ -213,14 +202,6 @@ knitr::kable(class_a, caption = &quot;Elo ratings and rankings for the eight Cla
 </tr>
 </tbody>
 </table>
-<pre class="r"><code>class_aa = e %&gt;% 
-  mutate(Team = row.names(e)) %&gt;% 
-  arrange(desc(Elo)) %&gt;%
-  mutate(Rank = 1:nrow(e)) %&gt;%
-  filter(Team %in% c(&quot;Minnetonka&quot;, &quot;Edina&quot;, &quot;Duluth East&quot;, &quot;St. Thomas Academy&quot;, &quot;Centennial&quot;, &quot;STMA&quot;, &quot;Lakeville North&quot;, &quot;Hill-Murray&quot;)) %&gt;%
-  select(Team, Elo, Rank)
-
-knitr::kable(class_aa, caption = &quot;Elo ratings and rankings for the eight Class AA teams that qualified for the state tournament.&quot;, align = c(&quot;l&quot;, &quot;c&quot;, &quot;c&quot;))</code></pre>
 <table>
 <caption><span id="tab:unnamed-chunk-7">Table 3: </span>Elo ratings and rankings for the eight Class AA teams that qualified for the state tournament.</caption>
 <thead>

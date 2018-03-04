@@ -8,7 +8,7 @@ header:
   caption: "Image Credit: A flickr photo by K.M. Klemencic"
 ---
 
-The state high school boys hockey tournament, scheduled for March7&ndash;10, is one of the premiere sporting events in the state of Minnesota. According to [Wikipedia](https://en.wikipedia.org/wiki/High_school_boys_ice_hockey_in_Minnesota), this event has drawn over 100,000 spectators 22 times in its history, eclipsing 135,000 spectoators in 2015. Many national caliber players played high school hockey in Minnesota, several taking part in the state tournament. Names like Neal Broten, Herb Brooks, and T. J. Oshie are alumni of state tournaments past.
+The state high school boys hockey tournament, scheduled for March 7&ndash;10, is one of the premiere sporting events in the state of Minnesota. According to [Wikipedia](https://en.wikipedia.org/wiki/High_school_boys_ice_hockey_in_Minnesota), this event has drawn over 100,000 spectators 22 times in its history, eclipsing 135,000 spectoators in 2015. Many national caliber players played high school hockey in Minnesota, several taking part in the state tournament. Names like Neal Broten, Herb Brooks, and T. J. Oshie are alumni of state tournaments past.
 
 Minnesota high school hockey teams are split into two classes based on school enrollment sizes; the largest 64 schools are classified as Class AA and the remainder are classified as Class A. Each of these classes are subdivided into eight sections. (Sections are based on a combination of school location and competitivness.)
 
@@ -119,7 +119,7 @@ elo_reg_season = elo.run(score(home_score, visitor_score) ~ home + visitor +
 
 The final Elo ratings and rankings for teams that qualified for the state tournament are shown below.
 
-```{r}
+```{r echo=FALSE}
 e = data.frame(final.elos(elo_reg_season))
 names(e) = "Elo"
      
@@ -133,7 +133,7 @@ class_a = e %>%
 knitr::kable(class_a, caption = "Elo ratings and rankings for the eight Class A teams that qualified for the state tournament.", align = c("l", "c", "c"))
 ```
 
-```{r}
+```{r echo=FALSE}
 class_aa = e %>% 
   mutate(Team = row.names(e)) %>% 
   arrange(desc(Elo)) %>%
