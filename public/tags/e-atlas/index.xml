@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Assessment on Andrew Zieffler</title>
-    <link>/tags/assessment/</link>
-    <description>Recent content in Assessment on Andrew Zieffler</description>
+    <title>E-ATLAS on Andrew Zieffler</title>
+    <link>/tags/e-atlas/</link>
+    <description>Recent content in E-ATLAS on Andrew Zieffler</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
     <lastBuildDate>Mon, 05 Mar 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/assessment/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/tags/e-atlas/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -20,17 +20,6 @@
       <guid>/project/eatlas-project/</guid>
       <description>The purpose of e-ATLAS was to develop high-quality instruments to evaluate the effectiveness of curricular reform in the teaching and learning of introductory statistics at the tertiary level. All of the instruments were designed to be administered online.
 The two main instruments developed as part of this project were the Statistics Teaching Inventory (STI) and Goals and Outcomes Associated with Learning Statistics (GOALS). An additional instrument, the Basic Literacy in Statistics (BLIS), was developed by Laura Ziegler as part of her doctoral dissertation research was also a part of the e-ATLAS project.</description>
-    </item>
-    
-    <item>
-      <title>BioSQuaRE</title>
-      <link>/project/2018-02-21-biosquare/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/project/2018-02-21-biosquare/</guid>
-      <description>BioSQuaRE is an instrument, created via an HHMI grant, to assess the quantitative readiness of students planning on majoring in biology or the life sciences.
-Background In 2012, several PIs who had received grants from HHMI to implement institution-level curriculum projects wrote a proposal to write an assessment that could be commonly used to evaluate their curricular efforts. These PIs were from the following institutions:
- Macalester Bryn Mawr Oberlin St.</description>
     </item>
     
   </channel>

@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 28 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Mar 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>e-ATLAS Project</title>
+      <link>/project/eatlas-project/</link>
+      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/eatlas-project/</guid>
+      <description>The purpose of e-ATLAS was to develop high-quality instruments to evaluate the effectiveness of curricular reform in the teaching and learning of introductory statistics at the tertiary level. All of the instruments were designed to be administered online.
+The two main instruments developed as part of this project were the Statistics Teaching Inventory (STI) and Goals and Outcomes Associated with Learning Statistics (GOALS). An additional instrument, the Basic Literacy in Statistics (BLIS), was developed by Laura Ziegler as part of her doctoral dissertation research was also a part of the e-ATLAS project.</description>
+    </item>
     
     <item>
       <title>AIMS Project</title>
