@@ -222,17 +222,17 @@ defaultContentLanguageInSubdir = false
   [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "zief0002"
+    link = "https://github.com/zief0002"
 
   [[params.social]]
     icon = "linkedin"
     icon_pack = "fa"
-    link = "andrewzieffler"
+    link = "https://www.linkedin.com/in/andrewzieffler/"
 
   [[params.social]]
     icon = "researchgate"
     icon_pack = "ai"
-    link = "Andrew_Zieffler"
+    link = "https://www.researchgate.net/profile/Andrew_Zieffler"
 
 
 # Navigation Links
