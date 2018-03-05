@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teaching on Andrew Zieffler</title>
+    <link>/tags/teaching/</link>
+    <description>Recent content in Teaching on Andrew Zieffler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Wed, 28 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>AIMS Project</title>
+      <link>/project/aims-project/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/aims-project/</guid>
+      <description>The NSF-funded project Adapting and Implementing Innovative Material in Statistics (AIMS) developed lesson plans and activities based on innovative materials that have been produced for introductory statistics courses.
+The AIMS materials are available on Github at https://github.com/zief0002/aims
+ The case for substantial change in statistics instruction is built on strong synergies between content, pedagogy, and technology.
+&amp;mdash;David Moore
+ Written in 2005&amp;ndash;2006, the AIMS lesson plans and student activity guides were developed to help transform an introductory statistics course into one that is aligned with the Guidelines for Assessment and Instruction in Statistics Education (GAISE) for teaching introductory statistics courses.</description>
+    </item>
+    
+    <item>
+      <title>CATALST Project</title>
+      <link>/project/catalst-project/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/project/catalst-project/</guid>
+      <description>Change Agents for Teaching and Learning Statistics (CATALST) was an NSF-funded project that developed materials for teaching a radically different introductory statistics course based on randomization and bootstrap methods to provide students a deep understanding of statistical inference.
+The materials were turned into a free, online book, Statistical Thinking: A Simulation Approach to Modeling Uncertainty, available at: http://zief0002.github.io/statistical-thinking/.
+The data sets and PDF version of the lab manual are available at the book&amp;rsquo;s Github repository: https://github.</description>
+    </item>
+    
+    <item>
+      <title>College in the Schools</title>
+      <link>/post/2018-02-19-college-in-the-schools/</link>
+      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018-02-19-college-in-the-schools/</guid>
+      <description>College in the Schools is a concurrent enrollment program in which existing University of Minnesota courses are taught in high schools by high school teachers. All schools wishing to offer a CIS course go through an application process, including an interview and approval by the post-secondary academic department sponsoring the course of any high school teachers who will be teaching the course.
+Since CIS is a concurrent enrollment program, students are enrolled simultaneously in the University of Minnesota course (EPsy 3264: Basic and Applied Statistics) and a course at their high school.</description>
+    </item>
+    
+    <item>
+      <title>EPsy 3264: Basic and Applied Statistics</title>
+      <link>/post/epsy-3264-basic-and-applied-statistics/</link>
+      <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/epsy-3264-basic-and-applied-statistics/</guid>
+      <description>EPsy 3264 is a 3-credit course designed to engage students using a modeling and simulation approach to inference. This course fulfills the Mathematical Thinking component of the Liberal Education requirements at the University of Minnesota. Statistics is more than just an application of mathematics or a methodology used in some other discipline. Statistics is a principled way of thinking about the world. In particular, it is a principled approach to data collection, prediction, and scientific inference.</description>
+    </item>
+    
+  </channel>
+</rss>

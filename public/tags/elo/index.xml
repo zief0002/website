@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Elo on Andrew Zieffler</title>
+    <link>/tags/elo/</link>
+    <description>Recent content in Elo on Andrew Zieffler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Sat, 03 Mar 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/elo/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Minnesota State High School Boys Hockey Predictions</title>
+      <link>/post/2018-03-03-boys-hockey/</link>
+      <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018-03-03-boys-hockey/</guid>
+      <description>The state high school boys hockey tournament, scheduled for March 7–10, is one of the premiere sporting events in the state of Minnesota. According to Wikipedia, this event has drawn over 100,000 spectators 22 times in its history, eclipsing 135,000 spectoators in 2015. Many national caliber players played high school hockey in Minnesota, several taking part in the state tournament. Names like Neal Broten, Herb Brooks, and T. J. Oshie are alumni of state tournaments past.</description>
+    </item>
+    
+  </channel>
+</rss>
