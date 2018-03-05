@@ -229,6 +229,11 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fa"
     link = "andrewzieffler"
 
+  [[params.social]]
+    icon = "researchgate"
+    icon_pack = "ai"
+    link = "Andrew_Zieffler"
+
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
