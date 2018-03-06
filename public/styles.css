@@ -114,14 +114,14 @@ h4, h5, h6 {
 
 a,
 h3.article-title a:hover {
-  color: #0095eb;
+  color: #03878a;
   text-decoration: none;
   transition: color 0.6s ease;
 }
 
 a:hover,
 a:focus {
-  color: #0095eb;
+  color: #03878a;
 }
 
 img,
@@ -431,7 +431,7 @@ a[data-fancybox] img {
 .featurette-icon {
   display: block;
   width: 100%;
-  color: #0095eb;
+  color: #03878a;
   font-size: 3rem;
   text-align: center;
 }
@@ -647,7 +647,7 @@ article .article-metadata {
 }
 
 .article-metadata a:hover {
-  color: #0095eb;
+  color: #03878a;
 }
 
 .middot-divider {
@@ -982,8 +982,8 @@ footer a#back_to_top i {
  **************************************************/
 
 .btn-primary {
-  border-color: #0095eb !important;
-  background: #0095eb !important;
+  border-color: #03878a !important;
+  background: #03878a !important;
 }
 
 .btn-primary:hover,
@@ -991,7 +991,7 @@ footer a#back_to_top i {
 .btn-primary.active,
 .btn-primary:visited,
 .open > .dropdown-toggle.btn-primary {
-  background: #0095eb !important;
+  background: #03878a !important;
 }
 
 .btn-light {
@@ -1025,12 +1025,12 @@ footer a#back_to_top i {
 
 .btn-toolbar .btn.btn-primary:hover,
 .btn-toolbar .btn.btn-primary:focus {
-  background-color: #0069c0 !important;
+  background-color: #32526a !important;
 }
 
 .btn-toolbar .btn.btn-primary:active,
 .btn-toolbar .btn.btn-primary.active {
-  background-color: #6ec6ff !important;
+  background-color: #c1c1c1 !important;
 }
 
 /*************************************************
@@ -1044,12 +1044,12 @@ footer a#back_to_top i {
 }
 
 .btn-primary.btn-outline {
-  color: #0095eb !important;
-  border-color: #0095eb !important;
+  color: #03878a !important;
+  border-color: #03878a !important;
 }
 
 .btn-primary.btn-outline:focus {
-  color: #0095eb !important;
+  color: #03878a !important;
 }
 
 .btn-primary.btn-outline:active {
@@ -1126,24 +1126,24 @@ nav#navbar-main li {
   white-space: nowrap;
   -webkit-transition: 0.2s ease;
   transition: 0.2s ease;
-  color: #34495e;
+  color: #03878a;
   font-weight: 600;
 }
 
 .navbar-default .navbar-nav>li>a:focus {
-  color: #34495e;
+  color: #03878a;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav>li>a:hover {
-  color: #0095eb;
+  color: #32526a;
   background-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
-  color: #0095eb;
+  color: #32526a;
   font-weight: 700;
   background-color: transparent !important; /* Override Bootstrap. */
 }
@@ -1161,7 +1161,7 @@ nav#navbar-main li {
 }
 
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #34495e !important;
+  background-color: #03878a !important;
 }
 
 .dropdown-menu {
@@ -1174,13 +1174,13 @@ nav#navbar-main li {
   clear: both;
   font-weight: 400;
   line-height: 1.42857143;
-  color: #34495e;
+  color: #03878a;
   white-space: nowrap;
 }
 
 .dropdown-menu>li>a:focus,
 .dropdown-menu>li>a:hover {
-  color: #0095eb;
+  color: #32526a;
   text-decoration: none;
   background-color: #fff;
 }
@@ -1190,7 +1190,7 @@ nav#navbar-main li {
 .dropdown-menu > .active > a:hover {
   color: #fff;
   text-decoration: none;
-  background-color: #0095eb;
+  background-color: #32526a;
   outline: 0;
 }
 
@@ -1198,7 +1198,7 @@ nav#navbar-main li {
 .navbar-default .navbar-nav>.open>a:focus,
 .navbar-default .navbar-nav>.open>a:hover,
 .navbar-default .navbar-nav>.open>a:visited {
-  color: #34495e !important;
+  color: #03878a !important;
   background-color: #fff !important;
 }
 
@@ -1276,7 +1276,7 @@ nav#navbar-main li {
     clear: both;
     font-weight: 400;
     line-height: 1.42857143;
-    color: #34495e;
+    color: #03878a;
     white-space: nowrap;
   }
 
@@ -1293,7 +1293,7 @@ nav#navbar-main li {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     padding: 5px 15px 5px 25px;
     line-height: 20px;
-    color: #34495e;
+    color: #03878a;
   }
 
   .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus,
@@ -1305,7 +1305,7 @@ nav#navbar-main li {
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus,
   .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover {
-    color: #0095eb;
+    color: #32526a;
     background-color: transparent;
   }
 
@@ -1460,7 +1460,7 @@ body.dark {
 }
 
 .dark ul.share li a {
-  background-color: #0095eb;
+  background-color: #03878a;
 }
 
 .dark table table {
@@ -1514,7 +1514,7 @@ body.dark {
 }
 
 .dark .card h4 a {
-  color: #0095eb;
+  color: #03878a;
   border-bottom: solid 1px transparent;
 }
 

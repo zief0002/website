@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>What is Statistics Education?</title>
+      <link>/publication/2017-handbook/</link>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2017-handbook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Development of a Biological Science Quantitative Reasoning Exam (BioSQuaRE)</title>
       <link>/publication/2017-biosquare/</link>
       <pubDate>Fri, 01 Dec 2017 00:00:00 +0000</pubDate>
@@ -49,11 +58,29 @@
     </item>
     
     <item>
+      <title>Reasoning about Uncertainty: Learning and Teaching Informal Inferential Reasoning</title>
+      <link>/publication/2015-srtl-book/</link>
+      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2015-srtl-book/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Developing Students&#39; Reasoning about Samples and Sampling Variability as a Path to Expert Statistical Thinking</title>
       <link>/publication/2014-esm/</link>
       <pubDate>Wed, 05 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>/publication/2014-esm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using TinkerPlots to Develop Tertiary Students&#39; Statistical Thinking in a Modeling-Based Introductory Statistics Class</title>
+      <link>/publication/2014-rolf/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2014-rolf/</guid>
       <description></description>
     </item>
     
@@ -99,6 +126,69 @@
       <pubDate>Sat, 31 Dec 2011 00:00:00 +0000</pubDate>
       
       <guid>/publication/2011-tas/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparing Groups: Randomization and Bootstrap Methods using R</title>
+      <link>/publication/2011-comparing-groups/</link>
+      <pubDate>Tue, 12 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2011-comparing-groups/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing Important Learning Outcomes in Introductory Tertiary Statistics Courses</title>
+      <link>/publication/2010-assessment/</link>
+      <pubDate>Mon, 01 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2010-assessment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Modeling the Growth of Students&#39; Covariational Reasoning during an Introductory Statistics Course</title>
+      <link>/publication/2009-serj/</link>
+      <pubDate>Fri, 15 May 2009 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2009-serj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Framework to Support Research on Informal Inferential Reasoning</title>
+      <link>/publication/2008-serj/</link>
+      <pubDate>Sat, 15 Nov 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2008-serj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementing New Reform Guidelines in Teaching Introductory College Statistics Courses</title>
+      <link>/publication/2008-ts/</link>
+      <pubDate>Mon, 11 Aug 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2008-ts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What does Research Suggest about the Teaching and Learning of Introductory Statistics at the College Level? A Review of the Literature</title>
+      <link>/publication/2008-jse/</link>
+      <pubDate>Tue, 15 Jul 2008 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2008-jse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research in the Statistics Classroom: Learning from Teaching Experiments</title>
+      <link>/publication/2006-nctm/</link>
+      <pubDate>Wed, 01 Mar 2006 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2006-nctm/</guid>
       <description></description>
     </item>
     

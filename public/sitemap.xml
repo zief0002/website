@@ -68,6 +68,15 @@
     
     <url>
     
+      <loc>/publication/2017-handbook/</loc>
+      <lastmod>2017-12-10T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/2017-biosquare/</loc>
       <lastmod>2017-12-01T00:00:00+00:00</lastmod>
     </url>
@@ -149,8 +158,26 @@
     
     <url>
     
+      <loc>/publication/2015-srtl-book/</loc>
+      <lastmod>2015-08-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication/2014-esm/</loc>
       <lastmod>2014-03-05T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/2014-rolf/</loc>
+      <lastmod>2014-01-01T00:00:00+00:00</lastmod>
     </url>
     
   
@@ -203,8 +230,91 @@
     
     <url>
     
+      <loc>/publication/2011-comparing-groups/</loc>
+      <lastmod>2011-07-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/2010-assessment/</loc>
+      <lastmod>2010-03-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/2009-serj/</loc>
+      <lastmod>2009-05-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/2008-serj/</loc>
+      <lastmod>2008-11-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/2008-ts/</loc>
+      <lastmod>2008-08-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/2008-jse/</loc>
+      <lastmod>2008-07-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication/2006-nctm/</loc>
+      <lastmod>2006-03-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/publication_types/2/</loc>
       <lastmod>2017-12-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/5/</loc>
+      <lastmod>2015-08-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/6/</loc>
+      <lastmod>2017-12-10T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

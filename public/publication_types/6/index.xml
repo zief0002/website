@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>6 on Andrew Zieffler</title>
+    <link>/publication_types/6/</link>
+    <description>Recent content in 6 on Andrew Zieffler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 10 Dec 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/publication_types/6/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>What is Statistics Education?</title>
+      <link>/publication/2017-handbook/</link>
+      <pubDate>Sun, 10 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2017-handbook/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using TinkerPlots to Develop Tertiary Students&#39; Statistical Thinking in a Modeling-Based Introductory Statistics Class</title>
+      <link>/publication/2014-rolf/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2014-rolf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing Important Learning Outcomes in Introductory Tertiary Statistics Courses</title>
+      <link>/publication/2010-assessment/</link>
+      <pubDate>Mon, 01 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2010-assessment/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Research in the Statistics Classroom: Learning from Teaching Experiments</title>
+      <link>/publication/2006-nctm/</link>
+      <pubDate>Wed, 01 Mar 2006 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/2006-nctm/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
