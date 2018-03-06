@@ -517,7 +517,7 @@ for(i in 1:10000){
       <guid>/project/aims-project/</guid>
       <description>
 
-&lt;p&gt;The NSF-funded project &lt;em&gt;Adapting and Implementing Innovative Material in Statistics (AIMS)&lt;/em&gt; developed lesson plans and activities based on innovative materials that have been produced for introductory statistics courses.&lt;/p&gt;
+&lt;p&gt;The NSF-funded project &lt;em&gt;Adapting and Implementing Innovative Material in Statistics&lt;/em&gt; (AIMS) developed lesson plans and activities based on innovative materials that have been produced for introductory statistics courses.&lt;/p&gt;
 
 &lt;p&gt;The AIMS materials are available on Github at &lt;a href=&#34;https://github.com/zief0002/aims&#34; target=&#34;_blank&#34;&gt;https://github.com/zief0002/aims&lt;/a&gt;&lt;/p&gt;
 
@@ -527,7 +527,7 @@ for(i in 1:10000){
 &lt;p&gt;&amp;mdash;&lt;cite&gt;David Moore&lt;/cite&gt;&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;Written in 2005&amp;ndash;2006, the AIMS lesson plans and student activity guides were developed to help transform an introductory statistics course into one that is aligned with the &lt;a href=&#34;http://www.amstat.org/education/gaise/&#34; target=&#34;_blank&#34;&gt;Guidelines for Assessment and Instruction in Statistics Education (GAISE)&lt;/a&gt; for teaching introductory statistics courses. The lessons, which build on implications from educational research, involve students in small and large group discussion, computer explorations, and hands-on activities. The lessons are described in full detail along with the research foundations for the lessons, in Garfield and Ben-Zvi&amp;rsquo;s book &lt;a href=&#34;http://www.springer.com/us/book/9781402083822&#34; target=&#34;_blank&#34;&gt;Developing Students&amp;rsquo; Statistical Reasoning: Connecting Research and Teaching Practice&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Initially written in 2005&amp;ndash;2006, the AIMS lesson plans and student activity guides were developed to help transform an introductory statistics course into one that is aligned with the &lt;a href=&#34;http://www.amstat.org/education/gaise/&#34; target=&#34;_blank&#34;&gt;Guidelines for Assessment and Instruction in Statistics Education (GAISE)&lt;/a&gt; for teaching introductory statistics courses. The lessons, which build on implications from educational research, involve students in small and large group discussion, computer explorations, and hands-on activities. The lessons are described in full detail along with the research foundations for the lessons, in Garfield and Ben-Zvi&amp;rsquo;s book &lt;a href=&#34;http://www.springer.com/us/book/9781402083822&#34; target=&#34;_blank&#34;&gt;Developing Students&amp;rsquo; Statistical Reasoning: Connecting Research and Teaching Practice&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;aims-amp-gaise&#34;&gt;AIMS &amp;amp; GAISE&lt;/h3&gt;
 
@@ -639,7 +639,7 @@ for(i in 1:10000){
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/catalst-project/</guid>
-      <description>&lt;p&gt;&lt;em&gt;Change Agents for Teaching and Learning Statistics (CATALST)&lt;/em&gt; was an NSF-funded project that developed materials for teaching a radically different introductory statistics course based on randomization and bootstrap methods to provide students a deep understanding of statistical inference.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;em&gt;Change Agents for Teaching and Learning Statistics&lt;/em&gt; (CATALST) was an NSF-funded project that developed materials for teaching a radically different introductory statistics course based on randomization and bootstrap methods to provide students a deep understanding of statistical inference.&lt;/p&gt;
 
 &lt;p&gt;The materials were turned into a free, online book, &lt;em&gt;Statistical Thinking: A Simulation Approach to Modeling Uncertainty&lt;/em&gt;, available at: &lt;a href=&#34;http://zief0002.github.io/statistical-thinking/&#34; target=&#34;_blank&#34;&gt;http://zief0002.github.io/statistical-thinking/&lt;/a&gt;.&lt;/p&gt;
 
