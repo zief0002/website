@@ -25,8 +25,8 @@ abstract = "The idea for a new, radical introductory statistics course began ove
 image_preview = ""
 
 selected = true
-projects = ["CATALST"]
 url_source = "https://amstat.tandfonline.com/doi/abs/10.1080/09332480.2015.1099365"
+projects = ["catalst-project"]
 math = true
 highlight = true
 
