@@ -25,14 +25,14 @@ abstract = "The idea for a new, radical introductory statistics course began ove
 image_preview = ""
 
 selected = true
-url_source = "https://amstat.tandfonline.com/doi/abs/10.1080/09332480.2015.1099365"
+#url_source = ""
 projects = ["catalst-project"]
 math = true
 highlight = true
 
 [header]
-image = "typewriter.png"
-caption = "Image Credit: A flickr photo by Mateusz Łapsa-Malawski"
+image = "headers/andy-zieffler-header.jpg"
+caption = "Image Credit: A photo by Andrew Zieffler"
 
 +++
 

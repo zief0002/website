@@ -22,8 +22,8 @@ math = true
 highlight = true
 
 [header]
-image = "typewriter.png"
-caption = "Image Credit: A flickr photo by Mateusz Łapsa-Malawski"
+image = "headers/andy-zieffler-header.jpg"
+caption = "Image Credit: A photo by Andrew Zieffler"
 
 +++
 
