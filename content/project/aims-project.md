@@ -13,7 +13,7 @@ image_preview = "pshab.jpg"
 
 # Tags: can be used for filtering projects.
 # Example: `tags = ["machine-learning", "deep-learning"]`
-tags = ["AIMS", "teaching", "grant"]
+tags = ["AIMS", "Teaching", "Grant"]
 
 # Optional external URL for project (replaces project detail page).
 external_link = ""

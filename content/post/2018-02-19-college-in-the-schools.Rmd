@@ -2,7 +2,7 @@
 title: "College in the Schools"
 author: "~"
 date: 2018-02-28
-tags: ["CATALST", "teaching", "CIS", "EPsy-3264"]
+tags: ["CATALST", "Teaching", "CIS", "EPsy-3264"]
 header:
   image: "headers/janneke-staaks-header-02.jpg"
   caption: "Image Credit: A flickr photo by janneke staaks"

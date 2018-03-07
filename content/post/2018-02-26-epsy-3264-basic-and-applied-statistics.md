@@ -4,7 +4,7 @@ author: ~
 date: '2018-02-26'
 slug: epsy-3264-basic-and-applied-statistics
 categories: [course]
-tags: [EPsy-3264, teaching, CATALST]
+tags: [EPsy-3264, Teaching, CATALST]
 header:
   image: "headers/janneke-staaks-header-01.jpg"
   caption: "Image Credit: A Flickr photo by janneke staaks"

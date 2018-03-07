@@ -5,7 +5,7 @@ title = "BioSQuaRE"
 summary = "BioSQuaRE is an instrument, created via an HHMI grant, to assess the quantitative readiness of students planning on majoring in biology or the life sciences."
 
 image_preview = "lauren-brown.jpg"
-tags = ["BioSQuaRE", "grant", "assessment"]
+tags = ["BioSQuaRE", "Grant", "Assessment"]
 external_link = ""
 math = false
 

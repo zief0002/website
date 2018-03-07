@@ -5,7 +5,7 @@ title = "CATALST Project"
 summary = "*Change Agents for Teaching and Learning Statistics* (CATALST) was an NSF-funded project from 2008&ndash;2012 that developed materials for teaching a radically different introductory statistics course based on randomization and bootstrap methods to provide students a deep understanding of statistical inference (DUE-0814433)."
 
 image_preview = "robert-occhialini.jpg"
-tags = ["CATALST", "teaching", "grant", "EPsy-3264"]
+tags = ["CATALST", "Teaching", "Grant", "EPsy-3264"]
 external_link = ""
 math = false
 

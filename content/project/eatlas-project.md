@@ -5,7 +5,7 @@ title = "e-ATLAS Project"
 summary = "*Evaluation and Assessment of Teaching and Learning About Statistics* (e-ATLAS) was an NSF-funded project from 2011&ndash;2013 that developed high-quality instruments to help evaluate the effectiveness of past and on-going efforts to reform the teaching and learning of introductory statistics at the tertiary level (DUE-1044812 &amp; 1043141)."
 
 image_preview = "alberto-g.jpg"
-tags = ["assessment", "grant", "e-ATLAS"]
+tags = ["Assessment", "Grant", "e-ATLAS"]
 external_link = ""
 math = false
 
