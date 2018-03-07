@@ -5,14 +5,18 @@ name = "zieffler"
 light = true
 
 # Primary
-primary = "#03878a"
-primary_light = "#c1c1c1"
-primary_dark = "#32526a"
+primary = "#04678d"
+primary_light = "#75c5e3"
+primary_dark = "#279fcd"
+
+#primary = "#03878a"
+#primary_light = "#c1c1c1"
+#primary_dark = "#32526a"
 
 # Menu
 menu_primary = "#fff"
-menu_text = "#03878a"
-menu_text_active = "#32526a"
+menu_text = "#04678d"
+menu_text_active = "#f2a561"
 menu_title = "#2b2b2b"
 
 # Home sections

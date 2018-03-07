@@ -15,7 +15,7 @@ authors = ["Garfield, J.", "delMas, R.", "Zieffler, A."]
 # 6 = Book chapter
 publication_types = ["6"]
 
-publication = "In P. Bidgood, N. Hunt, &amp; F. Jolliffe (Eds.), *Assessment Methods in Statistical Education: An International Perspective* (pp. 75&ndash;86). Chichester, West Sussex, England: John Wiley & Sons Ltd."
+publication = "In P. Bidgood, N. Hunt, &amp; F. Jolliffe (Eds.), *Assessment Methods in Statistical Education: An International Perspective* (pp. 75&ndash;86). Chichester, West Sussex, England: John Wiley & Sons Ltd"
 
 
 abstract = "This chapter illustrates the method of designing and creating an assessment plan that supports learning and that is aligned with the aforementioned goals laid out by the statistics education community. It provides working definitions of the learning outcomes that appear to be valued by the statistics education community, namely, statistical literacy, reasoning and thinking. Assessing statistical reasoning may involve items where students are required to respond by \"explaining their reasoning\". Assessments of statistical thinking may include a student project where students pose a problem, collect data, analyse and interpret the results. The chapter presents three concrete examples to show how statistical literacy, reasoning, and thinking may be assessed."
