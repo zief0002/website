@@ -289,7 +289,7 @@
   
   <span class="middot-divider"></span>
   <span class="article-reading-time">
-    10 min read
+    11 min read
   </span>
   
 
@@ -409,13 +409,13 @@
 </ul>
 <div id="scraping-the-game-level-data" class="section level2">
 <h2>Scraping the Game-Level Data</h2>
-<p>To begin, I had to obtain the game data for both the regular season and the section tournaments. <a href="http://www.mnhockeyhub.com/">MN Hockey Hub</a> is a website that has the results for all high school hockey games played in Minnesota. I used the <strong>rvest</strong> package to scrape these data.</p>
-<pre class="r"><code># Beginning and ending dates for games
+<p>To begin, I had to obtain the game data for both the regular season and the section tournaments. <a href="http://www.mnhockeyhub.com/">MN Hockey Hub</a> is a website that has the results for all high school hockey games played in Minnesota. I used the <strong>rvest</strong> package to scrape these data. Unfortunately, MN Hockey Hub separates their regular season and section playoffs, so I had to run the scrape on each separately and then combine the data.</p>
+<pre class="r"><code># Beginning and ending dates for regular season games
 start = as.Date(&quot;2017/11/22&quot;, format = &quot;%Y/%m/%d&quot;)
-end   = as.Date(&quot;2018/03/02&quot;,format=&quot;%Y/%m/%d&quot;)
+end   = as.Date(&quot;2018/02/17&quot;,format=&quot;%Y/%m/%d&quot;)
 
 # Create an empty list with 101 elements
-results = rep(list(NA), 101) 
+results = rep(list(NA), 88) 
 
 # Initialize values
 theDate = start
@@ -436,41 +436,66 @@ while (theDate &lt;= end){
     mutate(date = theDate)
   theDate = theDate + 1 
   i = i + 1
+}
+
+## Scrape section games
+start = as.Date(&quot;2018/02/17&quot;, format = &quot;%Y/%m/%d&quot;)
+end   = as.Date(&quot;2018/03/02&quot;,format=&quot;%Y/%m/%d&quot;)
+results2 = rep(list(NA), 14) 
+theDate = start
+i = 1
+
+while (theDate &lt;= end){
+  url = paste0(&quot;http://www.mnhockeyhub.com/schedule/day/league_instance/60876/&quot;,
+               format(theDate,&quot;%Y/%m/%d&quot;),
+               &quot;?subseason=486996&quot;
+  )
+  
+  results2[[i]] = as.data.frame(
+    url %&gt;% 
+      read_html() %&gt;% 
+      html_table()
+  ) %&gt;% 
+    mutate(date = theDate)
+  theDate = theDate + 1 
+  i = i + 1
 }</code></pre>
 <p>I then took these scraped data, and put them into a dataframe using <code>do.call()</code> and formatted the data frame using <strong>dplyr</strong> functions.</p>
-<pre class="r"><code># Transform list to data frame
-hockey = do.call(rbind, results)
+<pre class="r"><code># Transform lists to data frames
+hockey_reg_season = do.call(rbind, results)
+hockey_sections = do.call(rbind, results2)
 
 # Format the data
 library(dplyr)
 
-hockey = hockey %&gt;%
+hockey = rbind(hockey_reg_season, hockey_sections) %&gt;%
   select(date,
          home = Home,
          home_score = H,
          visitor = Visitor,
          visitor_score = V,
          location = Location
-         ) %&gt;%
+  ) %&gt;%
   mutate(
     home_score = as.integer(home_score),
     visitor_score = as.integer(visitor_score)
-    ) %&gt;%
+  ) %&gt;%
   tidyr::drop_na()</code></pre>
-<pre><code>## # A tibble: 2,861 x 6
-##    date       home               home_score visitor visitor_score location
-##    &lt;date&gt;     &lt;chr&gt;                   &lt;int&gt; &lt;chr&gt;           &lt;int&gt; &lt;chr&gt;   
-##  1 2017-11-22 Anoka                       4 Rogers              1 Anoka A…
-##  2 2017-11-22 Providence Academy          2 Spring…             3 Plymout…
-##  3 2017-11-22 St. Paul Academy            3 Bloomi…             2 Drake A…
-##  4 2017-11-23 Armstrong/Cooper           10 Proctor             0 Chisago…
-##  5 2017-11-23 Baldwin-Woodville           2 St. Pa…             4 Amery I…
-##  6 2017-11-23 Eastview                    5 Park o…             3 Apple V…
-##  7 2017-11-23 Orono                       5 East G…             3 Orono I…
-##  8 2017-11-23 Greenway                    5 Mound …             3 Hodgins…
-##  9 2017-11-23 Minnesota River             2 North …             8 Turkey …
-## 10 2017-11-23 Edina                       7 Holy F…             0 Plymout…
-## # ... with 2,851 more rows</code></pre>
+<p>At this point I did a data integrity check. The first thing I noticed was that there were games in the data on every day from the start of the regular season through the section playoffs. I knew somethibng was wrong as high school teams do not play games on Sundays or on holidays. In looking at those days, it turned out the web scraper just duplicated games from future days (e.g., there was no game on 12-25-2017, so it just skipped ahead to the next day a game was played, 12-26-2017, and put those games in the December 25th date. It then also put them in the 12-26-2017 date as well.) Rather than try to program a solution in R, I outputted the data to a CSV file and manually removed the few dates that there were no games played.</p>
+<pre><code>## # A tibble: 2,047 x 7
+##    date     home    home_score visitor   visitor_score location     season
+##    &lt;chr&gt;    &lt;chr&gt;        &lt;int&gt; &lt;chr&gt;             &lt;int&gt; &lt;chr&gt;        &lt;chr&gt; 
+##  1 11/22/17 Anoka            4 Rogers                1 Anoka Arena… Regul…
+##  2 11/22/17 Provid…          2 Spring L…             3 Plymouth Ic… Regul…
+##  3 11/22/17 St. Pa…          3 Blooming…             2 Drake Arena  Regul…
+##  4 11/24/17 Armstr…         10 Proctor               0 Chisago Lak… Regul…
+##  5 11/24/17 Baldwi…          2 St. Paul…             4 Amery Ice A… Regul…
+##  6 11/24/17 Eastvi…          5 Park of …             3 Apple Valle… Regul…
+##  7 11/24/17 Orono            5 East Gra…             3 Orono Ice A… Regul…
+##  8 11/24/17 Greenw…          5 Mound We…             3 Hodgins-Ber… Regul…
+##  9 11/24/17 Minnes…          2 North Br…             8 Turkey Tour… Regul…
+## 10 11/24/17 Edina            7 Holy Fam…             0 Plymouth Ic… Regul…
+## # ... with 2,037 more rows</code></pre>
 </div>
 <div id="compute-elo-ratings" class="section level2">
 <h2>Compute Elo Ratings</h2>
@@ -497,44 +522,44 @@ elo_reg_season = elo.run(score(home_score, visitor_score) ~ home + visitor +
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Mahtomedi</td>
-<td align="center">1696.529</td>
-<td align="center">6</td>
+<td align="left">Hermantown</td>
+<td align="center">1639.196</td>
+<td align="center">11</td>
 </tr>
 <tr class="even">
-<td align="left">Hermantown</td>
-<td align="center">1625.479</td>
-<td align="center">26</td>
+<td align="left">Mahtomedi</td>
+<td align="center">1624.538</td>
+<td align="center">17</td>
 </tr>
 <tr class="odd">
 <td align="left">Orono</td>
-<td align="center">1603.934</td>
-<td align="center">34</td>
+<td align="center">1609.513</td>
+<td align="center">24</td>
 </tr>
 <tr class="even">
 <td align="left">Monticello</td>
-<td align="center">1592.582</td>
-<td align="center">38</td>
+<td align="center">1587.179</td>
+<td align="center">31</td>
 </tr>
 <tr class="odd">
 <td align="left">Alexandria</td>
-<td align="center">1563.855</td>
-<td align="center">51</td>
+<td align="center">1571.198</td>
+<td align="center">39</td>
 </tr>
 <tr class="even">
-<td align="left">Mankato East</td>
-<td align="center">1529.721</td>
-<td align="center">75</td>
+<td align="left">Thief River Falls</td>
+<td align="center">1562.803</td>
+<td align="center">42</td>
 </tr>
 <tr class="odd">
-<td align="left">Thief River Falls</td>
-<td align="center">1520.890</td>
-<td align="center">83</td>
+<td align="left">Mankato East</td>
+<td align="center">1551.141</td>
+<td align="center">48</td>
 </tr>
 <tr class="even">
 <td align="left">Litchfield/Dassel-Cokato</td>
-<td align="center">1477.433</td>
-<td align="center">126</td>
+<td align="center">1530.773</td>
+<td align="center">60</td>
 </tr>
 </tbody>
 </table>
@@ -549,56 +574,55 @@ elo_reg_season = elo.run(score(home_score, visitor_score) ~ home + visitor +
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Minnetonka</td>
-<td align="center">1814.146</td>
+<td align="left">Edina</td>
+<td align="center">1718.589</td>
 <td align="center">1</td>
 </tr>
 <tr class="even">
-<td align="left">Edina</td>
-<td align="center">1791.784</td>
+<td align="left">St. Thomas Academy</td>
+<td align="center">1716.570</td>
 <td align="center">2</td>
 </tr>
 <tr class="odd">
-<td align="left">St. Thomas Academy</td>
-<td align="center">1726.164</td>
-<td align="center">5</td>
+<td align="left">Minnetonka</td>
+<td align="center">1693.757</td>
+<td align="center">3</td>
+</tr>
+<tr class="even">
+<td align="left">Duluth East</td>
+<td align="center">1691.315</td>
+<td align="center">4</td>
+</tr>
+<tr class="odd">
+<td align="left">STMA</td>
+<td align="center">1655.561</td>
+<td align="center">7</td>
 </tr>
 <tr class="even">
 <td align="left">Centennial</td>
-<td align="center">1692.342</td>
-<td align="center">8</td>
+<td align="center">1625.291</td>
+<td align="center">16</td>
 </tr>
 <tr class="odd">
-<td align="left">Duluth East</td>
-<td align="center">1688.271</td>
-<td align="center">10</td>
-</tr>
-<tr class="even">
 <td align="left">Lakeville North</td>
-<td align="center">1662.962</td>
-<td align="center">15</td>
-</tr>
-<tr class="odd">
-<td align="left">Hill-Murray</td>
-<td align="center">1658.269</td>
-<td align="center">18</td>
+<td align="center">1578.414</td>
+<td align="center">38</td>
 </tr>
 <tr class="even">
-<td align="left">STMA</td>
-<td align="center">1656.613</td>
-<td align="center">19</td>
+<td align="left">Hill-Murray</td>
+<td align="center">1557.501</td>
+<td align="center">46</td>
 </tr>
 </tbody>
 </table>
-<p>Comparing these to the actual tournament seeds, we see some differences in the top five seeds. In Class A, the coaches included Thief River Falls in the top five, while our Elo model put Monticello in the top five. There are also some ranking differences between the coaches picks and our Elo model for the other teams.</p>
-<p>In Class AA, the Elo model and the coaches selected the same top five teams, but had a different rank ordering for the bottom three of those five. Both ranked Minnetonka #1 and Edina #2.</p>
+<p>Comparing these to the actual tournament seeds, we see several differences in the top four seeds. In Class A, the coaches included Alexandria in the top five, while our Elo model put Monticello in the top four. In Class AA, the Elo model and the coaches selected the same top five teams, but had a different rank ordering for those teams. There are also some ranking differences between the coaches picks and our Elo model for the other teams.</p>
 </div>
 <div id="simulate-the-state-tournament" class="section level2">
 <h2>Simulate the State Tournament</h2>
-<p>We can now use these Elo ratings to determine the probability that one team would beat another. For example, in the Class A quarterfinal game between Hermantown (#1) and Monticello (#8), Hermantown’s probability of beating Monticello is 0.547 .</p>
+<p>We can now use these Elo ratings to determine the probability that one team would beat another. For example, in the Class A quarterfinal game between Hermantown (#1) and Monticello (#8), Hermantown’s probability of beating Monticello is 0.574 .</p>
 <pre class="r"><code>predict(elo_reg_season, data.frame(home = &quot;Hermantown&quot;, visitor = &quot;Monticello&quot;))</code></pre>
-<pre><code>## [1] 0.5472016</code></pre>
-<p>I simulated the state tournament by using a random-number generator to determine the winner of each game. For instance, to simulate the Hermantown/Monticello game, I used the <code>runif()</code> function to generate a random number drawn from the uniform distribution between 0 and 1. If the result is less than or equal to 0.547, Hermantown is the winner; if not, Monticello wins. The syntax for simulating the Class A state tournament 10,000 times is below.</p>
+<pre><code>## [1] 0.574304</code></pre>
+<p>I simulated the state tournament by using a random-number generator to determine the winner of each game. For instance, to simulate the Hermantown/Monticello game, I used the <code>runif()</code> function to generate a random number drawn from the uniform distribution between 0 and 1. If the result is less than or equal to 0.574, Hermantown is the winner; if not, Monticello wins. The syntax for simulating the Class A state tournament 10,000 times is below.</p>
 <pre class="r"><code># Enter teams in rank order
 team_1 = &quot;Hermantown&quot;
 team_2 = &quot;Mahtomedi&quot;
@@ -669,40 +693,40 @@ for(i in 1:10000){
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Mahtomedi</td>
-<td align="center">0.3218</td>
+<td align="left">Hermantown</td>
+<td align="center">0.1987</td>
 </tr>
 <tr class="even">
-<td align="left">Hermantown</td>
-<td align="center">0.1705</td>
+<td align="left">Mahtomedi</td>
+<td align="center">0.1802</td>
 </tr>
 <tr class="odd">
 <td align="left">Orono</td>
-<td align="center">0.1562</td>
+<td align="center">0.1612</td>
 </tr>
 <tr class="even">
 <td align="left">Monticello</td>
-<td align="center">0.1105</td>
+<td align="center">0.1127</td>
 </tr>
 <tr class="odd">
 <td align="left">Alexandria</td>
-<td align="center">0.0982</td>
+<td align="center">0.1086</td>
 </tr>
 <tr class="even">
 <td align="left">Thief River Falls</td>
-<td align="center">0.0582</td>
+<td align="center">0.0939</td>
 </tr>
 <tr class="odd">
 <td align="left">Mankato East</td>
-<td align="center">0.0546</td>
+<td align="center">0.0812</td>
 </tr>
 <tr class="even">
 <td align="left">Litchfield/Dassel-Cokato</td>
-<td align="center">0.0300</td>
+<td align="center">0.0635</td>
 </tr>
 </tbody>
 </table>
-<p>Based on these simulations, Mahtomedi has about a 30% chance of winning the Class A tournament.</p>
+<p>Based on these simulations, Mahtomedi, Hermantown and Orono all have about an equal chance of winning the Class A tournament.</p>
 <p>I also carried out a similar simulation for the Class AA tournament.</p>
 <pre class="r"><code># Enter teams in rank order
 team_1 = &quot;Minnetonka&quot;
@@ -773,40 +797,40 @@ for(i in 1:10000){
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">Minnetonka</td>
-<td align="center">0.2895</td>
+<td align="left">St. Thomas Academy</td>
+<td align="center">0.2098</td>
 </tr>
 <tr class="even">
 <td align="left">Edina</td>
-<td align="center">0.2471</td>
+<td align="center">0.2083</td>
 </tr>
 <tr class="odd">
-<td align="left">St. Thomas Academy</td>
-<td align="center">0.1180</td>
+<td align="left">Minnetonka</td>
+<td align="center">0.1852</td>
 </tr>
 <tr class="even">
 <td align="left">Duluth East</td>
-<td align="center">0.0944</td>
+<td align="center">0.1495</td>
 </tr>
 <tr class="odd">
-<td align="left">Centennial</td>
-<td align="center">0.0837</td>
+<td align="left">STMA</td>
+<td align="center">0.1016</td>
 </tr>
 <tr class="even">
-<td align="left">STMA</td>
-<td align="center">0.0583</td>
+<td align="left">Centennial</td>
+<td align="center">0.0701</td>
 </tr>
 <tr class="odd">
 <td align="left">Lakeville North</td>
-<td align="center">0.0580</td>
+<td align="center">0.0416</td>
 </tr>
 <tr class="even">
 <td align="left">Hill-Murray</td>
-<td align="center">0.0510</td>
+<td align="center">0.0339</td>
 </tr>
 </tbody>
 </table>
-<p>The simulation results suggest that both Minnetonka and Edina have a pretty good shot of winning the tournament (slight edge to Minnetonka).</p>
+<p>The simulation results suggest that both Edina and St. Thomas Academy have a pretty good shot of winning the tournament, and Minnetonka and Duluth East are also in the mix.</p>
 </div>
 
     </div>

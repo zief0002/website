@@ -35,44 +35,44 @@
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Mahtomedi&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1696.529&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1701.091&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hermantown&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1639.196&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1646.211&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Hermantown&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1625.479&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1632.941&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Mahtomedi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1624.538&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1631.062&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Orono&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1603.934&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1612.685&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1609.513&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1619.957&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Monticello&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1592.582&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1585.121&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Alexandria&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1563.855&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1568.414&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Mankato East&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1529.721&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1525.159&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1587.179&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1576.271&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Monticello&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1571.198&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1569.096&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Thief River Falls&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1520.890&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1516.331&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1562.803&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1568.797&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Mankato East&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1551.141&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1549.453&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Litchfield/Dassel-Cokato&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1477.433&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1468.682&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1530.773&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1515.494&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -121,48 +121,48 @@ for(i in 1:10000){
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Mahtomedi&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.3250&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;0.3837&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hermantown&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1987&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.3214&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Hermantown&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.1696&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;0.2694&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Mahtomedi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1802&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.2671&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Orono&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.1532&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;0.1978&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1127&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.2415&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Alexandria&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0997&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;0.1491&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1086&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.1700&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Monticello&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.1138&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1127&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;0.0000&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Thief River Falls&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0561&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0939&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;0.0000&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Mankato East&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0522&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0812&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;0.0000&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Litchfield/Dassel-Cokato&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0304&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0635&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;0.0000&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Based on these simulations, Mahtomedi has increased its chances of winning the Class A tournament to 40%.&lt;/p&gt;
+&lt;p&gt;Based on these simulations, Hermantown is still the favorite, and Mahtomedi and Orono also have a chance of winning the Class A tournament.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;class-aa-tournament&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Class AA Tournament&lt;/h2&gt;
@@ -177,44 +177,44 @@ for(i in 1:10000){
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Minnetonka&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1814.146&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1821.137&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Edina&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1791.784&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1801.202&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1718.589&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1727.595&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
+&lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;St. Thomas Academy&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1726.164&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1720.461&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1716.570&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1710.036&lt;/td&gt;
 &lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
+&lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Duluth East&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1692.342&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1700.488&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Centennial&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1688.271&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1698.045&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1691.315&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1703.375&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Lakeville North&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1662.962&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1653.544&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Minnetonka&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1693.757&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1701.323&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Hill-Murray&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1658.269&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1651.278&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;STMA&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1656.613&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1644.396&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1655.561&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1643.501&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Centennial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1625.291&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1631.825&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Lakeville North&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1578.414&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1569.408&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Hill-Murray&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1557.501&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1549.936&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -263,48 +263,48 @@ for(i in 1:10000){
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Minnetonka&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.2895&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;0.3883&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Edina&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.2083&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.3113&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Edina&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.2471&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;0.3355&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Minnetonka&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1852&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.2901&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Duluth East&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0944&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;0.1394&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1495&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.2487&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Centennial&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0837&lt;/td&gt;
-&lt;td align=&#34;left&#34;&gt;0.1368&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0701&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.1499&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;St. Thomas Academy&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.1180&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.2098&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;0.0000&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;STMA&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0583&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1016&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;0.0000&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Lakeville North&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0580&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0416&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;0.0000&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Hill-Murray&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0510&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0339&lt;/td&gt;
 &lt;td align=&#34;left&#34;&gt;0.0000&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Based on these simulations, Minnetonka and Edina are still the favorites in the Class AA tournament, even more so than before.&lt;/p&gt;
+&lt;p&gt;St. Thomas Aademy’s loss to Centennial really shook things up. Edina and Minnetonka are now the favorites in the Class AA tournament, with Duluth East a not so distant third.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
@@ -406,13 +406,13 @@ for(i in 1:10000){
 &lt;/ul&gt;
 &lt;div id=&#34;scraping-the-game-level-data&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Scraping the Game-Level Data&lt;/h2&gt;
-&lt;p&gt;To begin, I had to obtain the game data for both the regular season and the section tournaments. &lt;a href=&#34;http://www.mnhockeyhub.com/&#34;&gt;MN Hockey Hub&lt;/a&gt; is a website that has the results for all high school hockey games played in Minnesota. I used the &lt;strong&gt;rvest&lt;/strong&gt; package to scrape these data.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Beginning and ending dates for games
+&lt;p&gt;To begin, I had to obtain the game data for both the regular season and the section tournaments. &lt;a href=&#34;http://www.mnhockeyhub.com/&#34;&gt;MN Hockey Hub&lt;/a&gt; is a website that has the results for all high school hockey games played in Minnesota. I used the &lt;strong&gt;rvest&lt;/strong&gt; package to scrape these data. Unfortunately, MN Hockey Hub separates their regular season and section playoffs, so I had to run the scrape on each separately and then combine the data.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Beginning and ending dates for regular season games
 start = as.Date(&amp;quot;2017/11/22&amp;quot;, format = &amp;quot;%Y/%m/%d&amp;quot;)
-end   = as.Date(&amp;quot;2018/03/02&amp;quot;,format=&amp;quot;%Y/%m/%d&amp;quot;)
+end   = as.Date(&amp;quot;2018/02/17&amp;quot;,format=&amp;quot;%Y/%m/%d&amp;quot;)
 
 # Create an empty list with 101 elements
-results = rep(list(NA), 101) 
+results = rep(list(NA), 88) 
 
 # Initialize values
 theDate = start
@@ -433,41 +433,66 @@ while (theDate &amp;lt;= end){
     mutate(date = theDate)
   theDate = theDate + 1 
   i = i + 1
+}
+
+## Scrape section games
+start = as.Date(&amp;quot;2018/02/17&amp;quot;, format = &amp;quot;%Y/%m/%d&amp;quot;)
+end   = as.Date(&amp;quot;2018/03/02&amp;quot;,format=&amp;quot;%Y/%m/%d&amp;quot;)
+results2 = rep(list(NA), 14) 
+theDate = start
+i = 1
+
+while (theDate &amp;lt;= end){
+  url = paste0(&amp;quot;http://www.mnhockeyhub.com/schedule/day/league_instance/60876/&amp;quot;,
+               format(theDate,&amp;quot;%Y/%m/%d&amp;quot;),
+               &amp;quot;?subseason=486996&amp;quot;
+  )
+  
+  results2[[i]] = as.data.frame(
+    url %&amp;gt;% 
+      read_html() %&amp;gt;% 
+      html_table()
+  ) %&amp;gt;% 
+    mutate(date = theDate)
+  theDate = theDate + 1 
+  i = i + 1
 }&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I then took these scraped data, and put them into a dataframe using &lt;code&gt;do.call()&lt;/code&gt; and formatted the data frame using &lt;strong&gt;dplyr&lt;/strong&gt; functions.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Transform list to data frame
-hockey = do.call(rbind, results)
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Transform lists to data frames
+hockey_reg_season = do.call(rbind, results)
+hockey_sections = do.call(rbind, results2)
 
 # Format the data
 library(dplyr)
 
-hockey = hockey %&amp;gt;%
+hockey = rbind(hockey_reg_season, hockey_sections) %&amp;gt;%
   select(date,
          home = Home,
          home_score = H,
          visitor = Visitor,
          visitor_score = V,
          location = Location
-         ) %&amp;gt;%
+  ) %&amp;gt;%
   mutate(
     home_score = as.integer(home_score),
     visitor_score = as.integer(visitor_score)
-    ) %&amp;gt;%
+  ) %&amp;gt;%
   tidyr::drop_na()&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## # A tibble: 2,861 x 6
-##    date       home               home_score visitor visitor_score location
-##    &amp;lt;date&amp;gt;     &amp;lt;chr&amp;gt;                   &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt;           &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt;   
-##  1 2017-11-22 Anoka                       4 Rogers              1 Anoka A…
-##  2 2017-11-22 Providence Academy          2 Spring…             3 Plymout…
-##  3 2017-11-22 St. Paul Academy            3 Bloomi…             2 Drake A…
-##  4 2017-11-23 Armstrong/Cooper           10 Proctor             0 Chisago…
-##  5 2017-11-23 Baldwin-Woodville           2 St. Pa…             4 Amery I…
-##  6 2017-11-23 Eastview                    5 Park o…             3 Apple V…
-##  7 2017-11-23 Orono                       5 East G…             3 Orono I…
-##  8 2017-11-23 Greenway                    5 Mound …             3 Hodgins…
-##  9 2017-11-23 Minnesota River             2 North …             8 Turkey …
-## 10 2017-11-23 Edina                       7 Holy F…             0 Plymout…
-## # ... with 2,851 more rows&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;At this point I did a data integrity check. The first thing I noticed was that there were games in the data on every day from the start of the regular season through the section playoffs. I knew somethibng was wrong as high school teams do not play games on Sundays or on holidays. In looking at those days, it turned out the web scraper just duplicated games from future days (e.g., there was no game on 12-25-2017, so it just skipped ahead to the next day a game was played, 12-26-2017, and put those games in the December 25th date. It then also put them in the 12-26-2017 date as well.) Rather than try to program a solution in R, I outputted the data to a CSV file and manually removed the few dates that there were no games played.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## # A tibble: 2,047 x 7
+##    date     home    home_score visitor   visitor_score location     season
+##    &amp;lt;chr&amp;gt;    &amp;lt;chr&amp;gt;        &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt;             &amp;lt;int&amp;gt; &amp;lt;chr&amp;gt;        &amp;lt;chr&amp;gt; 
+##  1 11/22/17 Anoka            4 Rogers                1 Anoka Arena… Regul…
+##  2 11/22/17 Provid…          2 Spring L…             3 Plymouth Ic… Regul…
+##  3 11/22/17 St. Pa…          3 Blooming…             2 Drake Arena  Regul…
+##  4 11/24/17 Armstr…         10 Proctor               0 Chisago Lak… Regul…
+##  5 11/24/17 Baldwi…          2 St. Paul…             4 Amery Ice A… Regul…
+##  6 11/24/17 Eastvi…          5 Park of …             3 Apple Valle… Regul…
+##  7 11/24/17 Orono            5 East Gra…             3 Orono Ice A… Regul…
+##  8 11/24/17 Greenw…          5 Mound We…             3 Hodgins-Ber… Regul…
+##  9 11/24/17 Minnes…          2 North Br…             8 Turkey Tour… Regul…
+## 10 11/24/17 Edina            7 Holy Fam…             0 Plymouth Ic… Regul…
+## # ... with 2,037 more rows&lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;div id=&#34;compute-elo-ratings&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Compute Elo Ratings&lt;/h2&gt;
@@ -494,44 +519,44 @@ elo_reg_season = elo.run(score(home_score, visitor_score) ~ home + visitor +
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Mahtomedi&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1696.529&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;6&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hermantown&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1639.196&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;11&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Hermantown&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1625.479&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;26&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Mahtomedi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1624.538&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;17&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Orono&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1603.934&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;34&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1609.513&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;24&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Monticello&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1592.582&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;38&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1587.179&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;31&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Alexandria&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1563.855&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;51&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1571.198&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;39&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Mankato East&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1529.721&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;75&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Thief River Falls&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1562.803&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;42&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Thief River Falls&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1520.890&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;83&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Mankato East&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1551.141&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;48&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Litchfield/Dassel-Cokato&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1477.433&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;126&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1530.773&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;60&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -546,56 +571,55 @@ elo_reg_season = elo.run(score(home_score, visitor_score) ~ home + visitor +
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Minnetonka&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1814.146&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Edina&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1718.589&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;1&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Edina&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1791.784&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;St. Thomas Academy&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1716.570&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;2&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;St. Thomas Academy&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1726.164&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;5&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Minnetonka&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1693.757&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;3&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Duluth East&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1691.315&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;4&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;STMA&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1655.561&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;7&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Centennial&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1692.342&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;8&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1625.291&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;16&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Duluth East&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1688.271&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;10&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Lakeville North&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1662.962&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;15&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Hill-Murray&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1658.269&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;18&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1578.414&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;38&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;STMA&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1656.613&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;19&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hill-Murray&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1557.501&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;46&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Comparing these to the actual tournament seeds, we see some differences in the top five seeds. In Class A, the coaches included Thief River Falls in the top five, while our Elo model put Monticello in the top five. There are also some ranking differences between the coaches picks and our Elo model for the other teams.&lt;/p&gt;
-&lt;p&gt;In Class AA, the Elo model and the coaches selected the same top five teams, but had a different rank ordering for the bottom three of those five. Both ranked Minnetonka #1 and Edina #2.&lt;/p&gt;
+&lt;p&gt;Comparing these to the actual tournament seeds, we see several differences in the top four seeds. In Class A, the coaches included Alexandria in the top five, while our Elo model put Monticello in the top four. In Class AA, the Elo model and the coaches selected the same top five teams, but had a different rank ordering for those teams. There are also some ranking differences between the coaches picks and our Elo model for the other teams.&lt;/p&gt;
 &lt;/div&gt;
 &lt;div id=&#34;simulate-the-state-tournament&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Simulate the State Tournament&lt;/h2&gt;
-&lt;p&gt;We can now use these Elo ratings to determine the probability that one team would beat another. For example, in the Class A quarterfinal game between Hermantown (#1) and Monticello (#8), Hermantown’s probability of beating Monticello is 0.547 .&lt;/p&gt;
+&lt;p&gt;We can now use these Elo ratings to determine the probability that one team would beat another. For example, in the Class A quarterfinal game between Hermantown (#1) and Monticello (#8), Hermantown’s probability of beating Monticello is 0.574 .&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;predict(elo_reg_season, data.frame(home = &amp;quot;Hermantown&amp;quot;, visitor = &amp;quot;Monticello&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
-&lt;pre&gt;&lt;code&gt;## [1] 0.5472016&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;I simulated the state tournament by using a random-number generator to determine the winner of each game. For instance, to simulate the Hermantown/Monticello game, I used the &lt;code&gt;runif()&lt;/code&gt; function to generate a random number drawn from the uniform distribution between 0 and 1. If the result is less than or equal to 0.547, Hermantown is the winner; if not, Monticello wins. The syntax for simulating the Class A state tournament 10,000 times is below.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;## [1] 0.574304&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;I simulated the state tournament by using a random-number generator to determine the winner of each game. For instance, to simulate the Hermantown/Monticello game, I used the &lt;code&gt;runif()&lt;/code&gt; function to generate a random number drawn from the uniform distribution between 0 and 1. If the result is less than or equal to 0.574, Hermantown is the winner; if not, Monticello wins. The syntax for simulating the Class A state tournament 10,000 times is below.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Enter teams in rank order
 team_1 = &amp;quot;Hermantown&amp;quot;
 team_2 = &amp;quot;Mahtomedi&amp;quot;
@@ -666,40 +690,40 @@ for(i in 1:10000){
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Mahtomedi&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.3218&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Hermantown&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1987&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Hermantown&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.1705&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Mahtomedi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1802&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Orono&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.1562&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1612&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Monticello&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.1105&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1127&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Alexandria&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0982&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1086&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Thief River Falls&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0582&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0939&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Mankato East&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0546&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0812&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Litchfield/Dassel-Cokato&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0300&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0635&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;Based on these simulations, Mahtomedi has about a 30% chance of winning the Class A tournament.&lt;/p&gt;
+&lt;p&gt;Based on these simulations, Mahtomedi, Hermantown and Orono all have about an equal chance of winning the Class A tournament.&lt;/p&gt;
 &lt;p&gt;I also carried out a similar simulation for the Class AA tournament.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Enter teams in rank order
 team_1 = &amp;quot;Minnetonka&amp;quot;
@@ -770,40 +794,40 @@ for(i in 1:10000){
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Minnetonka&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.2895&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;St. Thomas Academy&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.2098&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Edina&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.2471&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.2083&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;St. Thomas Academy&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.1180&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Minnetonka&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1852&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Duluth East&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0944&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1495&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Centennial&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0837&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;STMA&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1016&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;STMA&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0583&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Centennial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0701&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Lakeville North&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0580&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0416&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Hill-Murray&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0510&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0339&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;The simulation results suggest that both Minnetonka and Edina have a pretty good shot of winning the tournament (slight edge to Minnetonka).&lt;/p&gt;
+&lt;p&gt;The simulation results suggest that both Edina and St. Thomas Academy have a pretty good shot of winning the tournament, and Minnetonka and Duluth East are also in the mix.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
