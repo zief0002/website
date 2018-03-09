@@ -11,6 +11,305 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Minnesota State High School Boys Hockey Predictions (Updated Quarterfinals)</title>
+      <link>/post/2018-03-08-boys-hockey/</link>
+      <pubDate>Thu, 08 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018-03-08-boys-hockey/</guid>
+      <description>&lt;p&gt;In a &lt;a href=&#34;/post/2018-03-03-boys-hockey/&#34;&gt;previous post&lt;/a&gt;, I used Monte Carlo simulation to predict the winner of the 2018 Minnesota State High School Boys Hockey tournament. Now that the quarterfinal games have been played, I thought I would update my predictions. The process for this is to:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Update the Elo ratings based on the quarterfinal games;&lt;/li&gt;
+&lt;li&gt;Re-simulate the tournament&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I simulated the Class A state tournament 10,000 times using the same process as described in my &lt;a href=&#34;/post/2018-03-03-boys-hockey/&#34;&gt;previous post&lt;/a&gt;.&lt;/p&gt;
+&lt;div id=&#34;class-a-tornament&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Class A Tornament&lt;/h2&gt;
+&lt;table&gt;
+&lt;caption&gt;&lt;span id=&#34;tab:unnamed-chunk-2&#34;&gt;Table 1: &lt;/span&gt;Original (at beginning of tournament) and updated Elo ratings (after the quartefinal games) for the eight Class A teams that qualified for the state tournament.&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;left&#34;&gt;Team&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Original Elo&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Updated Elo&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Mahtomedi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1696.529&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1701.091&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Hermantown&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1625.479&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1632.941&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Orono&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1603.934&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1612.685&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Monticello&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1592.582&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1585.121&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Alexandria&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1563.855&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1568.414&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Mankato East&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1529.721&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1525.159&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Thief River Falls&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1520.890&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1516.331&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Litchfield/Dassel-Cokato&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1477.433&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1468.682&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Enter teams in rank order
+team_1 = &amp;quot;Hermantown&amp;quot;
+team_2 = &amp;quot;Mahtomedi&amp;quot;
+team_3 = &amp;quot;Orono&amp;quot;
+team_4 = &amp;quot;Alexandria&amp;quot;
+
+
+# Set up empty vector to store winner in
+champion = rep(NA, 10000)
+
+
+for(i in 1:10000){
+  
+  ### SIMULATE THE SEMIFINALS
+  
+  # Predict Game 1 winner: team_1 vs. team_4
+  p_game_1 = predict(elo_reg_season, data.frame(home = team_1, visitor = team_4))
+  w_game_1 = ifelse(runif(1, min = 0, max = 1) &amp;lt;= p_game_1, team_1, team_4)
+  
+  # Predict Game 2 winner: team_2 vs. team_3
+  p_game_2 = predict(elo_reg_season, data.frame(home = team_2, visitor = team_3))
+  w_game_2 = ifelse(runif(1, min = 0, max = 1) &amp;lt;= p_game_2, team_2, team_3)
+  
+  
+  ### SIMULATE THE FINALS
+  
+  # Predict Game 3 winner: winner Game 1 vs. winner Game 2
+  p_game_3 = predict(elo_reg_season, data.frame(home = w_game_1, visitor = w_game_2))
+  w_game_3 = ifelse(runif(1, min = 0, max = 1) &amp;lt;= p_game_3, w_game_1, w_game_2)
+  
+  
+  champion[i] = w_game_3
+  
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;caption&gt;&lt;span id=&#34;tab:unnamed-chunk-3&#34;&gt;Table 2: &lt;/span&gt;Probability that each of the eight Class A teams will win the state tournament.&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;left&#34;&gt;Team&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Original Probability&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Updated Probability&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Mahtomedi&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.3250&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.3837&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Hermantown&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1696&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.2694&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Orono&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1532&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.1978&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Alexandria&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0997&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.1491&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Monticello&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1138&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.0000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Thief River Falls&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0561&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.0000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Mankato East&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0522&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.0000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Litchfield/Dassel-Cokato&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0304&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.0000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Based on these simulations, Mahtomedi has increased its chances of winning the Class A tournament to 40%.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;class-aa-tournament&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Class AA Tournament&lt;/h2&gt;
+&lt;table&gt;
+&lt;caption&gt;&lt;span id=&#34;tab:unnamed-chunk-4&#34;&gt;Table 3: &lt;/span&gt;Elo ratings and rankings for the eight Class AA teams that qualified for the state tournament.&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;left&#34;&gt;Team&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Old Elo&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Updated Elo&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Minnetonka&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1814.146&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1821.137&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Edina&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1791.784&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1801.202&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;St. Thomas Academy&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1726.164&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1720.461&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Duluth East&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1692.342&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1700.488&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Centennial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1688.271&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1698.045&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Lakeville North&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1662.962&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1653.544&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Hill-Murray&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1658.269&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1651.278&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;STMA&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1656.613&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1644.396&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Enter teams in rank order
+team_1 = &amp;quot;Minnetonka&amp;quot;
+team_2 = &amp;quot;Edina&amp;quot;
+team_3 = &amp;quot;Duluth East&amp;quot;
+team_4 = &amp;quot;Centennial&amp;quot;
+
+
+# Set up empty vector to store winner in
+champion = rep(NA, 10000)
+
+
+for(i in 1:10000){
+  
+  ### SIMULATE THE SEMIFINALS
+  
+  # Predict Game 1 winner: team_1 vs. team_4
+  p_game_1 = predict(elo_reg_season, data.frame(home = team_1, visitor = team_4))
+  w_game_1 = ifelse(runif(1, min = 0, max = 1) &amp;lt;= p_game_1, team_1, team_4)
+  
+  # Predict Game 2 winner: team_2 vs. team_3
+  p_game_2 = predict(elo_reg_season, data.frame(home = team_2, visitor = team_3))
+  w_game_2 = ifelse(runif(1, min = 0, max = 1) &amp;lt;= p_game_2, team_2, team_3)
+  
+  
+  ### SIMULATE THE FINALS
+  
+  # Predict Game 3 winner: winner Game 1 vs. winner Game 2
+  p_game_3 = predict(elo_reg_season, data.frame(home = w_game_1, visitor = w_game_2))
+  w_game_3 = ifelse(runif(1, min = 0, max = 1) &amp;lt;= p_game_3, w_game_1, w_game_2)
+  
+  
+  champion[i] = w_game_3
+  
+}&lt;/code&gt;&lt;/pre&gt;
+&lt;table&gt;
+&lt;caption&gt;&lt;span id=&#34;tab:unnamed-chunk-5&#34;&gt;Table 4: &lt;/span&gt;Probability that each of the eight Class AA teams will win the state tournament.&lt;/caption&gt;
+&lt;thead&gt;
+&lt;tr class=&#34;header&#34;&gt;
+&lt;th align=&#34;left&#34;&gt;Team&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;Original Probability&lt;/th&gt;
+&lt;th align=&#34;left&#34;&gt;Updated Probability&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Minnetonka&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.2895&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.3883&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Edina&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.2471&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.3355&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Duluth East&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0944&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.1394&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Centennial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0837&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.1368&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;St. Thomas Academy&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1180&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.0000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;STMA&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0583&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.0000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Lakeville North&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0580&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.0000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Hill-Murray&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0510&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;0.0000&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;Based on these simulations, Minnetonka and Edina are still the favorites in the Class AA tournament, even more so than before.&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>e-ATLAS Project</title>
       <link>/project/eatlas-project/</link>
       <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
@@ -297,15 +596,15 @@ elo_reg_season = elo.run(score(home_score, visitor_score) ~ home + visitor +
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;predict(elo_reg_season, data.frame(home = &amp;quot;Hermantown&amp;quot;, visitor = &amp;quot;Monticello&amp;quot;))&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## [1] 0.5472016&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;I simulated the state tournament by using a random-number generator to determine the winner of each game. For instance, to simulate the Hermantown/Monticello game, I used the &lt;code&gt;runif()&lt;/code&gt; function to generate a random number drawn from the uniform distribution between 0 and 1. If the result is less than or equal to 0.547, Hermantown is the winner; if not, Monticello wins. The syntax for simulating the Class A state tournament 10,000 times is below.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Enter teams in bracket order (not by ranking)
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Enter teams in rank order
 team_1 = &amp;quot;Hermantown&amp;quot;
-team_2 = &amp;quot;Monticello&amp;quot;
-team_3 = &amp;quot;Alexandria&amp;quot;
-team_4 = &amp;quot;Thief River Falls&amp;quot;
-team_5 = &amp;quot;Orono&amp;quot;
+team_2 = &amp;quot;Mahtomedi&amp;quot;
+team_3 = &amp;quot;Orono&amp;quot;
+team_4 = &amp;quot;Alexandria&amp;quot;
+team_5 = &amp;quot;Thief River Falls&amp;quot;
 team_6 = &amp;quot;Litchfield/Dassel-Cokato&amp;quot;
-team_7 = &amp;quot;Mahtomedi&amp;quot;
-team_8 = &amp;quot;Mankato East&amp;quot;
+team_7 = &amp;quot;Mankato East&amp;quot;
+team_8 = &amp;quot;Monticello&amp;quot;
 
 # Set up empty vector to store winner in
 champion = rep(NA, 10000)
@@ -368,49 +667,49 @@ for(i in 1:10000){
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Mahtomedi&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.2978&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.3218&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Hermantown&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.1803&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1705&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Orono&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.1561&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1562&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Alexandria&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.1074&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Monticello&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.1020&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Mankato East&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0624&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1105&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Alexandria&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0982&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Thief River Falls&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0565&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0582&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Mankato East&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0546&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Litchfield/Dassel-Cokato&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0375&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0300&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
 &lt;p&gt;Based on these simulations, Mahtomedi has about a 30% chance of winning the Class A tournament.&lt;/p&gt;
 &lt;p&gt;I also carried out a similar simulation for the Class AA tournament.&lt;/p&gt;
-&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Enter teams in bracket order (not by ranking)
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Enter teams in rank order
 team_1 = &amp;quot;Minnetonka&amp;quot;
-team_2 = &amp;quot;Hill-Murray&amp;quot;
-team_3 = &amp;quot;St. Thomas Academy&amp;quot;
-team_4 = &amp;quot;Centennial&amp;quot;
-team_5 = &amp;quot;Duluth East&amp;quot;
+team_2 = &amp;quot;Edina&amp;quot;
+team_3 = &amp;quot;Duluth East&amp;quot;
+team_4 = &amp;quot;St. Thomas Academy&amp;quot;
+team_5 = &amp;quot;Centennial&amp;quot;
 team_6 = &amp;quot;STMA&amp;quot;
-team_7 = &amp;quot;Edina&amp;quot;
-team_8 = &amp;quot;Lakeville North&amp;quot;
+team_7 = &amp;quot;Lakeville North&amp;quot;
+team_8 = &amp;quot;Hill-Murray&amp;quot;
 
 # Set up empty vector to store winner in
 champion2 = rep(NA, 10000)
@@ -472,35 +771,35 @@ for(i in 1:10000){
 &lt;tbody&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Minnetonka&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.2922&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.2895&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Edina&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.2433&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.2471&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;St. Thomas Academy&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.1332&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.1180&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Centennial&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0907&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Duluth East&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0944&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Duluth East&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0773&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Centennial&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0837&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;STMA&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0600&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0583&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Lakeville North&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0521&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0580&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Hill-Murray&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;0.0512&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;0.0510&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
@@ -777,15 +1076,6 @@ for(i in 1:10000){
       <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
       
       <guid>/publication/2015-srtl-book/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Developing Students&#39; Reasoning about Samples and Sampling Variability as a Path to Expert Statistical Thinking</title>
-      <link>/publication/2014-esm/</link>
-      <pubDate>Wed, 05 Mar 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2014-esm/</guid>
       <description></description>
     </item>
     

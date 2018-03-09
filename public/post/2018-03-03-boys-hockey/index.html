@@ -599,15 +599,15 @@ elo_reg_season = elo.run(score(home_score, visitor_score) ~ home + visitor +
 <pre class="r"><code>predict(elo_reg_season, data.frame(home = &quot;Hermantown&quot;, visitor = &quot;Monticello&quot;))</code></pre>
 <pre><code>## [1] 0.5472016</code></pre>
 <p>I simulated the state tournament by using a random-number generator to determine the winner of each game. For instance, to simulate the Hermantown/Monticello game, I used the <code>runif()</code> function to generate a random number drawn from the uniform distribution between 0 and 1. If the result is less than or equal to 0.547, Hermantown is the winner; if not, Monticello wins. The syntax for simulating the Class A state tournament 10,000 times is below.</p>
-<pre class="r"><code># Enter teams in bracket order (not by ranking)
+<pre class="r"><code># Enter teams in rank order
 team_1 = &quot;Hermantown&quot;
-team_2 = &quot;Monticello&quot;
-team_3 = &quot;Alexandria&quot;
-team_4 = &quot;Thief River Falls&quot;
-team_5 = &quot;Orono&quot;
+team_2 = &quot;Mahtomedi&quot;
+team_3 = &quot;Orono&quot;
+team_4 = &quot;Alexandria&quot;
+team_5 = &quot;Thief River Falls&quot;
 team_6 = &quot;Litchfield/Dassel-Cokato&quot;
-team_7 = &quot;Mahtomedi&quot;
-team_8 = &quot;Mankato East&quot;
+team_7 = &quot;Mankato East&quot;
+team_8 = &quot;Monticello&quot;
 
 # Set up empty vector to store winner in
 champion = rep(NA, 10000)
@@ -670,49 +670,49 @@ for(i in 1:10000){
 <tbody>
 <tr class="odd">
 <td align="left">Mahtomedi</td>
-<td align="center">0.2978</td>
+<td align="center">0.3218</td>
 </tr>
 <tr class="even">
 <td align="left">Hermantown</td>
-<td align="center">0.1803</td>
+<td align="center">0.1705</td>
 </tr>
 <tr class="odd">
 <td align="left">Orono</td>
-<td align="center">0.1561</td>
+<td align="center">0.1562</td>
 </tr>
 <tr class="even">
-<td align="left">Alexandria</td>
-<td align="center">0.1074</td>
-</tr>
-<tr class="odd">
 <td align="left">Monticello</td>
-<td align="center">0.1020</td>
-</tr>
-<tr class="even">
-<td align="left">Mankato East</td>
-<td align="center">0.0624</td>
+<td align="center">0.1105</td>
 </tr>
 <tr class="odd">
+<td align="left">Alexandria</td>
+<td align="center">0.0982</td>
+</tr>
+<tr class="even">
 <td align="left">Thief River Falls</td>
-<td align="center">0.0565</td>
+<td align="center">0.0582</td>
+</tr>
+<tr class="odd">
+<td align="left">Mankato East</td>
+<td align="center">0.0546</td>
 </tr>
 <tr class="even">
 <td align="left">Litchfield/Dassel-Cokato</td>
-<td align="center">0.0375</td>
+<td align="center">0.0300</td>
 </tr>
 </tbody>
 </table>
 <p>Based on these simulations, Mahtomedi has about a 30% chance of winning the Class A tournament.</p>
 <p>I also carried out a similar simulation for the Class AA tournament.</p>
-<pre class="r"><code># Enter teams in bracket order (not by ranking)
+<pre class="r"><code># Enter teams in rank order
 team_1 = &quot;Minnetonka&quot;
-team_2 = &quot;Hill-Murray&quot;
-team_3 = &quot;St. Thomas Academy&quot;
-team_4 = &quot;Centennial&quot;
-team_5 = &quot;Duluth East&quot;
+team_2 = &quot;Edina&quot;
+team_3 = &quot;Duluth East&quot;
+team_4 = &quot;St. Thomas Academy&quot;
+team_5 = &quot;Centennial&quot;
 team_6 = &quot;STMA&quot;
-team_7 = &quot;Edina&quot;
-team_8 = &quot;Lakeville North&quot;
+team_7 = &quot;Lakeville North&quot;
+team_8 = &quot;Hill-Murray&quot;
 
 # Set up empty vector to store winner in
 champion2 = rep(NA, 10000)
@@ -774,35 +774,35 @@ for(i in 1:10000){
 <tbody>
 <tr class="odd">
 <td align="left">Minnetonka</td>
-<td align="center">0.2922</td>
+<td align="center">0.2895</td>
 </tr>
 <tr class="even">
 <td align="left">Edina</td>
-<td align="center">0.2433</td>
+<td align="center">0.2471</td>
 </tr>
 <tr class="odd">
 <td align="left">St. Thomas Academy</td>
-<td align="center">0.1332</td>
+<td align="center">0.1180</td>
 </tr>
 <tr class="even">
-<td align="left">Centennial</td>
-<td align="center">0.0907</td>
+<td align="left">Duluth East</td>
+<td align="center">0.0944</td>
 </tr>
 <tr class="odd">
-<td align="left">Duluth East</td>
-<td align="center">0.0773</td>
+<td align="left">Centennial</td>
+<td align="center">0.0837</td>
 </tr>
 <tr class="even">
 <td align="left">STMA</td>
-<td align="center">0.0600</td>
+<td align="center">0.0583</td>
 </tr>
 <tr class="odd">
 <td align="left">Lakeville North</td>
-<td align="center">0.0521</td>
+<td align="center">0.0580</td>
 </tr>
 <tr class="even">
 <td align="left">Hill-Murray</td>
-<td align="center">0.0512</td>
+<td align="center">0.0510</td>
 </tr>
 </tbody>
 </table>

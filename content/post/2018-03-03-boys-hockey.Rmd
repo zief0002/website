@@ -159,15 +159,15 @@ predict(elo_reg_season, data.frame(home = "Hermantown", visitor = "Monticello"))
 I simulated the state tournament by using a random-number generator to determine the winner of each game. For instance, to simulate the Hermantown/Monticello game, I used the `runif()` function to generate a random number drawn from the uniform distribution between 0 and 1. If the result is less than or equal to 0.547, Hermantown is the winner; if not, Monticello wins. The syntax for simulating the Class A state tournament 10,000 times is below.
 
 ```{r cache=TRUE}
-# Enter teams in bracket order (not by ranking)
+# Enter teams in rank order
 team_1 = "Hermantown"
-team_2 = "Monticello"
-team_3 = "Alexandria"
-team_4 = "Thief River Falls"
-team_5 = "Orono"
+team_2 = "Mahtomedi"
+team_3 = "Orono"
+team_4 = "Alexandria"
+team_5 = "Thief River Falls"
 team_6 = "Litchfield/Dassel-Cokato"
-team_7 = "Mahtomedi"
-team_8 = "Mankato East"
+team_7 = "Mankato East"
+team_8 = "Monticello"
 
 # Set up empty vector to store winner in
 champion = rep(NA, 10000)
@@ -239,15 +239,15 @@ Based on these simulations, Mahtomedi has about a 30\% chance of winning the Cla
 I also carried out a similar simulation for the Class AA tournament.
 
 ```{r cache=TRUE}
-# Enter teams in bracket order (not by ranking)
+# Enter teams in rank order
 team_1 = "Minnetonka"
-team_2 = "Hill-Murray"
-team_3 = "St. Thomas Academy"
-team_4 = "Centennial"
-team_5 = "Duluth East"
+team_2 = "Edina"
+team_3 = "Duluth East"
+team_4 = "St. Thomas Academy"
+team_5 = "Centennial"
 team_6 = "STMA"
-team_7 = "Edina"
-team_8 = "Lakeville North"
+team_7 = "Lakeville North"
+team_8 = "Hill-Murray"
 
 # Set up empty vector to store winner in
 champion2 = rep(NA, 10000)
