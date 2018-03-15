@@ -11,6 +11,270 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Minnesota State High School Boys Hockey Predictions (Post Hoc Analysis)</title>
+      <link>/post/2018-03-15-boys-hockey-post-hoc/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2018-03-15-boys-hockey-post-hoc/</guid>
+      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/bracket.css&#34; type=&#34;text/css&#34; /&gt;
+
+
+&lt;p&gt;In two previous posts, &lt;a href=&#34;/post/2018-03-03-boys-hockey/&#34;&gt;post 1&lt;/a&gt; and &lt;a href=&#34;/post/2018-03-08-boys-hockey/&#34;&gt;post 2&lt;/a&gt;, I used Monte Carlo simulation to predict the winner of the 2018 Minnesota State High School Boys Hockey tournament. Now that the tournament is over, I wanted to analyze how the model did and also think about ways to improve the predictions should I want to re-run such a simulation in the future.&lt;/p&gt;
+&lt;div id=&#34;accuracy-of-the-predictions&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Accuracy of the Predictions&lt;/h2&gt;
+&lt;p&gt;So, how well did the simulation do in predicting the state tournament champion? Orono was the winner of the Class A tournament. Before the tournament started I gave them a 16% chance of winning the state tournament. This was the third highest percentage, but was not that different than the other two higher percentages (Hermantown: 20% and Mahtomedi: 18%). In the Class AA tournament, the winner was Minnetonka. Again, there were two teams that had a higher percent chance of winning, but only by about 1–2%.&lt;/p&gt;
+&lt;p&gt;This seems pretty good. If I look at the teams that made the final four, three of the top four predictions in the Class A tournament made the semifinals, and the same in Class AA. Before I get too excited about this, it is interesting to note that if you had picked the top four seeds in each class to make the semifinals you would have done just as well.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;picking-the-bracket-based-on-elo-ratings&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Picking the Bracket Based on Elo Ratings&lt;/h2&gt;
+&lt;p&gt;How well might we have done if we had just used the Elo ratings to fill out our bracket? Below is a bracket with the Elo predicted winners. Predictions that would have been wrong have a strikethrough.&lt;/p&gt;
+&lt;div id=&#34;class-a-tournament&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Class A Tournament&lt;/h3&gt;
+&lt;p&gt;&lt;main id=&#34;tournament&#34;&gt;&lt;/p&gt;
+&lt;ul class=&#34;round round-1&#34;&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-top&#34;&gt;
+Hermantown
+&lt;/li&gt;
+&lt;li class=&#34;game game-spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-bottom &#34;&gt;
+Monticello
+&lt;/li&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-top&#34;&gt;
+Alexandria
+&lt;/li&gt;
+&lt;li class=&#34;game game-spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-bottom &#34;&gt;
+Thief River Falls
+&lt;/li&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-top&#34;&gt;
+Orono
+&lt;/li&gt;
+&lt;li class=&#34;game game-spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-bottom &#34;&gt;
+Litchfield/DC
+&lt;/li&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-top&#34;&gt;
+Mahtomedi
+&lt;/li&gt;
+&lt;li class=&#34;game game-spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-bottom &#34;&gt;
+Mankato East
+&lt;/li&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class=&#34;round round-2&#34;&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-top&#34;&gt;
+Hermantown
+&lt;/li&gt;
+&lt;li class=&#34;game game-spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-bottom &#34;&gt;
+Alexandria
+&lt;/li&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-top&#34;&gt;
+Orono
+&lt;/li&gt;
+&lt;li class=&#34;game game-spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-bottom &#34;&gt;
+Mahtomedi
+&lt;/li&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class=&#34;round round-3&#34;&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-top winner&#34;&gt;
+Hermantown
+&lt;/li&gt;
+&lt;li class=&#34;game game-spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-bottom winner&#34;&gt;
+Mahtomedi
+&lt;/li&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class=&#34;round round-1&#34;&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-bottom winner&#34;&gt;
+Hermantown
+&lt;/li&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/main&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;class-aa-tournament&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Class AA Tournament&lt;/h3&gt;
+&lt;p&gt;&lt;main id=&#34;tournament&#34;&gt;&lt;/p&gt;
+&lt;ul class=&#34;round round-1&#34;&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-top&#34;&gt;
+Minnetonka
+&lt;/li&gt;
+&lt;li class=&#34;game game-spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-bottom &#34;&gt;
+Hill-Murray
+&lt;/li&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-top&#34;&gt;
+St. Thomas Academy
+&lt;/li&gt;
+&lt;li class=&#34;game game-spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-bottom &#34;&gt;
+Centennial
+&lt;/li&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-top&#34;&gt;
+Duluth East
+&lt;/li&gt;
+&lt;li class=&#34;game game-spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-bottom &#34;&gt;
+STMA
+&lt;/li&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-top&#34;&gt;
+Edina
+&lt;/li&gt;
+&lt;li class=&#34;game game-spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-bottom &#34;&gt;
+Lakeville North
+&lt;/li&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class=&#34;round round-2&#34;&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-top&#34;&gt;
+Minnetonka
+&lt;/li&gt;
+&lt;li class=&#34;game game-spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-bottom winner&#34;&gt;
+St. Thomas Academy
+&lt;/li&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-top&#34;&gt;
+Duluth East
+&lt;/li&gt;
+&lt;li class=&#34;game game-spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-bottom &#34;&gt;
+Edina
+&lt;/li&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class=&#34;round round-3&#34;&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-top winner&#34;&gt;
+St. Thomas Academy
+&lt;/li&gt;
+&lt;li class=&#34;game game-spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-bottom winner&#34;&gt;
+Edina
+&lt;/li&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul class=&#34;round round-1&#34;&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;li class=&#34;game game-bottom winner&#34;&gt;
+Edina
+&lt;/li&gt;
+&lt;li class=&#34;spacer&#34;&gt;
+ 
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/main&gt;&lt;/p&gt;
+&lt;p&gt;We wouldn’t have done very well. This is not, perhaps, surprising as the Elo ratings for many of the top teams are quite similar. Thus upsets will likely happen. In addition, these are high school players, and the emotion of playing in the state tournament is not factored into any rating system.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;improvments-for-the-future&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Improvments for the Future&lt;/h2&gt;
+&lt;p&gt;Before I suggest ways to improve the predictions, I want to state that I am a little uneasy about predicting high school games. I took this on as an exercise in learning and a fun augmentation to my viewing of the state tournament. That being said, here are things I would like to do in the future.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;em&gt;Simulation Speed:&lt;/em&gt; The first thing I would improve would be the simulation speed. I did a quick code using a &lt;code&gt;for()&lt;/code&gt; loop. This is incredibly slow. I think this could be improved using functionality from the &lt;strong&gt;purrr&lt;/strong&gt; package.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Dynamic Parameters in the Elo Ratings:&lt;/em&gt; I used a static &lt;span class=&#34;math inline&#34;&gt;\(K\)&lt;/span&gt;-factor of 15 in computing the Elo ratings. I could have upweighted certain games using diffeent values of &lt;span class=&#34;math inline&#34;&gt;\(K\)&lt;/span&gt;. For example, conference games and section playoff games could have used higher weights.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Predict Elo within Class:&lt;/em&gt; I computed the Elo ratings by considering all the teams in the state. I think it might be useful to explore predicting Elo within class. This could be either used directly, or weighted and combined with the overall Elo rating in some fashion.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Predict Probabilites for Other Events:&lt;/em&gt; Aside from predicting the probability of winning the tournament, I might predict probabilities of making the semifinals or finishing in the top 3.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;Consider Other Rating Models:&lt;/em&gt; It might be interesting to use a rating system such as Glicko that includes an uncertainty parameter.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Minnesota State High School Boys Hockey Predictions (Updated Quarterfinals)</title>
       <link>/post/2018-03-08-boys-hockey/</link>
       <pubDate>Thu, 08 Mar 2018 00:00:00 +0000</pubDate>
@@ -1091,15 +1355,6 @@ for(i in 1:10000){
       <pubDate>Tue, 06 Oct 2015 00:00:00 +0000</pubDate>
       
       <guid>/publication/2015-chance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Reasoning about Uncertainty: Learning and Teaching Informal Inferential Reasoning</title>
-      <link>/publication/2015-srtl-book/</link>
-      <pubDate>Sat, 01 Aug 2015 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2015-srtl-book/</guid>
       <description></description>
     </item>
     
