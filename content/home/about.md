@@ -24,7 +24,7 @@ weight = 5
 [[education.courses]]
   course = "BS in Mathematics Education"
   institution = "St. Cloud State University"
-  year = 2008
+  year = 1998
  
 +++
 
