@@ -25,7 +25,7 @@ Sixty-plus years later, many people have probably never heard of the *Continenta
 
 #### In your CATALST paper written with Huberty you mention that after school computer labs can be a potential improvement for the CSI courses you installed in Minnesota schools. Since it's been a couple years, have you seen any schools take you up on this idea? I would agree that more one-on-one time with a teacher may be more beneficial for shyer students. Especially for those in the beginning of the course that have the preconceived notion that they "suck at mathematics and therefore will not do as well as in your course".
 
-I think many of the teachers make sure time is available after school for students to work on the computers with TinkerPlots. What I don't know is how many students take advantage of it. Many of them are involved in after-school activities, or have other obligations that keep them from making it into the lab after school. 
+I think many of the teachers make sure time is available after school for students to work on the computers with TinkerPlots&trade;. What I don't know is how many students take advantage of it. Many of them are involved in after-school activities, or have other obligations that keep them from making it into the lab after school. 
 
 I think what tends to be more important than the one-on-one time is the pedagogy used in the classroom. The educational research overwhelmingly suggests that pedagogy matters for student learning, and that students in student-centered classrooms outperform their counterparts in lecture-based courses. (This is especilly true for minority and disadvantaged students; see [here](https://college.unc.edu/2014/09/02/hoganstudy/).) 
 
@@ -40,7 +40,6 @@ The assessments are also generally far less high-stakes than they are at the col
 
 So, material-wise, I would employ many of the same materials in the high school course that we do in the college course. But, I would supplement these with other activities and materials that build-on the ideas and give students opportunities to practice what they've learned.
 
-Pedagogically, I would try to approach things the same way, including discussions and cooperative learning. I believe that learning takes hard work and it is the student's responsibility. I can facilitate that learning, but it is ultimately up to the student to take on that hard work. The brain is a muscle that needs to be worked out. Like physical work outs, you need to build-up to larger "weights". Focusing on the process, not the product, is also important as the goal (learning) is a long-term outcome.
-
+Pedagogically, I would try to approach things the same way, including discussions and cooperative learning. I believe that learning takes hard work and it is the student's responsibility. I can facilitate that learning, but it is ultimately up to the student to take on that hard work. The brain is a muscle that needs to be worked out. Like physical work outs, you need to build-up to larger "weights". Focusing on the process, not the product, is also important as the goal (learning) is a long-term outcome. It may be harder to convinve a high school student that this process, which takes time, is worthwhile.
 
 
