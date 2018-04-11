@@ -17,11 +17,11 @@
       
     
   
-  <meta name="description" content="This post is the second in a series of blogposts in which I respond to questions from the students in the Becoming a Teacher of Statistics course. In today’s posting I respond to questions related to several of the projects I have worked on over the years.
-Can you tell us a little about your AIMS project? I think it’s not always easy for everyone to apply guidelines in order to change their behavior (in any context), but your AIMS project seems to fill that gap for stats educators-that is, it explicitly creates educational materials aligned with GAISE.">
+  <meta name="description" content="It feels like this spring has been especially terrible weather-wise. We have gotten a lot of snow and it has been cold. To evaluate whether this is the case or whether I have hindsight bias, I pulled some historical weather data for the month of April from Weather Underground. These data I grabbed are available at: https://raw.githubusercontent.com/zief0002/Public-Stuff/master/data/april-weather.csv
+library(dplyr) library(forcats) library(ggplot2) library(ggridges) library(readr) library(viridis) # Read in data april = read_csv(&quot;~/Documents/github/Public-Stuff/data/april-weather.csv&quot;) # Filter dates april = april %&gt;% filter(date &lt;= 11) I grabbed data back to 2008.">
 
   
-  <link rel="alternate" hreflang="en-us" href="/post/2018-03-30-epsy-5271-part-02/">
+  <link rel="alternate" hreflang="en-us" href="/post/spring-weather-in-minneapolis/">
 
   
 
@@ -70,25 +70,25 @@ Can you tell us a little about your AIMS project? I think it’s not always easy
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="/post/2018-03-30-epsy-5271-part-02/">
+  <link rel="canonical" href="/post/spring-weather-in-minneapolis/">
 
   <meta property="twitter:card" content="summary_large_image">
   
   <meta property="og:site_name" content="Andrew Zieffler">
-  <meta property="og:url" content="/post/2018-03-30-epsy-5271-part-02/">
-  <meta property="og:title" content="Q&amp;A with Becoming a Teacher of Statistics Class: Part II | Andrew Zieffler">
-  <meta property="og:description" content="This post is the second in a series of blogposts in which I respond to questions from the students in the Becoming a Teacher of Statistics course. In today’s posting I respond to questions related to several of the projects I have worked on over the years.
-Can you tell us a little about your AIMS project? I think it’s not always easy for everyone to apply guidelines in order to change their behavior (in any context), but your AIMS project seems to fill that gap for stats educators-that is, it explicitly creates educational materials aligned with GAISE."><meta property="og:image" content="/img/headers/janneke-staaks-header-05.jpg">
+  <meta property="og:url" content="/post/spring-weather-in-minneapolis/">
+  <meta property="og:title" content="Spring Weather in Minneapolis | Andrew Zieffler">
+  <meta property="og:description" content="It feels like this spring has been especially terrible weather-wise. We have gotten a lot of snow and it has been cold. To evaluate whether this is the case or whether I have hindsight bias, I pulled some historical weather data for the month of April from Weather Underground. These data I grabbed are available at: https://raw.githubusercontent.com/zief0002/Public-Stuff/master/data/april-weather.csv
+library(dplyr) library(forcats) library(ggplot2) library(ggridges) library(readr) library(viridis) # Read in data april = read_csv(&quot;~/Documents/github/Public-Stuff/data/april-weather.csv&quot;) # Filter dates april = april %&gt;% filter(date &lt;= 11) I grabbed data back to 2008.">
   <meta property="og:locale" content="en-us">
   
-  <meta property="article:published_time" content="2018-03-30T00:00:00&#43;00:00">
+  <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2018-03-30T00:00:00&#43;00:00">
-  
-
+  <meta property="article:modified_time" content="2018-04-11T00:00:00&#43;00:00">
   
 
-  <title>Q&amp;A with Becoming a Teacher of Statistics Class: Part II | Andrew Zieffler</title>
+  
+
+  <title>Spring Weather in Minneapolis | Andrew Zieffler</title>
 
 
 </head>
@@ -264,15 +264,10 @@ Can you tell us a little about your AIMS project? I think it’s not always easy
 <article class="article" itemscope itemtype="http://schema.org/Article">
 
   
-<div class="article-header">
-  <img src="/img/headers/janneke-staaks-header-05.jpg" class="article-banner" itemprop="image">
-  <span class="article-header-caption">Image Credit: A flickr photo by janneke staaks</span>
-</div>
-
 
 
   <div class="article-container">
-    <h1 itemprop="name">Q&amp;A with Becoming a Teacher of Statistics Class: Part II</h1>
+    <h1 itemprop="name">Spring Weather in Minneapolis</h1>
 
     
 
@@ -280,8 +275,8 @@ Can you tell us a little about your AIMS project? I think it’s not always easy
 
   <span class="article-date">
     
-    <time datetime="2018-03-30 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
-      Mar 30, 2018
+    <time datetime="2018-04-11 00:00:00 &#43;0000 UTC" itemprop="datePublished dateModified">
+      Apr 11, 2018
     </time>
   </span>
   <span itemscope itemprop="author publisher" itemtype="http://schema.org/Person">
@@ -299,6 +294,9 @@ Can you tell us a little about your AIMS project? I think it’s not always easy
   
 
   
+  
+  
+  
 
   
   
@@ -306,35 +304,35 @@ Can you tell us a little about your AIMS project? I think it’s not always easy
   <ul class="share">
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Q%26A%20with%20Becoming%20a%20Teacher%20of%20Statistics%20Class%3a%20Part%20II&amp;url=%2fpost%2f2018-03-30-epsy-5271-part-02%2f"
+         href="https://twitter.com/intent/tweet?text=Spring%20Weather%20in%20Minneapolis&amp;url=%2fpost%2fspring-weather-in-minneapolis%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=%2fpost%2f2018-03-30-epsy-5271-part-02%2f"
+         href="https://www.facebook.com/sharer.php?u=%2fpost%2fspring-weather-in-minneapolis%2f"
          target="_blank" rel="noopener">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2f2018-03-30-epsy-5271-part-02%2f&amp;title=Q%26A%20with%20Becoming%20a%20Teacher%20of%20Statistics%20Class%3a%20Part%20II"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=%2fpost%2fspring-weather-in-minneapolis%2f&amp;title=Spring%20Weather%20in%20Minneapolis"
          target="_blank" rel="noopener">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=%2fpost%2f2018-03-30-epsy-5271-part-02%2f&amp;title=Q%26A%20with%20Becoming%20a%20Teacher%20of%20Statistics%20Class%3a%20Part%20II"
+         href="http://service.weibo.com/share/share.php?url=%2fpost%2fspring-weather-in-minneapolis%2f&amp;title=Spring%20Weather%20in%20Minneapolis"
          target="_blank" rel="noopener">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Q%26A%20with%20Becoming%20a%20Teacher%20of%20Statistics%20Class%3a%20Part%20II&amp;body=%2fpost%2f2018-03-30-epsy-5271-part-02%2f">
+         href="mailto:?subject=Spring%20Weather%20in%20Minneapolis&amp;body=%2fpost%2fspring-weather-in-minneapolis%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -348,26 +346,93 @@ Can you tell us a little about your AIMS project? I think it’s not always easy
 
 
     <div class="article-style" itemprop="articleBody">
-      <link rel="stylesheet" href="/css/bracket.css" type="text/css" />
+      <p>It feels like this spring has been especially terrible weather-wise. We have gotten a lot of snow and it has been cold. To evaluate whether this is the case or whether I have hindsight bias, I pulled some historical weather data for the month of April from <a href="">Weather Underground</a>. These data I grabbed are available at: <a href="https://raw.githubusercontent.com/zief0002/Public-Stuff/master/data/april-weather.csv" class="uri">https://raw.githubusercontent.com/zief0002/Public-Stuff/master/data/april-weather.csv</a></p>
+<pre class="r"><code>library(dplyr)
+library(forcats)
+library(ggplot2)
+library(ggridges)
+library(readr)
+library(viridis)
 
+# Read in data
+april = read_csv(&quot;~/Documents/github/Public-Stuff/data/april-weather.csv&quot;)
 
-<p>This post is the second in a series of blogposts in which I respond to questions from the students in the <em>Becoming a Teacher of Statistics</em> course. In today’s posting I respond to questions related to several of the projects I have worked on over the years.</p>
-<div id="can-you-tell-us-a-little-about-your-aims-project-i-think-its-not-always-easy-for-everyone-to-apply-guidelines-in-order-to-change-their-behavior-in-any-context-but-your-aims-project-seems-to-fill-that-gap-for-stats-educators-that-is-it-explicitly-creates-educational-materials-aligned-with-gaise.-can-you-also-tell-us-about-some-of-the-difficult-decision-points-in-developing-your-materials" class="section level4">
-<h4>Can you tell us a little about your AIMS project? I think it’s not always easy for everyone to apply guidelines in order to change their behavior (in any context), but your AIMS project seems to fill that gap for stats educators-that is, it explicitly creates educational materials aligned with GAISE. Can you also tell us about some of the difficult decision points in developing your materials?</h4>
-<p>Wow. You are making me think. I honestly haven’t thought about AIMS in a long time (I think we started writing these materials in 2005ish). At that time, the <a href="http://www.amstat.org/asa/education/Guidelines-for-Assessment-and-Instruction-in-Statistics-Education-Reports.aspx">GAISE recommendations</a> had just come out. Joan Garfield, my advisor and colleague, was the chair of the committee that wrote the GAISE college report. She was also the person that had transformed the curriculum in our undergraduate course (EPsy 3264) to what it was at that time.</p>
-<p>There were two graduate students, myself and <a href="https://wp.stolaf.edu/education/sharon/">Sharon Lane-Getaz</a>, who were teaching 3264 at that time. We actually would write the curriculum as we went, writing a lesson, teaching it and observing the other teach, and then meeting afterward in Joan’s office to re-vise the lesson and write the next one. It was a very invloved process, and, in those early iterations, a little rough.</p>
-<p>One of the major decisions was to choose what topics would be included in the course and which wouldn’t. We also really switched the focus from calculation to conceptual understanding. The choice of software was also a decision point. <a href="https://concord.org/about/staff/william-finzer/">Bill Finzer</a> was one of the project’s advsiors because we were pretty convinced that Fathom was the software we wanted to use in the course. (Although, looking back on the actual lessons, I think the materials are pretty software agnostic.)</p>
-</div>
-<div id="how-much-biology-did-you-have-to-know-to-contribute-meaningfully-to-the-development-of-biosquare-or-are-you-just-an-expert-in-assessment-creation-who-applied-his-expertise-to-biology" class="section level4">
-<h4>How much biology did you have to know to contribute meaningfully to the development of BioSQuaRE? Or, are you just an expert in assessment creation who applied his expertise to biology?</h4>
-<p>Thankfully, not much. My high school and undergraduate experiences in biology were only slightly better than those in chemistry (although I did really enjoy an environmental biology course I took). I primarily brought assessment development expertise to the project. The biology expertise (from others on the project) was primarily in ensuring that the items had a context related to biology, as the assessment itself was geared toward measuring students’ quantitative skills and knowledge.</p>
-</div>
-<div id="whats-next-for-the-catalst-project-is-there-hope-to-expand-it-to-other-universities-or-high-schools-outside-minnesota" class="section level4">
-<h4>What’s next for the CATALST project? Is there hope to expand it to other universities or high schools outside Minnesota?</h4>
-<p>Good question. In thinking about the current CATALST curriculum, we do not have explicit plans to expand to other institutions, but if there is a grass roots expansion, the more the merrier. My sense is that it would be a pretty good curriculum for high schools, but that many high school teachers are not aware of the its existence. (Perhaps we should do a workshop aimed at high school teachers at USCOTS next year…)</p>
-<p>One way that we have thought about “growing” the curriculum is to write a Lab Manual for use with R. <a href="http://www-math.bgsu.edu/~albert/">Jim Albert</a> taught CATALST with R to his students at Bowling Green when we first started the project many moons ago. I think this could be used as a skeleton for writing such a Lab Manual, but updating the syntax to use <strong>mosaic</strong> and <strong>tidyverse</strong> functions. The one reason we have not done this yet is that I am unsure that R is the correct choice of software in an introductory statistics course for undergraduates. Inference is hard to learn. Inference and coding may be too much at that level.</p>
-<p>Lately, there have been a few of us (loosely) thinking about what a CATALST-like course that emphasizes data science might look like. In the early days of CATALST, we had thought about more forward-thinking units such as prediction/classification, and visualization. These were ultimately scrapped, but in today’s climate might be good candidates for a data science-driven curriculum. We would keep the pedagogical approach used in the CATALST course (cooperative learning, teacher as guide-on-the-side, discussion) and update the content.</p>
-</div>
+# Filter dates
+april = april %&gt;%
+  filter(date &lt;= 11)</code></pre>
+<p>I grabbed data back to 2008. To be fair about the comparisons I was making, I filtered the data
+so that I only had the first eleven days of April for each year represented in the data. (April is a month in Minnesota that has a lot of variation from the first to last day of the month.) I then counted the number of those days each year that it snowed, as well as, the number of days over 40℉, 50℉, and 60℉.</p>
+<pre class="r"><code>april %&gt;%
+  group_by(year) %&gt;%
+  summarize(
+    days_with_snow = length(grep(pattern = &quot;Snow&quot;, x = events)),
+    days_over_40 = sum(temp_high &gt; 40),
+    days_over_50 = sum(temp_high &gt; 50),
+    days_over_60 = sum(temp_high &gt; 60)
+  )</code></pre>
+<pre><code>## # A tibble: 11 x 5
+##     year days_with_snow days_over_40 days_over_50 days_over_60
+##    &lt;int&gt;          &lt;int&gt;        &lt;int&gt;        &lt;int&gt;        &lt;int&gt;
+##  1  2008              4            7            3            2
+##  2  2009              3           10            4            0
+##  3  2010              0           11           11            7
+##  4  2011              2           11            9            4
+##  5  2012              0           11            9            6
+##  6  2013              4            7            2            0
+##  7  2014              3            8            6            4
+##  8  2015              2           11            6            3
+##  9  2016              3            8            2            1
+## 10  2017              2           11           11            4
+## 11  2018              5            1            0            0</code></pre>
+<p>This suggested that my snow hypothesis (we have had more snow this year) may be erroneous. But, we have had a couple large snows; maybe we had more snow on the days we actually had snow. To evaluate this, I computed the total amount of precipitation for the years it actually snowed during the first eleven days of April.</p>
+<pre class="r"><code># Get the case numbers for the days that &quot;Snow&quot; is in the event column
+snow_days = grep(pattern = &quot;Snow&quot;, x = april$events)
+
+# Compute the total amount of precipitation on the days with snow
+april %&gt;%
+  filter(row_number() %in% snow_days) %&gt;%
+  group_by(year) %&gt;%
+  summarize(
+    total_snow = sum(precip, na.rm = TRUE)
+    )</code></pre>
+<pre><code>## # A tibble: 9 x 2
+##    year total_snow
+##   &lt;int&gt;      &lt;dbl&gt;
+## 1  2008     0.960 
+## 2  2009     0.470 
+## 3  2011     0.0800
+## 4  2013     1.39  
+## 5  2014     0.810 
+## 6  2015     0.710 
+## 7  2016     0.0600
+## 8  2017     0.180 
+## 9  2018     0.820</code></pre>
+<p>While more snow than the last couple years, 2018 doesn’t stand out as a banner April for the amount of snow. We will attribute this erroneous hypothesis to snow-blindness.</p>
+<p>However, my “April = 🌡” hypothesis seems spot on. In 2018, so far, we have only had one day where the daily high temperatur was over 40℉. In the 10 years previous, almost all of the first eleven days of April hit over 40℉. This is compounded by the fact that the one day it went over 40℉, the temperature rose to a balmy 41℉!</p>
+<p>Lastly, I looked at the distribution of the average daily temperatures since 2008. This was inspired by a post I saw <a href="https://cran.r-project.org/web/packages/ggridges/vignettes/gallery.html">here</a> and <a href="http://austinwehrwein.com/data-visualization/it-brings-me-ggjoy/">here</a>.</p>
+<pre class="r"><code># Ridge plot of the distribution of average daily temperatures by year
+ggplot(april, aes(x = temp_avg, y = fct_rev(factor(year)), fill = ..x..)) +
+  geom_density_ridges_gradient(scale = 3, rel_min_height = 0.01, gradient_lwd = 1.) +
+  scale_x_continuous(expand = c(0.01, 0)) +
+  scale_y_discrete(expand = c(0.01, 0)) +
+  scale_fill_viridis(
+    name = expression(paste(&#39;Temp. (&#39;,~degree,&#39;F)&#39;,sep=&#39;&#39;)), 
+    option = &quot;C&quot;
+  ) +
+  labs(
+    title = &#39;April Temperatures in Minneapolis&#39;,
+    subtitle = &#39;Mean temperatures for the first 11 days in April&#39;,
+    x = expression(paste(&#39;Average Daily Temperature (&#39;,~degree,&#39;F)&#39;,sep=&#39;&#39;))
+  ) +
+  theme_ridges(
+    font_size = 13, 
+    grid = TRUE
+  ) + 
+  theme(
+    axis.title.y = element_blank()
+  )</code></pre>
+<p><img src="/post/2018-04-11-spring-weather-in-minneapolis_files/figure-html/unnamed-chunk-4-1.png" width="960" /></p>
+<p>This also suggests that we are experiencing a less than tropical April in Minneapolis.</p>
 
     </div>
 
@@ -376,9 +441,7 @@ Can you tell us a little about your AIMS project? I think it’s not always easy
 
 <div class="article-tags">
   
-  <a class="btn btn-primary btn-outline" href="/tags/teaching">Teaching</a>
-  
-  <a class="btn btn-primary btn-outline" href="/tags/faq">FAQ</a>
+  <a class="btn btn-primary btn-outline" href="/tags/r">R</a>
   
 </div>
 
@@ -392,15 +455,11 @@ Can you tell us a little about your AIMS project? I think it’s not always easy
       <h3>Related</h3>
       <ul>
         
-        <li><a href="/post/2018-03-28-epsy-5271/">Q&amp;A with Becoming a Teacher of Statistics Class</a></li>
+        <li><a href="/post/2018-03-15-boys-hockey-post-hoc/">Minnesota State High School Boys Hockey Predictions (Post Hoc Analysis)</a></li>
         
-        <li><a href="/project/catalst-project/">CATALST Project</a></li>
+        <li><a href="/post/2018-03-08-boys-hockey/">Minnesota State High School Boys Hockey Predictions (Updated Quarterfinals)</a></li>
         
-        <li><a href="/project/aims-project/">AIMS Project</a></li>
-        
-        <li><a href="/post/2018-02-19-college-in-the-schools/">College in the Schools</a></li>
-        
-        <li><a href="/post/epsy-3264-basic-and-applied-statistics/">EPsy 3264: Basic and Applied Statistics</a></li>
+        <li><a href="/post/2018-03-03-boys-hockey/">Minnesota State High School Boys Hockey Predictions</a></li>
         
       </ul>
     </div>
