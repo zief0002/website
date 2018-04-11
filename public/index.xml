@@ -16,7 +16,7 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/spring-weather-in-minneapolis/</guid>
-      <description>&lt;p&gt;It feels like this spring has been especially terrible weather-wise. We have gotten a lot of snow and it has been cold. To evaluate whether this is the case or whether I have hindsight bias, I pulled some historical weather data for the month of April from &lt;a href=&#34;&#34;&gt;Weather Underground&lt;/a&gt;. These data I grabbed are available at: &lt;a href=&#34;https://raw.githubusercontent.com/zief0002/Public-Stuff/master/data/april-weather.csv&#34; class=&#34;uri&#34;&gt;https://raw.githubusercontent.com/zief0002/Public-Stuff/master/data/april-weather.csv&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;It feels like this spring has been especially terrible weather-wise. We have gotten a lot of snow and it has been cold. To evaluate whether this is the case or whether I have hindsight bias, I pulled some historical weather data for the month of April from &lt;a href=&#34;&#34;&gt;Weather Underground&lt;/a&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(dplyr)
 library(forcats)
 library(ggplot2)
@@ -30,7 +30,7 @@ april = read_csv(&amp;quot;~/Documents/github/Public-Stuff/data/april-weather.cs
 # Filter dates
 april = april %&amp;gt;%
   filter(date &amp;lt;= 11)&lt;/code&gt;&lt;/pre&gt;
-&lt;p&gt;I grabbed data back to 2008. To be fair about the comparisons I was making, I filtered the data
+&lt;p&gt;I grabbed data back to 2008 (avialable at &lt;a href=&#34;https://raw.githubusercontent.com/zief0002/Public-Stuff/master/data/april-weather.csv&#34; class=&#34;uri&#34;&gt;https://raw.githubusercontent.com/zief0002/Public-Stuff/master/data/april-weather.csv&lt;/a&gt;). To be fair about the comparisons I was making, I filtered the data
 so that I only had the first eleven days of April for each year represented in the data. (April is a month in Minnesota that has a lot of variation from the first to last day of the month.) I then counted the number of those days each year that it snowed, as well as, the number of days over 40℉, 50℉, and 60℉.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;april %&amp;gt;%
   group_by(year) %&amp;gt;%

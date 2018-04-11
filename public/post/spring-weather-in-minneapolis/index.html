@@ -17,8 +17,8 @@
       
     
   
-  <meta name="description" content="It feels like this spring has been especially terrible weather-wise. We have gotten a lot of snow and it has been cold. To evaluate whether this is the case or whether I have hindsight bias, I pulled some historical weather data for the month of April from Weather Underground. These data I grabbed are available at: https://raw.githubusercontent.com/zief0002/Public-Stuff/master/data/april-weather.csv
-library(dplyr) library(forcats) library(ggplot2) library(ggridges) library(readr) library(viridis) # Read in data april = read_csv(&quot;~/Documents/github/Public-Stuff/data/april-weather.csv&quot;) # Filter dates april = april %&gt;% filter(date &lt;= 11) I grabbed data back to 2008.">
+  <meta name="description" content="It feels like this spring has been especially terrible weather-wise. We have gotten a lot of snow and it has been cold. To evaluate whether this is the case or whether I have hindsight bias, I pulled some historical weather data for the month of April from Weather Underground.
+library(dplyr) library(forcats) library(ggplot2) library(ggridges) library(readr) library(viridis) # Read in data april = read_csv(&quot;~/Documents/github/Public-Stuff/data/april-weather.csv&quot;) # Filter dates april = april %&gt;% filter(date &lt;= 11) I grabbed data back to 2008 (avialable at https://raw.">
 
   
   <link rel="alternate" hreflang="en-us" href="/post/spring-weather-in-minneapolis/">
@@ -77,8 +77,8 @@ library(dplyr) library(forcats) library(ggplot2) library(ggridges) library(readr
   <meta property="og:site_name" content="Andrew Zieffler">
   <meta property="og:url" content="/post/spring-weather-in-minneapolis/">
   <meta property="og:title" content="Spring Weather in Minneapolis | Andrew Zieffler">
-  <meta property="og:description" content="It feels like this spring has been especially terrible weather-wise. We have gotten a lot of snow and it has been cold. To evaluate whether this is the case or whether I have hindsight bias, I pulled some historical weather data for the month of April from Weather Underground. These data I grabbed are available at: https://raw.githubusercontent.com/zief0002/Public-Stuff/master/data/april-weather.csv
-library(dplyr) library(forcats) library(ggplot2) library(ggridges) library(readr) library(viridis) # Read in data april = read_csv(&quot;~/Documents/github/Public-Stuff/data/april-weather.csv&quot;) # Filter dates april = april %&gt;% filter(date &lt;= 11) I grabbed data back to 2008.">
+  <meta property="og:description" content="It feels like this spring has been especially terrible weather-wise. We have gotten a lot of snow and it has been cold. To evaluate whether this is the case or whether I have hindsight bias, I pulled some historical weather data for the month of April from Weather Underground.
+library(dplyr) library(forcats) library(ggplot2) library(ggridges) library(readr) library(viridis) # Read in data april = read_csv(&quot;~/Documents/github/Public-Stuff/data/april-weather.csv&quot;) # Filter dates april = april %&gt;% filter(date &lt;= 11) I grabbed data back to 2008 (avialable at https://raw."><meta property="og:image" content="/img/headers/janneke-staaks-header-03.jpg">
   <meta property="og:locale" content="en-us">
   
   <meta property="article:published_time" content="2018-04-11T00:00:00&#43;00:00">
@@ -264,6 +264,11 @@ library(dplyr) library(forcats) library(ggplot2) library(ggridges) library(readr
 <article class="article" itemscope itemtype="http://schema.org/Article">
 
   
+<div class="article-header">
+  <img src="/img/headers/janneke-staaks-header-03.jpg" class="article-banner" itemprop="image">
+  <span class="article-header-caption">Image Credit: A flickr photo by Janneke Staaks</span>
+</div>
+
 
 
   <div class="article-container">
@@ -346,7 +351,7 @@ library(dplyr) library(forcats) library(ggplot2) library(ggridges) library(readr
 
 
     <div class="article-style" itemprop="articleBody">
-      <p>It feels like this spring has been especially terrible weather-wise. We have gotten a lot of snow and it has been cold. To evaluate whether this is the case or whether I have hindsight bias, I pulled some historical weather data for the month of April from <a href="">Weather Underground</a>. These data I grabbed are available at: <a href="https://raw.githubusercontent.com/zief0002/Public-Stuff/master/data/april-weather.csv" class="uri">https://raw.githubusercontent.com/zief0002/Public-Stuff/master/data/april-weather.csv</a></p>
+      <p>It feels like this spring has been especially terrible weather-wise. We have gotten a lot of snow and it has been cold. To evaluate whether this is the case or whether I have hindsight bias, I pulled some historical weather data for the month of April from <a href="">Weather Underground</a>.</p>
 <pre class="r"><code>library(dplyr)
 library(forcats)
 library(ggplot2)
@@ -360,7 +365,7 @@ april = read_csv(&quot;~/Documents/github/Public-Stuff/data/april-weather.csv&qu
 # Filter dates
 april = april %&gt;%
   filter(date &lt;= 11)</code></pre>
-<p>I grabbed data back to 2008. To be fair about the comparisons I was making, I filtered the data
+<p>I grabbed data back to 2008 (avialable at <a href="https://raw.githubusercontent.com/zief0002/Public-Stuff/master/data/april-weather.csv" class="uri">https://raw.githubusercontent.com/zief0002/Public-Stuff/master/data/april-weather.csv</a>). To be fair about the comparisons I was making, I filtered the data
 so that I only had the first eleven days of April for each year represented in the data. (April is a month in Minnesota that has a lot of variation from the first to last day of the month.) I then counted the number of those days each year that it snowed, as well as, the number of days over 40℉, 50℉, and 60℉.</p>
 <pre class="r"><code>april %&gt;%
   group_by(year) %&gt;%

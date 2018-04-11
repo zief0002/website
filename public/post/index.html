@@ -297,13 +297,17 @@
 
   
   
+  <a href="/post/spring-weather-in-minneapolis/">
+    <img src="/img/headers/janneke-staaks-header-03.jpg" class="article-banner" itemprop="image">
+  </a>
+  
   <h3 class="article-title" itemprop="headline">
     <a href="/post/spring-weather-in-minneapolis/" itemprop="url">Spring Weather in Minneapolis</a>
   </h3>
   <div class="article-style" itemprop="articleBody">
     
-    It feels like this spring has been especially terrible weather-wise. We have gotten a lot of snow and it has been cold. To evaluate whether this is the case or whether I have hindsight bias, I pulled some historical weather data for the month of April from Weather Underground. These data I grabbed are available at: https://raw.githubusercontent.com/zief0002/Public-Stuff/master/data/april-weather.csv
-library(dplyr) library(forcats) library(ggplot2) library(ggridges) library(readr) library(viridis) # Read in data april = read_csv(&quot;~/Documents/github/Public-Stuff/data/april-weather.csv&quot;) # Filter dates april = april %&gt;% filter(date &lt;= 11) I grabbed data back to 2008.
+    It feels like this spring has been especially terrible weather-wise. We have gotten a lot of snow and it has been cold. To evaluate whether this is the case or whether I have hindsight bias, I pulled some historical weather data for the month of April from Weather Underground.
+library(dplyr) library(forcats) library(ggplot2) library(ggridges) library(readr) library(viridis) # Read in data april = read_csv(&quot;~/Documents/github/Public-Stuff/data/april-weather.csv&quot;) # Filter dates april = april %&gt;% filter(date &lt;= 11) I grabbed data back to 2008 (avialable at https://raw.
     
   </div>
   <p class="read-more" itemprop="mainEntityOfPage">

@@ -6,9 +6,12 @@ slug: spring-weather-in-minneapolis
 categories: []
 tags:
   - R
+header:
+  image: "headers/janneke-staaks-header-03.jpg"
+  caption: "Image Credit: A flickr photo by Janneke Staaks"  
 ---
 
-It feels like this spring has been especially terrible weather-wise. We have gotten a lot of snow and it has been cold. To evaluate whether this is the case or whether I have hindsight bias, I pulled some historical weather data for the month of April from [Weather Underground](). These data I grabbed are available at: https://raw.githubusercontent.com/zief0002/Public-Stuff/master/data/april-weather.csv
+It feels like this spring has been especially terrible weather-wise. We have gotten a lot of snow and it has been cold. To evaluate whether this is the case or whether I have hindsight bias, I pulled some historical weather data for the month of April from [Weather Underground]().
 
 ```{r message=FALSE}
 library(dplyr)
@@ -26,7 +29,7 @@ april = april %>%
   filter(date <= 11)
 ```
 
-I grabbed data back to 2008. To be fair about the comparisons I was making, I filtered the data
+I grabbed data back to 2008 (avialable at https://raw.githubusercontent.com/zief0002/Public-Stuff/master/data/april-weather.csv). To be fair about the comparisons I was making, I filtered the data
 so that I only had the first eleven days of April for each year represented in the data. (April is a month in Minnesota that has a lot of variation from the first to last day of the month.) I then counted the number of those days each year that it snowed, as well as, the number of days over 40&#8457;, 50&#8457;, and 60&#8457;.
 
 ```{r}
