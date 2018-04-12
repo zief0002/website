@@ -11,6 +11,121 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>R Markdown Theme Gallery</title>
+      <link>/post/r-markdown-theme-gallery/</link>
+      <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-markdown-theme-gallery/</guid>
+      <description>&lt;p&gt;R Markdown is a great way to integrate R code into a document. An example of the &lt;code&gt;default&lt;/code&gt; theme used in R Markdown HTML documents is shown below.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/default.png&#34; /&gt;&lt;/p&gt;
+&lt;div id=&#34;pre-packaged-themes&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Pre-Packaged Themes&lt;/h2&gt;
+&lt;p&gt;There are several other canned themes you can use rather than the &lt;code&gt;default&lt;/code&gt; theme. There are 12 additional themes that you can use without installing any other packages: “cerulean”, “cosmo”, “flatly”, “journal”, “lumen”, “paper”, “readable”, “sandstone”, “simplex”, “spacelab”, “united”, and “yeti”. You can read the &lt;a href=&#34;https://rmarkdown.rstudio.com/html_document_format.html#appearance_and_style&#34;&gt;R Markdown documentation&lt;/a&gt; for detail about how to change your theme from the &lt;code&gt;default&lt;/code&gt;. Below are screenshots for each of them.&lt;/p&gt;
+&lt;div id=&#34;cerulean-theme&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;cerulean&lt;/code&gt; Theme&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/cerulean.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;cosmo-theme&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;cosmo&lt;/code&gt; Theme&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/cosmo.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;flatly-theme&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;flatly&lt;/code&gt; Theme&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/flatly.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;journal-theme&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;journal&lt;/code&gt; Theme&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/journal.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;lumen-theme&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;lumen&lt;/code&gt; Theme&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/lumen.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;paper-theme&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;paper&lt;/code&gt; Theme&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/paper.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;readable-theme&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;readable&lt;/code&gt; Theme&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/readable.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;sandstone-theme&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;sandstone&lt;/code&gt; Theme&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/sandstone.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;simplex-theme&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;simplex&lt;/code&gt; Theme&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/simplex.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;spacelab-theme&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;spacelab&lt;/code&gt; Theme&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/spacelab.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;united-theme&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;united&lt;/code&gt; Theme&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/united.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;yeti-theme&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;yeti&lt;/code&gt; Theme&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/yeti.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;even-more-themes&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Even More Themes&lt;/h2&gt;
+&lt;p&gt;There are several add-on R packages that you can install to implement even more R Markdown HTML themes. For example &lt;a href=&#34;https://yixuan.cos.name/prettydoc/&#34;&gt;&lt;code&gt;prettydoc&lt;/code&gt;&lt;/a&gt;, &lt;a href=&#34;https://github.com/juba/rmdformats&#34;&gt;&lt;code&gt;rmdformats&lt;/code&gt;&lt;/a&gt;, &lt;a href=&#34;https://github.com/hrbrmstr/hrbrthemes&#34;&gt;&lt;code&gt;hrbrthemes&lt;/code&gt;&lt;/a&gt;, &lt;a href=&#34;https://github.com/rstudio/tufte&#34;&gt;&lt;code&gt;tufte&lt;/code&gt;&lt;/a&gt;, and &lt;a href=&#34;http://dirk.eddelbuettel.com/code/tint.html&#34;&gt;&lt;code&gt;tint&lt;/code&gt;&lt;/a&gt;. Below I show screenshots of the themes from these packages as well.&lt;/p&gt;
+&lt;div id=&#34;ipsum-theme-from-hrbrthemes-package&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;ipsum&lt;/code&gt; Theme (from &lt;code&gt;hrbrthemes&lt;/code&gt; Package)&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/hrbrthemes-ipsum.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;architect-theme-from-prettydoc-package&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;architect&lt;/code&gt; Theme (from &lt;code&gt;prettydoc&lt;/code&gt; Package)&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/prettydoc-architect.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;cayman-theme-from-prettydoc-package&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;cayman&lt;/code&gt; Theme (from &lt;code&gt;prettydoc&lt;/code&gt; Package)&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/prettydoc-cayman.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;hpstr-theme-from-prettydoc-package&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;hpstr&lt;/code&gt; Theme (from &lt;code&gt;prettydoc&lt;/code&gt; Package)&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/prettydoc-hpstr.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;leonids-theme-from-prettydoc-package&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;leonids&lt;/code&gt; Theme (from &lt;code&gt;prettydoc&lt;/code&gt; Package)&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/prettydoc-leonids.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;tactile-theme-from-prettydoc-package&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;tactile&lt;/code&gt; Theme (from &lt;code&gt;prettydoc&lt;/code&gt; Package)&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/prettydoc-tactile.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;html_clean-theme-from-rmdformats-package&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;html_clean&lt;/code&gt; Theme (from &lt;code&gt;rmdformats&lt;/code&gt; Package)&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/rmdformats-html_clean.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;html_docco-theme-from-rmdformats-package&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;html_docco&lt;/code&gt; Theme (from &lt;code&gt;rmdformats&lt;/code&gt; Package)&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/rmdformats-html_docco.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;material-theme-from-rmdformats-package&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;material&lt;/code&gt; Theme (from &lt;code&gt;rmdformats&lt;/code&gt; Package)&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/rmdformats-material.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;readthedown-theme-from-rmdformats-package&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;readthedown&lt;/code&gt; Theme (from &lt;code&gt;rmdformats&lt;/code&gt; Package)&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/rmdformats-readthedown.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;tinthtml-theme-from-tint-package&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;tintHtml&lt;/code&gt; Theme (from &lt;code&gt;tint&lt;/code&gt; Package)&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/tint-tintHtml.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;tufte_html-theme-from-tufte-package&#34; class=&#34;section level4&#34;&gt;
+&lt;h4&gt;&lt;code&gt;tufte_html&lt;/code&gt; Theme (from &lt;code&gt;tufte&lt;/code&gt; Package)&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/tufte-tufte_html.png&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Spring Weather in Minneapolis</title>
       <link>/post/spring-weather-in-minneapolis/</link>
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
@@ -1519,38 +1634,6 @@ for(i in 1:10000){
 &lt;li&gt;Zieffler, A., &amp;amp; Huberty, M. (2015). A catalyst for change in the high school math curriculum. &lt;em&gt;CHANCE, 28&lt;/em&gt;(3), 44–49. doi: 10.1080/09332480.2015.1099365&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>EPsy 3264: Basic and Applied Statistics</title>
-      <link>/post/epsy-3264-basic-and-applied-statistics/</link>
-      <pubDate>Mon, 26 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/epsy-3264-basic-and-applied-statistics/</guid>
-      <description>
-
-&lt;p&gt;EPsy 3264 is a 3-credit course designed to engage students using a modeling and simulation approach to inference. This course fulfills the &lt;em&gt;Mathematical Thinking&lt;/em&gt; component of the Liberal Education requirements at the University of Minnesota. Statistics is more than just an application of mathematics or a methodology used in some other discipline. Statistics is a principled way of thinking about the world. In particular, it is a principled approach to data collection, prediction, and scientific inference. In today’s dynamic and interdisciplinary world, success in confronting new analytical issues requires both substantial knowledge of a scientific or technological area and highly flexible problem-solving strategies.&lt;/p&gt;
-
-&lt;p&gt;This course uses pedagogical principles that are founded in research, such as daily small group activities and discussion. Upon completion of this course, students should have an understanding of the foundational concepts of data, variation and inference, as well as an appreciation for the fundamental role that statistics plays in a host of disciplines, such as business, economics, law, and medicine.&lt;/p&gt;
-
-&lt;h2 id=&#34;student-learning-philosophy&#34;&gt;Student Learning Philosophy&lt;/h2&gt;
-
-&lt;p&gt;The course is designed around the philosophy that students are central to the learning process. The lab manual, textbook, instructors, and teaching assistants are all resources that are at students&amp;rsquo; disposal to help them learn the material. In the end, however, the students themselves will have to do all of the hard work associated with actually learning that material.&lt;/p&gt;
-
-&lt;p&gt;Successful students become active participants in the learning process. Coming to class, participating in the activities and discussions, reading, completing the assignments, and asking questions are essential to successful learning.&lt;/p&gt;
-
-&lt;p&gt;Learning anything new takes time and effort and this is especially true of learning statistics, as students are not just learning a set of methods, but rather a disciplined way of thinking about the world. Changing habits of mind will take continual practice. It will also take a great deal of patience and persistence.&lt;/p&gt;
-
-&lt;p&gt;As students engage in and use the skills, concepts and ideas introduced in the material, they will come to think about data and evidence in a different way. This may lead them to make different decisions or choices. But, even if this course does not change their world overnight, they will, at the very least, be able to critically think about inferences and conclusions drawn from data.&lt;/p&gt;
-
-&lt;h2 id=&#34;resources&#34;&gt;Resources&lt;/h2&gt;
-
-&lt;p&gt;The textbook for the course is &lt;a href=&#34;https://zief0002.github.io/statistical-thinking/&#34; target=&#34;_blank&#34;&gt;Statistical Thinking: A Simulation Approach to Modeling Uncertainty&lt;/a&gt;. This is a free, online textbook.&lt;/p&gt;
-
-&lt;p&gt;There is also a &lt;a href=&#34;https://github.com/zief0002/statistical-thinking/blob/master/statistical-thinking-v4.pdf?raw=true&#34; target=&#34;_blank&#34;&gt;Lab Manual&lt;/a&gt; for the course. Students will work from the Lab Manual every day in class.&lt;/p&gt;
-
-&lt;p&gt;Much of the material presented in the lab manual requires the use of TinkerPlots&amp;trade;. This software can be downloaded (for Mac or PC; it cannot be used with Chromebooks), and a license can be purchased from &lt;a href=&#34;http://www.tinkerplots.com/&#34; target=&#34;_blank&#34;&gt;http://www.tinkerplots.com/&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
