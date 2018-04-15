@@ -29,7 +29,7 @@ selected = true
 
 
 # Links (optional).
-url_pdf = "files/reasoning-about-uncertainty-2008.pdf"
+url_pdf = "https://github.com/zief0002/Public-Stuff/raw/master/files/reasoning-about-uncertainty-2008.pdf"
 # url_preprint = ""
 # url_code = ""
 # url_dataset = ""
