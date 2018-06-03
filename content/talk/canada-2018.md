@@ -12,7 +12,7 @@ location = "Montreal, Canada"
 # Is this a selected talk? (true/false)
 selected = true
 
-url_pdf = "https://raw.githubusercontent.com/zief0002/Public-Stuff/master/data/april-weather.csv"
+url_pdf = "https://"
 
 # Does the content use math formatting?
 math = true
