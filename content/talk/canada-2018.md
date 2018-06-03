@@ -1,5 +1,5 @@
 +++
-date = "2018-06-02"
+date = "2018-06-03"
 
 title = "Statistical Computing: Non-Ignorable Missingness in the Graduate-Level Social Science Curriculum"
 
