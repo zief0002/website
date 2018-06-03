@@ -24,4 +24,4 @@ caption = "Image Credit: A flickr photo by marcin ignac"
 
 +++
 
-Wow
+
