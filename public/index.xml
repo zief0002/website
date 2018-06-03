@@ -7,7 +7,7 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0400</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
@@ -183,15 +183,15 @@ april %&amp;gt;%
 &lt;pre&gt;&lt;code&gt;## # A tibble: 9 x 2
 ##    year total_snow
 ##   &amp;lt;int&amp;gt;      &amp;lt;dbl&amp;gt;
-## 1  2008     0.960 
-## 2  2009     0.470 
-## 3  2011     0.0800
-## 4  2013     1.39  
-## 5  2014     0.810 
-## 6  2015     0.710 
-## 7  2016     0.0600
-## 8  2017     0.180 
-## 9  2018     0.820&lt;/code&gt;&lt;/pre&gt;
+## 1  2008       0.96
+## 2  2009       0.47
+## 3  2011       0.08
+## 4  2013       1.39
+## 5  2014       0.81
+## 6  2015       0.71
+## 7  2016       0.06
+## 8  2017       0.18
+## 9  2018       0.82&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;While more snow than the last couple years, 2018 doesn’t stand out as a banner April for the amount of snow. We will attribute this erroneous hypothesis to snow-blindness.&lt;/p&gt;
 &lt;p&gt;However, my “April = 🌡” hypothesis seems spot on. In 2018, so far, we have only had one day where the daily high temperatur was over 40℉. In the 10 years previous, almost all of the first eleven days of April hit over 40℉. This is compounded by the fact that the one day it went over 40℉, the temperature rose to a balmy 41℉!&lt;/p&gt;
 &lt;p&gt;Lastly, I looked at the distribution of the average daily temperatures since 2008. This was inspired by a post I saw &lt;a href=&#34;https://cran.r-project.org/web/packages/ggridges/vignettes/gallery.html&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;http://austinwehrwein.com/data-visualization/it-brings-me-ggjoy/&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
@@ -396,7 +396,7 @@ ggplot(april, aes(x = temp_avg, y = fct_rev(factor(year)), fill = ..x..)) +
 &lt;p&gt;How well might we have done if we had just used the Elo ratings to fill out our bracket? Below is a bracket with the Elo predicted winners. Predictions that would have been wrong have a strikethrough.&lt;/p&gt;
 &lt;div id=&#34;class-a-tournament&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Class A Tournament&lt;/h3&gt;
-&lt;p&gt;&lt;main id=&#34;tournament&#34;&gt;&lt;/p&gt;
+&lt;main id=&#34;tournament&#34;&gt;
 &lt;ul class=&#34;round round-1&#34;&gt;
 &lt;li class=&#34;spacer&#34;&gt;
  
@@ -507,11 +507,11 @@ Hermantown
  
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;/main&gt;&lt;/p&gt;
+&lt;/main&gt;
 &lt;/div&gt;
 &lt;div id=&#34;class-aa-tournament&#34; class=&#34;section level3&#34;&gt;
 &lt;h3&gt;Class AA Tournament&lt;/h3&gt;
-&lt;p&gt;&lt;main id=&#34;tournament&#34;&gt;&lt;/p&gt;
+&lt;main id=&#34;tournament&#34;&gt;
 &lt;ul class=&#34;round round-1&#34;&gt;
 &lt;li class=&#34;spacer&#34;&gt;
  
@@ -622,7 +622,7 @@ Edina
  
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;&lt;/main&gt;&lt;/p&gt;
+&lt;/main&gt;
 &lt;p&gt;We wouldn’t have done very well. This is not, perhaps, surprising as the Elo ratings for many of the top teams are quite similar. Thus upsets will likely happen. In addition, these are high school players, and the emotion of playing in the state tournament is not factored into any rating system.&lt;/p&gt;
 &lt;/div&gt;
 &lt;/div&gt;
@@ -667,22 +667,22 @@ Edina
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Hermantown&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;1639.196&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1646.211&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1657.756&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Mahtomedi&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Orono&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;1624.538&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1631.062&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1624.505&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Orono&lt;/td&gt;
+&lt;td align=&#34;left&#34;&gt;Mahtomedi&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;1609.513&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1619.957&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1619.517&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Alexandria&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;1587.179&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1576.271&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1571.723&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Monticello&lt;/td&gt;
@@ -809,22 +809,22 @@ for(i in 1:10000){
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Edina&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;1718.589&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1727.595&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;even&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;St. Thomas Academy&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1716.570&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1710.036&lt;/td&gt;
-&lt;/tr&gt;
-&lt;tr class=&#34;odd&#34;&gt;
-&lt;td align=&#34;left&#34;&gt;Duluth East&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1691.315&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1703.375&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1741.221&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Minnetonka&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1716.570&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1711.781&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;odd&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;St. Thomas Academy&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1691.315&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1710.036&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr class=&#34;even&#34;&gt;
+&lt;td align=&#34;left&#34;&gt;Duluth East&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;1693.757&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1701.323&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1692.917&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;STMA&lt;/td&gt;
@@ -834,7 +834,7 @@ for(i in 1:10000){
 &lt;tr class=&#34;even&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Centennial&lt;/td&gt;
 &lt;td align=&#34;center&#34;&gt;1625.291&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;1631.825&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;1618.199&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr class=&#34;odd&#34;&gt;
 &lt;td align=&#34;left&#34;&gt;Lakeville North&lt;/td&gt;
