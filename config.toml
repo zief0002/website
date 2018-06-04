@@ -255,10 +255,6 @@ defaultContentLanguageInSubdir = false
   url = "#publications_selected"
   weight = 2
 
-[[menu.main]]
-  name = "Talks"
-  url = "#talks"
-  weight = 3
 
 [[menu.main]]
   name = "Posts"
