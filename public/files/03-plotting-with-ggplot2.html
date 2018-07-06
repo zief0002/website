@@ -264,7 +264,17 @@ ggplot(data = city, aes(x = education, y = income, color = gender)) +
 
 Two other useful aesthetics for points are `shape=` and `size=` for plotting the shapes and sizes of points, respectively. 
 
-&lt;img src="03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-17-1.png" width="40%" /&gt;
+.pull-left[smallish[
+
+```r
+ggplot(data = city, aes(x = education, y = income)) +
+  geom_point(aes(color = party, shape = gender), size = 4)
+```
+]]
+
+.pull-right[
+&lt;img src="03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-18-1.png" width="40%" /&gt;
+]
 
 Notice when we use non-positional aesthetic mappings (e.g., color, shape) a legend will be automatically added to our plot for each aesthetic mapping.
 
@@ -288,11 +298,11 @@ ggplot(data = city, aes(x = education, y = income)) +
 ]
 
 .pull-right[
-![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-19-1.png)&lt;!-- --&gt;
+![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-20-1.png)&lt;!-- --&gt;
 ]
 ---
 
-# Facetting on Multiple Predictors
+# Facetting on Multiple Variables
 
 .pull-left[
 When facetting on multiple predictors, use `facet_grid(rows ~ columns)`
@@ -308,7 +318,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 ]
 
 .pull-right[
-&lt;img src="03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-21-1.png" width="90%" /&gt;
+&lt;img src="03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-22-1.png" width="90%" /&gt;
 ]
 
 ---
@@ -330,7 +340,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 ]
 
 .pull-right[
-![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-23-1.png)&lt;!-- --&gt;
+![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-24-1.png)&lt;!-- --&gt;
 ]
 
 ---
@@ -354,7 +364,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 ]
 
 .pull-right[
-![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-25-1.png)&lt;!-- --&gt;
+![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-26-1.png)&lt;!-- --&gt;
 ]
 
 ---
@@ -397,12 +407,12 @@ Here, `scale_color_manual()` allows you to manually set the attributes associate
 ]
 
 .pull-right[
-![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-28-1.png)&lt;!-- --&gt;
+![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-29-1.png)&lt;!-- --&gt;
 ]
 
 ---
 
-# Customizing the Legend Name
+# Customizing the Legend
 
 Scaling functions can also be used to change the name and labels in the legend. 
 
@@ -424,7 +434,7 @@ The `name=` argument changes the title of the legend, and the `labels=` argument
 ]
 
 .pull-right[
-![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-30-1.png)&lt;!-- --&gt;
+![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-31-1.png)&lt;!-- --&gt;
 ]
 
 ---
@@ -516,7 +526,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 ]
 
 .pull-right[
-![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-35-1.png)&lt;!-- --&gt;
+![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-36-1.png)&lt;!-- --&gt;
 ]
 
 ---
@@ -561,7 +571,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 ]
 
 .pull-right[
-![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-38-1.png)&lt;!-- --&gt;
+![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-39-1.png)&lt;!-- --&gt;
 ]
 
 ---
@@ -584,7 +594,7 @@ The `theme_bw()` layer is a "built-in" theme that uses a black-and-white backgro
 ]
 
 .pull-right[
-![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-40-1.png)&lt;!-- --&gt;
+![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-41-1.png)&lt;!-- --&gt;
 ]
 
 ---
@@ -609,7 +619,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 ]
 
 .pull-right[
-![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-42-1.png)&lt;!-- --&gt;
+![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-43-1.png)&lt;!-- --&gt;
 ]
 
 ---
@@ -633,7 +643,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 ]
 
 .pull-right[
-![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-44-1.png)&lt;!-- --&gt;
+![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-45-1.png)&lt;!-- --&gt;
 ]
 
 ---
@@ -662,7 +672,7 @@ The `labels=dollar` option is a built-in formatter from the **scales** package t
 ]
 
 .pull-right[
-![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-46-1.png)&lt;!-- --&gt;
+![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-47-1.png)&lt;!-- --&gt;
 ]
 
 ---
@@ -703,7 +713,7 @@ ggplot(data = city, aes(x = education, y = income)) +
 
 *Figure 1.* Relationship between annual income (in U.S. dollars) and years of education for n=32 employees of the City of Riverside. This relationship is shown for both males and females.
 
-![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-49-1.png)&lt;!-- --&gt;
+![](03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-50-1.png)&lt;!-- --&gt;
 
 
 `#protip:` It is easier to use a word-processor (e.g., MS Word) to add the figure title and caption than to try and get it formatted correctly using R. 
@@ -730,7 +740,7 @@ city %&gt;%
 
 *Figure 2.* Relationship between annual income (in U.S. dollars) and years of education for n=18 female employees of the City of Riverside.
 
-&lt;img src="03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-51-1.png" width="70%" /&gt;
+&lt;img src="03-plotting-with-ggplot2_files/figure-html/unnamed-chunk-52-1.png" width="70%" /&gt;
 ]
 
 ---
