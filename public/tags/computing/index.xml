@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Computing on Andrew Zieffler</title>
+    <link>/tags/computing/</link>
+    <description>Recent content in Computing on Andrew Zieffler</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
+    <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/computing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Computing Talk at SSC 2018</title>
+      <link>/post/ssc-computing-talk/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ssc-computing-talk/</guid>
+      <description>I am giving a talk at the 46th Annual Meeting of the Statistical Society of Canada in Montreal on June 05, 2018. The talk is part of an invited session on Teaching Statistics to Graduate Students in the Health and Social Sciences. Information, including the slides, is available below.
+Title: Statistical Computing: Non-Ignorable Missingness in the Graduate-Level Social Science Curriculum
+Abstract: In 2010, Nolan and Temple Lang pointed out that &amp;quot;computational literacy and programming are as fundamental to statistical practice and research as mathematics&amp;quot;.</description>
+    </item>
+    
+  </channel>
+</rss>
