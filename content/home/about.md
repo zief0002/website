@@ -37,6 +37,6 @@ My scholarship focuses on statistics education. I have authored/co-authored seve
 
 <br />
 
-- [Academic CV](https://github.com/zief0002/Public-Stuff/raw/master/files/zieffler-cv-2018-04-15.pdf) [*Updated 2018-04-15*]
+- [Academic CV](https://github.com/zief0002/website/raw/master/static/files/zieffler-cv-2018-08-16.pdf) [*Updated 2018-08-16*]
 
 <br />
