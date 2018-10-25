@@ -13,12 +13,12 @@
 <meta name="author" content="EPsy 8264" />
 
 
-<title>Polynomial Regression II: Cross-Validation</title>
+<title>Cross-Validation</title>
 
-<link href="10-polynomial-regression-02_files/tufte-css-2015.12.29/tufte.css" rel="stylesheet" />
-<link href="10-polynomial-regression-02_files/tufte-css-2015.12.29/envisioned.css" rel="stylesheet" />
-<link href="10-polynomial-regression-02_files/highlightjs-9.12.0/default.css" rel="stylesheet" />
-<script src="10-polynomial-regression-02_files/highlightjs-9.12.0/highlight.js"></script>
+<link href="12-cross-validation_files/tufte-css-2015.12.29/tufte.css" rel="stylesheet" />
+<link href="12-cross-validation_files/tufte-css-2015.12.29/envisioned.css" rel="stylesheet" />
+<link href="12-cross-validation_files/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<script src="12-cross-validation_files/highlightjs-9.12.0/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
@@ -43,7 +43,7 @@ if (window.hljs) {
 
 
 
-<h1 class="title toc-ignore">Polynomial Regression II: Cross-Validation</h1>
+<h1 class="title toc-ignore">Cross-Validation</h1>
 <h4 class="author"><em>EPsy 8264</em></h4>
 <h4 class="date"><em>October 2018</em></h4>
 
@@ -147,7 +147,7 @@ yhat_5 = predict(lm.5, newdata = validate)</code></pre>
 <ol style="list-style-type: decimal">
 <li>The estimate of the CV-MSE is highly dependent on the observations chosen to be in the training and validation sets. This is illustrated in the figure below which shows the CV-MSE values for the three models for 10 different random splits of the data. Some of these splits support adopting the quadratic polynomial model, other splits support adopting the cubic polynomial model, and one supports the linear model!</li>
 </ol>
-<p><img src="10-polynomial-regression-02_files/figure-html/unnamed-chunk-6-1.png" width="768"  /></p>
+<p><img src="12-cross-validation_files/figure-html/unnamed-chunk-6-1.png" width="768"  /></p>
 <ol start="2" style="list-style-type: decimal">
 <li>Only a subset of the observations (those in the training set) are used to initially fit the model. Since statistical methods tend to perform worse when trained on fewer observations, this suggests that the CV-MSE may tend to overestimate the error rate (model accuracy measure) for the model fit.</li>
 </ol>
@@ -379,18 +379,31 @@ glance(lm.2)</code></pre>
 <h2>Information Criteria</h2>
 <p>In EPsy 8252, we learned about using information criteria for model selection. In particular, we used AIC, BIC, and AICc for model selection. It turns out the AIC-based model selection and cross-validation are asymptotically equivalent <span class="citation">Stone (1977)</span>. For linear models, using BIC for model selection is symptotically equivalent to leave-<span class="math inline">\(v\)</span>-out cross-validation when <span class="math inline">\(v = n\bigg(1 - \frac{1}{\ln (n) - 1}\bigg)\)</span> <span class="citation">(Shao, 1997)</span>.</p>
 <p>As a practical note, computer simulations have suggested that the results from using AICc for model selection will, on average, be quite similar to those from cross-validation techniques. As such, AICc can be a useful alternative to the computationally expensive cross-validation methods. However, using AICc does not provide a measure of the model performance (MSE) in new datasets like cross-validation does.</p>
-<pre class="r"><code>library(AICcmodavg)
+<pre class="r"><code># Fit models to all data
+lm.1 = lm(length ~ 1 + age,                                             data = bluegills)
+lm.2 = lm(length ~ 1 + age + I(age^2),                                  data = bluegills)
+lm.3 = lm(length ~ 1 + age + I(age^2) + I(age^3),                       data = bluegills)
+lm.4 = lm(length ~ 1 + age + I(age^2) + I(age^3) + I(age^4),            data = bluegills)
+lm.5 = lm(length ~ 1 + age + I(age^2) + I(age^3) + I(age^4) + I(age^5), data = bluegills)
+
+
+# Load library
+library(AICcmodavg)
+
+# Get AICc for all models
 aictab(
-  cand.set = list(lm.1, lm.2, lm.3),
-  modnames = c(&quot;Linear&quot;, &quot;Quadratic&quot;, &quot;Cubic&quot;)
-  )</code></pre>
+  cand.set = list(lm.1, lm.2, lm.3, lm.4, lm.5),
+  modnames = c(&quot;Linear&quot;, &quot;Quadratic&quot;, &quot;Cubic&quot;, &quot;Quartic&quot;, &quot;Quintic&quot;)
+)</code></pre>
 <pre><code>## 
 ## Model selection based on AICc:
 ## 
 ##           K   AICc Delta_AICc AICcWt Cum.Wt      LL
-## Cubic     5 593.01       0.00   0.96   0.96 -291.08
-## Quadratic 4 599.58       6.56   0.04   1.00 -295.51
-## Linear    3 610.73      17.72   0.00   1.00 -302.20</code></pre>
+## Quadratic 4 599.58       0.00   0.67   0.67 -295.51
+## Cubic     5 601.82       2.24   0.22   0.89 -295.49
+## Quartic   6 603.89       4.31   0.08   0.97 -295.35
+## Quintic   7 605.68       6.10   0.03   1.00 -295.04
+## Linear    3 619.78      20.21   0.00   1.00 -306.73</code></pre>
 </div>
 <div id="structural-collinearity" class="section level2">
 <h2>Structural Collinearity</h2>
@@ -467,7 +480,7 @@ sqrt(vif(lm.3_c))</code></pre>
     theme_bw() +
     xlab(&quot;Centered Age&quot;) +
     ylab(&quot;Predicted length&quot;)</code></pre>
-<p><img src="10-polynomial-regression-02_files/figure-html/unnamed-chunk-26-1.png" width="768"  /></p>
+<p><img src="12-cross-validation_files/figure-html/unnamed-chunk-26-1.png" width="768"  /></p>
 <div id="orthogonal-polynomials" class="section level3">
 <h3>Orthogonal Polynomials</h3>
 <p>Another way to deal with the structural multicollinearity is to use <em>orthogonal polynomial contrasts</em>. In the design matrix for the polynomials based on the raw age values, each row is composed of <span class="math inline">\([1,x,x^2]\)</span>, where <span class="math inline">\(x\)</span> is age. Othogonal contrasts are a particular way of generating the design matrix so that the columns are linearly independent. To create these we use the <code>poly()</code> function with the argument <code>raw=FALSE</code> (or omit the <code>raw=</code> argument all together). Below are the first several rows of the design matrix for the: (1) polynomials based on raw age; (2) polynomials based on centered age; and (3) polynomials based on orthogonal contrasts.</p>

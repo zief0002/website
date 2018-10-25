@@ -13,12 +13,12 @@
 <meta name="author" content="EPsy 8264" />
 
 
-<title>Polynomial Regression I</title>
+<title>Polynomial Regression</title>
 
-<link href="10-polynomial-regression-01_files/tufte-css/tufte.css" rel="stylesheet" />
-<link href="10-polynomial-regression-01_files/tufte-css/envisioned.css" rel="stylesheet" />
-<link href="10-polynomial-regression-01_files/highlightjs/default.css" rel="stylesheet" />
-<script src="10-polynomial-regression-01_files/highlightjs/highlight.js"></script>
+<link href="11-polynomial-regression_files/tufte-css/tufte.css" rel="stylesheet" />
+<link href="11-polynomial-regression_files/tufte-css/envisioned.css" rel="stylesheet" />
+<link href="11-polynomial-regression_files/highlightjs/default.css" rel="stylesheet" />
+<script src="11-polynomial-regression_files/highlightjs/highlight.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <script type="text/javascript">
@@ -43,7 +43,7 @@ if (window.hljs) {
 
 
 
-<h1 class="title toc-ignore">Polynomial Regression I</h1>
+<h1 class="title toc-ignore">Polynomial Regression</h1>
 <h4 class="author"><em>EPsy 8264</em></h4>
 <h4 class="date"><em>October 2018</em></h4>
 
@@ -52,7 +52,7 @@ if (window.hljs) {
 <p>There may be relationships that you want to model that are not linear. Polynomial regression is one methodology that we can use to model nonlinearity. To fit a polynomial regression we include additional predictors to the model that are obtained by raising each of the original predictors to a power. For example, to fit a cubic regression model we include the three predictors: <span class="math inline">\(X\)</span>, <span class="math inline">\(X^2\)</span>, and <span class="math inline">\(X^3\)</span>.</p>
 <p>Adding polynomial terms to the model, like any other predictor correlated with the outcome will improve the fit of the model to the data. Figure 1 shows the results of fitting three different polynomial regression models to the <em>polynomial-example.csv</em> data and the resulting model-level <span class="math inline">\(R^2\)</span> values.</p>
 <div class="figure fullwidth">
-<img src="10-polynomial-regression-01_files/figure-html/unnamed-chunk-1-1.png" alt=" " width="1152"  />
+<img src="11-polynomial-regression_files/figure-html/unnamed-chunk-1-1.png" alt=" " width="1152"  />
 <p class="caption marginnote shownote">
 </p>
 </div>
@@ -81,7 +81,7 @@ head(bluegills)</code></pre>
 ## 5     2     91
 ## 6     2     88</code></pre>
 <p>The scatterplot of age versus length (left) suggests that there may be a nonlinear relationship between the age and length of a fish. The plot of the residuals versus the fitted values from the model where we regress length on age (right) also suggests that the relationship is nonlinear.</p>
-<p><img src="10-polynomial-regression-01_files/figure-html/unnamed-chunk-3-1.png" width="768"  /></p>
+<p><img src="11-polynomial-regression_files/figure-html/unnamed-chunk-3-1.png" width="768"  /></p>
 <p>One method of dealing with this nonlinearity is to include higher degree polynomial effects of age. For example, we could include a quadratic (2nd-degree polynomial) term in addition to the linear term in the model. There are six distinct age (<span class="math inline">\(x\)</span>) values in the data, so a a 5th-degree polynomial model would saturate the data.</p>
 <p><label for="tufte-mn-1" class="margin-toggle">⊕</label><input type="checkbox" id="tufte-mn-1" class="margin-toggle"><span class="marginnote"><span style="display: block;">If the data includes <span class="math inline"><span class="math inline">\(k\)</span></span> distinct <span class="math inline"><span class="math inline">\(x\)</span></span>-values, a <span class="math inline"><span class="math inline">\(k-1\)</span></span>-degree polynomial model will saturate the data.</span></span></p>
 <p>To account for the nonlinearity, we will fit and evaluate a suite of potential models: (1) a first-degree polynomial (linear); (2) a second-degree polynomial (quadratic); (3) a third-degree polynomial (cubic); (4) a fourth-degree polynomial (quartic); and (5) a fifth-degree polynomial (quintic).</p>
@@ -175,7 +175,7 @@ tidy(lm.3)</code></pre>
   theme_bw() </code></pre>
 <p>Below are all the polynomial models (up to the saturated model) that can be fitted to the bluegill data.</p>
 <div class="figure fullwidth">
-<img src="10-polynomial-regression-01_files/figure-html/unnamed-chunk-12-1.png" alt=" " width="1152"  />
+<img src="11-polynomial-regression_files/figure-html/unnamed-chunk-12-1.png" alt=" " width="1152"  />
 <p class="caption marginnote shownote">
 </p>
 </div>
@@ -193,7 +193,7 @@ tidy(lm.3)</code></pre>
 1 &amp; \mathrm{Age}_n &amp; \mathrm{Age}_n^2 \\
 \end{bmatrix}
 \]</span></p>
-<p>All ofthe matrix algebra (to obtain coefficients, variance–covariance matrices, etc.) is all the same as it was for any other linear model.</p>
+<p>All of the matrix algebra (to obtain coefficients, variance–covariance matrices, etc.) is all the same as it was for any other linear model.</p>
 </div>
 </div>
 <div id="evaluating-the-polynomial-terms-statistical-inference" class="section level2">
@@ -250,7 +250,7 @@ H_0: R^2_{\mathrm{Linear~Model}} = R^2_{\mathrm{Quadratic~Model}}
 qqPlot(lm.2, id = FALSE)
 influencePlot(lm.2)</code></pre>
 <div class="figure fullwidth">
-<img src="10-polynomial-regression-01_files/figure-html/unnamed-chunk-17-1.png" alt=" " width="1152"  />
+<img src="11-polynomial-regression_files/figure-html/unnamed-chunk-17-1.png" alt=" " width="1152"  />
 <p class="caption marginnote shownote">
 </p>
 </div>
@@ -295,7 +295,7 @@ influencePlot(lm.2)</code></pre>
     theme_bw() +
     xlab(&quot;Age&quot;) +
     ylab(&quot;Predicted length&quot;)</code></pre>
-<p><img src="10-polynomial-regression-01_files/figure-html/unnamed-chunk-20-1.png" width="672"  /></p>
+<p><img src="11-polynomial-regression_files/figure-html/unnamed-chunk-20-1.png" width="672"  /></p>
 <p>This shows the negative quadratic relationship (upside-down U-shape) between age and length. For younger fish, there is a large positive relationship between age and length. This relationship diminishes as fish age and may even be negative for older fish (although in our data that is extrapolation).</p>
 </div>
 <div id="references" class="section level2 unnumbered">
