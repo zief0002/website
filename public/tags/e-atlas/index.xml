@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>E-ATLAS on Andrew Zieffler</title>
+    <title>e-ATLAS on Andrew Zieffler</title>
     <link>/tags/e-atlas/</link>
-    <description>Recent content in E-ATLAS on Andrew Zieffler</description>
+    <description>Recent content in e-ATLAS on Andrew Zieffler</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
@@ -18,8 +18,7 @@
       <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/eatlas-project/</guid>
-      <description>The purpose of e-ATLAS was to develop high-quality instruments to evaluate the effectiveness of curricular reform in the teaching and learning of introductory statistics at the tertiary level. All of the instruments were designed to be administered online.
-The two main instruments developed as part of this project were the Statistics Teaching Inventory (STI) and Goals and Outcomes Associated with Learning Statistics (GOALS). An additional instrument, the Basic Literacy in Statistics (BLIS), was developed by Laura Ziegler as part of her doctoral dissertation research was also a part of the e-ATLAS project.</description>
+      <description>&lt;em&gt;Evaluation and Assessment of Teaching and Learning About Statistics&lt;/em&gt; (e-ATLAS) was an NSF-funded project from 2011&amp;ndash;2013 that developed high-quality instruments to help evaluate the effectiveness of past and on-going efforts to reform the teaching and learning of introductory statistics at the tertiary level (DUE-1044812 &amp;amp; 1043141).</description>
     </item>
     
   </channel>

@@ -1,5 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+    
+    
+    <url>
+    
+      <loc>/</loc>
+      <lastmod>2019-04-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/2019-04-26-slhs-prosem/</loc>
+      <lastmod>2019-04-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/history/</loc>
+      <lastmod>2019-04-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/science/</loc>
+      <lastmod>2019-04-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/</loc>
+      <lastmod>2019-04-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
   
     
     
@@ -7,6 +55,36 @@
     
       <loc>/post/2018-08-27-inbox-zero/</loc>
       <lastmod>2018-08-27T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/miscellaneous/</loc>
+      <lastmod>2018-08-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/productivity/</loc>
+      <lastmod>2018-08-27T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/2/</loc>
+      <lastmod>2018-06-07T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -23,8 +101,58 @@
     
     <url>
     
+      <loc>/publication_types/</loc>
+      <lastmod>2018-06-07T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/ssc-computing-talk/</loc>
       <lastmod>2018-06-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/r/</loc>
+      <lastmod>2018-06-03T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/computing/</loc>
+      <lastmod>2018-06-03T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/teaching/</loc>
+      <lastmod>2018-06-03T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/markdown/</loc>
+      <lastmod>2018-04-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -50,8 +178,28 @@
     
     <url>
     
+      <loc>/tags/faq/</loc>
+      <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/2018-04-09-epsy-5271-part-04/</loc>
       <lastmod>2018-04-09T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/research/</loc>
+      <lastmod>2018-04-06T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -95,6 +243,26 @@
     
     <url>
     
+      <loc>/tags/elo/</loc>
+      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/hockey/</loc>
+      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/2018-03-15-boys-hockey-post-hoc/</loc>
       <lastmod>2018-03-15T00:00:00+00:00</lastmod>
     </url>
@@ -106,6 +274,46 @@
     
       <loc>/post/2018-03-08-boys-hockey/</loc>
       <lastmod>2018-03-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/assessment/</loc>
+      <lastmod>2018-03-05T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/grant/</loc>
+      <lastmod>2018-03-05T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/project/</loc>
+      <lastmod>2018-03-05T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/e-atlas/</loc>
+      <lastmod>2018-03-05T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -131,8 +339,28 @@
     
     <url>
     
+      <loc>/tags/aims/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/project/aims-project/</loc>
       <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/biosquare/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -149,8 +377,28 @@
     
     <url>
     
+      <loc>/tags/catalst/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/project/catalst-project/</loc>
       <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/cis/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -167,8 +415,48 @@
     
     <url>
     
+      <loc>/tags/epsy-3264/</loc>
+      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/</loc>
+      <lastmod>2018-02-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/epsy-3264-basic-and-applied-statistics/</loc>
       <lastmod>2018-02-26T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/categories/course/</loc>
+      <lastmod>2018-02-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/6/</loc>
+      <lastmod>2017-12-10T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -241,6 +529,16 @@
     
       <loc>/publication/2015-chance/</loc>
       <lastmod>2015-10-06T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/publication_types/5/</loc>
+      <lastmod>2015-08-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
     </url>
     
   
@@ -376,285 +674,6 @@
     
       <loc>/publication/2006-nctm/</loc>
       <lastmod>2006-03-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/2/</loc>
-      <lastmod>2018-06-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/5/</loc>
-      <lastmod>2015-08-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/6/</loc>
-      <lastmod>2017-12-10T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/aims/</loc>
-      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/</loc>
-      <lastmod>2017-10-15T00:00:00-05:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/assessment/</loc>
-      <lastmod>2018-03-05T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/biosquare/</loc>
-      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/catalst/</loc>
-      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/cis/</loc>
-      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/computing/</loc>
-      <lastmod>2018-06-03T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/categories/course/</loc>
-      <lastmod>2018-02-26T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/e-atlas/</loc>
-      <lastmod>2018-03-05T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/epsy-3264/</loc>
-      <lastmod>2018-02-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/elo/</loc>
-      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/faq/</loc>
-      <lastmod>2018-04-09T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/grant/</loc>
-      <lastmod>2018-03-05T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/hockey/</loc>
-      <lastmod>2018-03-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/markdown/</loc>
-      <lastmod>2018-04-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/miscellaneous/</loc>
-      <lastmod>2018-08-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/productivity/</loc>
-      <lastmod>2018-08-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/project/</loc>
-      <lastmod>2018-03-05T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/publication_types/</loc>
-      <lastmod>2018-06-07T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/r/</loc>
-      <lastmod>2018-06-03T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/research/</loc>
-      <lastmod>2018-04-06T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/teaching/</loc>
-      <lastmod>2018-04-09T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/teaching/</loc>
-      <lastmod>2018-04-09T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   

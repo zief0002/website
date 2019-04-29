@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Computing on Andrew Zieffler</title>
+    <title>computing on Andrew Zieffler</title>
     <link>/tags/computing/</link>
-    <description>Recent content in Computing on Andrew Zieffler</description>
+    <description>Recent content in computing on Andrew Zieffler</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>

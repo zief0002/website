@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Andrew Zieffler on Andrew Zieffler</title>
@@ -7,8 +6,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 26 Apr 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Deprecating Statistical Significance: Toward Better Science</title>
+      <link>/post/2019-04-26-slhs-prosem/</link>
+      <pubDate>Fri, 26 Apr 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-04-26-slhs-prosem/</guid>
+      <description>
+
+
+&lt;p&gt;On Friday April 26, 2019 I gave an invited talk to the &lt;a href=&#34;https://cla.umn.edu/slhs&#34;&gt;Department of Speech-Language-Hearing Sciences&lt;/a&gt; in their Pro-Sem series. These are really neat as they are organized by the graduate students. This is the third one of these I have given over the years and each is a treat.&lt;/p&gt;
+&lt;p&gt;In this talk I spoke about the ASA’s recent call for the deprecation of “statistical significance” and all its related variants (e.g., “significantly different,” “&lt;em&gt;p&lt;/em&gt; &amp;lt; 0.05”, and “nonsignificant”, asterisks in a table). Citing articles in the recent volume of &lt;a href=&#34;https://www.tandfonline.com/toc/utas20/73/sup1&#34;&gt;The American Statistician&lt;/a&gt; and drawing on the historical conflagration that is NHST I laid out why scientists and statisticians have an issue with “statistical significance” and also proposed some ideas for moving forward based on those proposed by &lt;a href=&#34;https://www.tandfonline.com/doi/full/10.1080/00031305.2019.1583913&#34;&gt;Ronald L. Wasserstein, Allen L. Schirm &amp;amp; Nicole A. Lazar&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The slides for the talk are available &lt;a href=&#34;https://github.com/zief0002/website/raw/master/public/files/2019-slhs-prosem.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Inbox Zero</title>
@@ -16,7 +30,10 @@
       <pubDate>Mon, 27 Aug 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/2018-08-27-inbox-zero/</guid>
-      <description>&lt;p&gt;On Saturday August 25, 2018 at 8:08 PM I finally hit &lt;a href=&#34;https://www.youtube.com/watch?v=z9UjeTMb3Yk&#34;&gt;Inbox Zero&lt;/a&gt;!&lt;/p&gt;
+      <description>
+
+
+&lt;p&gt;On Saturday August 25, 2018 at 8:08 PM I finally hit &lt;a href=&#34;https://www.youtube.com/watch?v=z9UjeTMb3Yk&#34;&gt;Inbox Zero&lt;/a&gt;!&lt;/p&gt;
 &lt;div class=&#34;figure&#34;&gt;
 &lt;img src=&#34;/img/inbox-zero.png&#34; alt=&#34;Inbox Zero&#34; /&gt;
 &lt;p class=&#34;caption&#34;&gt;Inbox Zero&lt;/p&gt;
@@ -41,7 +58,10 @@
       <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/ssc-computing-talk/</guid>
-      <description>&lt;p&gt;I am giving a talk at the &lt;a href=&#34;https://ssc.ca/en/publications/ssc-liaison/vol-32-1-february-2018/ssc-2018-46th-annual-meeting-statistical-society&#34;&gt;46th Annual Meeting of the Statistical Society of Canada&lt;/a&gt; in Montreal on June 05, 2018. The talk is part of an invited session on &lt;em&gt;Teaching Statistics to Graduate Students in the Health and Social Sciences&lt;/em&gt;. Information, including the slides, is available below.&lt;/p&gt;
+      <description>
+
+
+&lt;p&gt;I am giving a talk at the &lt;a href=&#34;https://ssc.ca/en/publications/ssc-liaison/vol-32-1-february-2018/ssc-2018-46th-annual-meeting-statistical-society&#34;&gt;46th Annual Meeting of the Statistical Society of Canada&lt;/a&gt; in Montreal on June 05, 2018. The talk is part of an invited session on &lt;em&gt;Teaching Statistics to Graduate Students in the Health and Social Sciences&lt;/em&gt;. Information, including the slides, is available below.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;Statistical Computing: Non-Ignorable Missingness in the Graduate-Level Social Science Curriculum&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In 2010, Nolan and Temple Lang pointed out that &amp;quot;computational literacy and programming are as fundamental to statistical practice and research as mathematics&amp;quot;. Since that time computation has become an even more important skillset for researchers and scientists who use statistics. Many graduate-level statistics programs in the social sciences have yet to adopt statistical computing into the curriculum. Students either learn computing on their own or its teaching is relegated to specialty, often advanced, coursework. In either case, it is often only a small minority of quantitatively-focused students that are exposed to computing. The majority of graduate-level social science students, however, are not quantitatively focused. To what extent should they learn statistical computing? Which aspects of statistical computing should they be exposed to? In this talk, I explore these questions and offer some advice for teaching statistical computing to graduate-level social science students.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Slides:&lt;/strong&gt; Available at &lt;a href=&#34;https://github.com/zief0002/website/raw/master/public/files/computing-talk-2018-05-07.pdf&#34; class=&#34;uri&#34;&gt;https://github.com/zief0002/website/raw/master/public/files/computing-talk-2018-05-07.pdf&lt;/a&gt;&lt;/p&gt;
@@ -54,7 +74,10 @@
       <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/r-markdown-theme-gallery/</guid>
-      <description>&lt;p&gt;R Markdown is a great way to integrate R code into a document. An example of the &lt;code&gt;default&lt;/code&gt; theme used in R Markdown HTML documents is shown below.&lt;/p&gt;
+      <description>
+
+
+&lt;p&gt;R Markdown is a great way to integrate R code into a document. An example of the &lt;code&gt;default&lt;/code&gt; theme used in R Markdown HTML documents is shown below.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/default.png&#34; /&gt;&lt;/p&gt;
 &lt;div id=&#34;pre-packaged-themes&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;Pre-Packaged Themes&lt;/h2&gt;
@@ -169,7 +192,10 @@
       <pubDate>Wed, 11 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/spring-weather-in-minneapolis/</guid>
-      <description>&lt;p&gt;It feels like this spring has been especially terrible weather-wise. We have gotten a lot of snow and it has been cold. To evaluate whether this is the case or whether I have hindsight bias, I pulled some historical weather data for the month of April from &lt;a href=&#34;&#34;&gt;Weather Underground&lt;/a&gt;.&lt;/p&gt;
+      <description>
+
+
+&lt;p&gt;It feels like this spring has been especially terrible weather-wise. We have gotten a lot of snow and it has been cold. To evaluate whether this is the case or whether I have hindsight bias, I pulled some historical weather data for the month of April from &lt;a href=&#34;&#34;&gt;Weather Underground&lt;/a&gt;.&lt;/p&gt;
 &lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(dplyr)
 library(forcats)
 library(ggplot2)
@@ -265,7 +291,10 @@ ggplot(april, aes(x = temp_avg, y = fct_rev(factor(year)), fill = ..x..)) +
       <pubDate>Mon, 09 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/2018-04-09-epsy-5271-part-04/</guid>
-      <description>&lt;p&gt;This post is the fourth (and last) in a series of blogposts in which I respond to questions from the students in the &lt;em&gt;Becoming a Teacher of Statistics&lt;/em&gt; course. In today’s posting I respond to questions that asked me for predictions about the future of statistics teaching and statistics education research.&lt;/p&gt;
+      <description>
+
+
+&lt;p&gt;This post is the fourth (and last) in a series of blogposts in which I respond to questions from the students in the &lt;em&gt;Becoming a Teacher of Statistics&lt;/em&gt; course. In today’s posting I respond to questions that asked me for predictions about the future of statistics teaching and statistics education research.&lt;/p&gt;
 &lt;p&gt;Before I get into the Q&amp;amp;A, let me just state: Prediction is hard. Leland Wilkinson in &lt;a href=&#34;https://www.tandfonline.com/doi/abs/10.1198/004017008000000460&#34;&gt;The Future of Statistical Computing&lt;/a&gt; reminded us of this when he cited a prediction about computers that Andrew Hamilton made in a 1949 issue of &lt;em&gt;Popular Mechanics&lt;/em&gt;&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;Where a calculator like the ENIAC today is equipped with 18,000 vacuum tubes and weighs 30 tons, computers in the future may have only 1,000 vacuum tubes and perhaps weigh only &lt;span class=&#34;math inline&#34;&gt;\(1 \dfrac{1}{2}\)&lt;/span&gt; tons.&lt;/p&gt;
@@ -302,7 +331,10 @@ ggplot(april, aes(x = temp_avg, y = fct_rev(factor(year)), fill = ..x..)) +
       <pubDate>Fri, 06 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/2018-04-06-epsy-8271-announcement/</guid>
-      <description>&lt;p&gt;My colleague Robert delMas is teaching our doctoral-level research seminar, EPsy 8271 next fall, and it looks to be an interesting topic. The details about the course follow:&lt;/p&gt;
+      <description>
+
+
+&lt;p&gt;My colleague Robert delMas is teaching our doctoral-level research seminar, EPsy 8271 next fall, and it looks to be an interesting topic. The details about the course follow:&lt;/p&gt;
 &lt;div id=&#34;epsy-8271-statistics-education-research-seminar-teaching-statistics-from-a-modeling-perspective-3-credits&#34; class=&#34;section level2&#34;&gt;
 &lt;h2&gt;EPSY 8271 | Statistics Education Research Seminar: Teaching Statistics from a Modeling Perspective (3 credits)&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Day/Time:&lt;/strong&gt; Fridays, 9:00 a.m.–11:30 a.m. (Fall 2018)&lt;br /&gt;
@@ -326,7 +358,8 @@ ggplot(april, aes(x = temp_avg, y = fct_rev(factor(year)), fill = ..x..)) +
       <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/2018-04-02-epsy-5271-part-03/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/bracket.css&#34; type=&#34;text/css&#34; /&gt;
+      <description>
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;/css/bracket.css&#34; type=&#34;text/css&#34; /&gt;
 
 
 &lt;p&gt;This post is the third in a series of blogposts in which I respond to questions from the students in the &lt;em&gt;Becoming a Teacher of Statistics&lt;/em&gt; course. In today’s posting I respond to questions related to teaching.&lt;/p&gt;
@@ -359,7 +392,8 @@ ggplot(april, aes(x = temp_avg, y = fct_rev(factor(year)), fill = ..x..)) +
       <pubDate>Fri, 30 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/2018-03-30-epsy-5271-part-02/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/bracket.css&#34; type=&#34;text/css&#34; /&gt;
+      <description>
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;/css/bracket.css&#34; type=&#34;text/css&#34; /&gt;
 
 
 &lt;p&gt;This post is the second in a series of blogposts in which I respond to questions from the students in the &lt;em&gt;Becoming a Teacher of Statistics&lt;/em&gt; course. In today’s posting I respond to questions related to several of the projects I have worked on over the years.&lt;/p&gt;
@@ -388,7 +422,8 @@ ggplot(april, aes(x = temp_avg, y = fct_rev(factor(year)), fill = ..x..)) +
       <pubDate>Wed, 28 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/2018-03-28-epsy-5271/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/bracket.css&#34; type=&#34;text/css&#34; /&gt;
+      <description>
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;/css/bracket.css&#34; type=&#34;text/css&#34; /&gt;
 
 
 &lt;p&gt;This last Tuesday (03/27/2018) I was invited to go do a Q&amp;amp;A with the students in the EPsy 5271 &lt;em&gt;Becoming a Teacher of Statistics&lt;/em&gt; course. This class also met via video-link with a similar course at Penn State. The students asked thoughful (sometimes difficult) questions and I tried to answer them. I asked them if I could blog out their questions and my responses and they kindy said “yes”. Rather than respond to all of them at once, I thought I would use this opportunity to create several blogposts. So without further ado, here we go.&lt;/p&gt;
@@ -420,7 +455,8 @@ ggplot(april, aes(x = temp_avg, y = fct_rev(factor(year)), fill = ..x..)) +
       <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/2018-03-15-boys-hockey-post-hoc/</guid>
-      <description>&lt;link rel=&#34;stylesheet&#34; href=&#34;/css/bracket.css&#34; type=&#34;text/css&#34; /&gt;
+      <description>
+  &lt;link rel=&#34;stylesheet&#34; href=&#34;/css/bracket.css&#34; type=&#34;text/css&#34; /&gt;
 
 
 &lt;p&gt;In two previous posts, &lt;a href=&#34;/post/2018-03-03-boys-hockey/&#34;&gt;post 1&lt;/a&gt; and &lt;a href=&#34;/post/2018-03-08-boys-hockey/&#34;&gt;post 2&lt;/a&gt;, I used Monte Carlo simulation to predict the winner of the 2018 Minnesota State High School Boys Hockey tournament. Now that the tournament is over, I wanted to analyze how the model did and also think about ways to improve the predictions should I want to re-run such a simulation in the future.&lt;/p&gt;
@@ -684,7 +720,10 @@ Edina
       <pubDate>Thu, 08 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/2018-03-08-boys-hockey/</guid>
-      <description>&lt;p&gt;In a &lt;a href=&#34;/post/2018-03-03-boys-hockey/&#34;&gt;previous post&lt;/a&gt;, I used Monte Carlo simulation to predict the winner of the 2018 Minnesota State High School Boys Hockey tournament. Now that the quarterfinal games have been played, I thought I would update my predictions. The process for this is to:&lt;/p&gt;
+      <description>
+
+
+&lt;p&gt;In a &lt;a href=&#34;/post/2018-03-03-boys-hockey/&#34;&gt;previous post&lt;/a&gt;, I used Monte Carlo simulation to predict the winner of the 2018 Minnesota State High School Boys Hockey tournament. Now that the quarterfinal games have been played, I thought I would update my predictions. The process for this is to:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;Update the Elo ratings based on the quarterfinal games;&lt;/li&gt;
 &lt;li&gt;Re-simulate the tournament&lt;/li&gt;
@@ -1011,7 +1050,10 @@ for(i in 1:10000){
       <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/2018-03-03-boys-hockey/</guid>
-      <description>&lt;p&gt;The state high school boys hockey tournament, scheduled for March 7–10, is one of the premiere sporting events in the state of Minnesota. According to &lt;a href=&#34;https://en.wikipedia.org/wiki/High_school_boys_ice_hockey_in_Minnesota&#34;&gt;Wikipedia&lt;/a&gt;, this event has drawn over 100,000 spectators 22 times in its history, eclipsing 135,000 spectoators in 2015. Many national caliber players played high school hockey in Minnesota, several taking part in the state tournament. Names like Neal Broten, Herb Brooks, and T. J. Oshie are alumni of state tournaments past.&lt;/p&gt;
+      <description>
+
+
+&lt;p&gt;The state high school boys hockey tournament, scheduled for March 7–10, is one of the premiere sporting events in the state of Minnesota. According to &lt;a href=&#34;https://en.wikipedia.org/wiki/High_school_boys_ice_hockey_in_Minnesota&#34;&gt;Wikipedia&lt;/a&gt;, this event has drawn over 100,000 spectators 22 times in its history, eclipsing 135,000 spectoators in 2015. Many national caliber players played high school hockey in Minnesota, several taking part in the state tournament. Names like Neal Broten, Herb Brooks, and T. J. Oshie are alumni of state tournaments past.&lt;/p&gt;
 &lt;p&gt;Minnesota high school hockey teams are split into two classes based on school enrollment sizes; the largest 64 schools are classified as Class AA and the remainder are classified as Class A. Each of these classes are subdivided into eight sections. (Sections are based on a combination of school location and competitivness.)&lt;/p&gt;
 &lt;p&gt;This year’s state tournament features 16 teams (8 from Class A and 8 from Class AA) that qualified for the tournament by winning their section tournament. Within each class, the top five teams are seeded (ranked) by the coaches of the teams that qualified for the state tournament. The #4 and #5 seeds play each other and the remaining three teams in each class are assigned by lottery to play the #1, #2, and #3 seeded teams. The seeds in the 2018 tournament, announced on March 3, are:&lt;/p&gt;
 &lt;table&gt;
@@ -1497,88 +1539,6 @@ for(i in 1:10000){
 &lt;/table&gt;
 &lt;p&gt;The simulation results suggest that both Edina and St. Thomas Academy have a pretty good shot of winning the tournament, and Minnetonka and Duluth East are also in the mix.&lt;/p&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>AIMS Project</title>
-      <link>/project/aims-project/</link>
-      <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/project/aims-project/</guid>
-      <description>
-
-&lt;p&gt;The NSF-funded project &lt;em&gt;Adapting and Implementing Innovative Material in Statistics&lt;/em&gt; (AIMS) developed lesson plans and activities based on innovative materials that have been produced for introductory statistics courses.&lt;/p&gt;
-
-&lt;p&gt;The AIMS materials are available on Github at &lt;a href=&#34;https://github.com/zief0002/aims&#34; target=&#34;_blank&#34;&gt;https://github.com/zief0002/aims&lt;/a&gt;&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;The case for substantial change in statistics instruction is built on strong synergies between content, pedagogy, and technology.&lt;/p&gt;
-
-&lt;p&gt;&amp;mdash;&lt;cite&gt;David Moore&lt;/cite&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Initially written in 2005&amp;ndash;2006, the AIMS lesson plans and student activity guides were developed to help transform an introductory statistics course into one that is aligned with the &lt;a href=&#34;http://www.amstat.org/education/gaise/&#34; target=&#34;_blank&#34;&gt;Guidelines for Assessment and Instruction in Statistics Education (GAISE)&lt;/a&gt; for teaching introductory statistics courses. The lessons, which build on implications from educational research, involve students in small and large group discussion, computer explorations, and hands-on activities. The lessons are described in full detail along with the research foundations for the lessons, in Garfield and Ben-Zvi&amp;rsquo;s book &lt;a href=&#34;http://www.springer.com/us/book/9781402083822&#34; target=&#34;_blank&#34;&gt;Developing Students&amp;rsquo; Statistical Reasoning: Connecting Research and Teaching Practice&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;aims-amp-gaise&#34;&gt;AIMS &amp;amp; GAISE&lt;/h3&gt;
-
-&lt;p&gt;The AIMS materials have been aligned with the &lt;a href=&#34;http://www.amstat.org/asa/education/Guidelines-for-Assessment-and-Instruction-in-Statistics-Education-Reports.aspx&#34; target=&#34;_blank&#34;&gt;2005 Guidelines for Assessment and Instruction in Statistics Education (GAISE) College Report&lt;/a&gt;. Each of the six recommendations from this report is listed below along with an indication of how the AIMS materials have been aligned with it.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Emphasize statistical literacy and develop statistical thinking:&lt;/strong&gt; The AIMS materials help build students’ statistical literacy by having them read their text and complete study questions, and respond to literacy oriented assessment items.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Use real data:&lt;/strong&gt; The AIMS materials use data gathered from students (student survey data, body data) and analyze other real data sets of interest (e.g., college admissions data)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Stress conceptual understanding rather than mere knowledge of procedures:&lt;/strong&gt; The AIMS materials focus on the nine big ideas (data, model, distribution, center, variability, comparing groups, samples, inference, and covariation), and develop them throughout the course. Students first encounter these ideas informally, and then as they revisit them, the materials aid in moving them to more formal understanding and reasoning.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Foster active learning in the classroom:&lt;/strong&gt; The AIMS lesson plans suggest how teachers may guide students through activities where they are actively engaged in making and testing conjectures, working in small groups, explaining their reasoning, and learning together. The materials also incorporate versions of many innovative student activities.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Use technology for developing conceptual understanding and analyzing data:&lt;/strong&gt; The AIMS materials use Fathom&amp;trade; for data analysis and exploration, Tinkerplots&amp;trade; to help students understand and reason about graphs, Sampling SIM to simulate data to make informal inferences, and several applets to illustrate abstract concepts.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Use assessments to improve and evaluate student learning:&lt;/strong&gt; Three free resources can be used to assess students&amp;rsquo; statistical reasoning: The ARTIST website, the ARTIST Item Database, and the ARTIST Topic Tests and CAOS tests. These are all located at the &lt;a href=&#34;https://apps3.cehd.umn.edu/artist/&#34; target=&#34;_blank&#34;&gt;ARTIST website&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;people&#34;&gt;People&lt;/h3&gt;
-
-&lt;p&gt;There were many people involved in the AIMS Project. Many of them are listed below.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;AIMS Principal Investigators&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Joan Garfield (University of Minnesota)&lt;/li&gt;
-&lt;li&gt;Robert delMas (University of Minnesota)&lt;/li&gt;
-&lt;li&gt;Andrew Zieffler (University of Minnesota)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;AIMS Contributing Author&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Dani Ben-Zvi (University of Haifa)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;AIMS Staff&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Michelle Everson (University of Minnesota)&lt;/li&gt;
-&lt;li&gt;Jared Dixon (University of Minnesota, Graduate Research Assistant)&lt;/li&gt;
-&lt;li&gt;Beng Chang (University of Minnesota, Graduate Research Assistant)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;AIMS Evaluator&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Robert Gould (University of California, Los Angeles)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;strong&gt;AIMS Advisory Board&lt;/strong&gt;&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Beth Chance (California Polytechnic State University)&lt;/li&gt;
-&lt;li&gt;George Cobb (Mount Holyoke College)&lt;/li&gt;
-&lt;li&gt;Bill Finzer (KCP Technologies)&lt;/li&gt;
-&lt;li&gt;Cliff Konold (University of Massachusetts Amherst)&lt;/li&gt;
-&lt;li&gt;Robin Lock (St. Lawrence University)&lt;/li&gt;
-&lt;li&gt;Dennis Pearl (The Ohio State University)&lt;/li&gt;
-&lt;li&gt;Allan Rossman (California Polytechnic State University)&lt;/li&gt;
-&lt;li&gt;Richard Scheaffer (University of Florida)&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

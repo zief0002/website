@@ -1,16 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Teaching on Andrew Zieffler</title>
+    <title>teaching on Andrew Zieffler</title>
     <link>/tags/teaching/</link>
-    <description>Recent content in Teaching on Andrew Zieffler</description>
+    <description>Recent content in teaching on Andrew Zieffler</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 09 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Computing Talk at SSC 2018</title>
+      <link>/post/ssc-computing-talk/</link>
+      <pubDate>Sun, 03 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ssc-computing-talk/</guid>
+      <description>I am giving a talk at the 46th Annual Meeting of the Statistical Society of Canada in Montreal on June 05, 2018. The talk is part of an invited session on Teaching Statistics to Graduate Students in the Health and Social Sciences. Information, including the slides, is available below.
+Title: Statistical Computing: Non-Ignorable Missingness in the Graduate-Level Social Science Curriculum
+Abstract: In 2010, Nolan and Temple Lang pointed out that &amp;quot;computational literacy and programming are as fundamental to statistical practice and research as mathematics&amp;quot;.</description>
+    </item>
     
     <item>
       <title>Q&amp;A with Becoming a Teacher of Statistics Class: Part IV</title>
@@ -69,11 +80,7 @@ Can you tell us a little about your AIMS project? I think it’s not always easy
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/aims-project/</guid>
-      <description>The NSF-funded project Adapting and Implementing Innovative Material in Statistics (AIMS) developed lesson plans and activities based on innovative materials that have been produced for introductory statistics courses.
-The AIMS materials are available on Github at https://github.com/zief0002/aims
- The case for substantial change in statistics instruction is built on strong synergies between content, pedagogy, and technology.
-&amp;mdash;David Moore
- Initially written in 2005&amp;ndash;2006, the AIMS lesson plans and student activity guides were developed to help transform an introductory statistics course into one that is aligned with the Guidelines for Assessment and Instruction in Statistics Education (GAISE) for teaching introductory statistics courses.</description>
+      <description>&lt;em&gt;Adapting and Implementing Innovative Material in Statistics&lt;/em&gt; (AIMS) was an NSF-funded project from 2006&amp;ndash;2010 that developed lesson plans and activities based on innovative materials that have been produced for introductory statistics courses (DUE-0535912).</description>
     </item>
     
     <item>
@@ -82,9 +89,7 @@ The AIMS materials are available on Github at https://github.com/zief0002/aims
       <pubDate>Wed, 28 Feb 2018 00:00:00 +0000</pubDate>
       
       <guid>/project/catalst-project/</guid>
-      <description>Change Agents for Teaching and Learning Statistics (CATALST) was an NSF-funded project that developed materials for teaching a radically different introductory statistics course based on randomization and bootstrap methods to provide students a deep understanding of statistical inference.
-The materials were turned into a free, online book, Statistical Thinking: A Simulation Approach to Modeling Uncertainty, available at: http://zief0002.github.io/statistical-thinking/.
-The data sets and PDF version of the lab manual are available at the book&amp;rsquo;s Github repository: https://github.</description>
+      <description>&lt;em&gt;Change Agents for Teaching and Learning Statistics&lt;/em&gt; (CATALST) was an NSF-funded project from 2008&amp;ndash;2012 that developed materials for teaching a radically different introductory statistics course based on randomization and bootstrap methods to provide students a deep understanding of statistical inference (DUE-0814433).</description>
     </item>
     
     <item>
