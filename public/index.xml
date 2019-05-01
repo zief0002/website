@@ -6,8 +6,136 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Tue, 30 Apr 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 May 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>CV Tips</title>
+      <link>/post/2019-05-01-cv-tips/</link>
+      <pubDate>Wed, 01 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2019-05-01-cv-tips/</guid>
+      <description>
+
+
+&lt;p&gt;My colleague Joseph Rios and I helped organize a monthly reading and seminar series, &lt;a href=&#34;https://sites.google.com/umn.edu/qmereads/home&#34;&gt;QME and Friends Read&lt;/a&gt;, for interested graduate students in our program. In March, we hosted a seminar on the &lt;em&gt;Curriculum Vitae&lt;/em&gt;, or CV. In preparing for that seminar, I looked through many faculty and student CVs. I also read many blog posts, and scholarly work about putting together a CV. Based on all of this and my own expereiences and advice given to me, I decided to put together a post (maybe multiple posts) that includes some suggestions for compiling a CV.&lt;/p&gt;
+&lt;div id=&#34;start-early-update-often&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Start Early; Update Often&lt;/h2&gt;
+&lt;p&gt;Start putting together your CV as &lt;em&gt;soon as you begin&lt;/em&gt; your graduate studies. Or, at the latest after your first term in graduate school. Update your CV after each term. In talking with faculty, many of my colleagues update their CV on a regular basis, for some this is monthly, for others weekly. The frequency will likely change as you progress through your academic career, and finding the right frequency is different for everyone. As such, the frequency is less important here than the regularity. Updating your CV is a scholarly habit that you will need to build. As you do more things, it is important to record them lest you forget and have to try and remember what you did three months ago.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;content-and-sequencing&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Content and Sequencing&lt;/h2&gt;
+&lt;p&gt;What should be included in your CV? A CV is &lt;a href=&#34;https://www.themuse.com/advice/cv-vs-resumehere-are-the-differences&#34;&gt;different from a Resume&lt;/a&gt;. Curriculum Vitae literally means “course of life” and is meant to lay out the entirety of your academic life. This means that you will want to include information, among other things, on your:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Education&lt;/li&gt;
+&lt;li&gt;Academic Appointments&lt;/li&gt;
+&lt;li&gt;Teaching Experience&lt;/li&gt;
+&lt;li&gt;Academic Honors and Awards&lt;/li&gt;
+&lt;li&gt;Publications
+&lt;ul&gt;
+&lt;li&gt;Refereed Journal Articles&lt;/li&gt;
+&lt;li&gt;Books&lt;/li&gt;
+&lt;li&gt;Book Chapters&lt;/li&gt;
+&lt;li&gt;Conference Proceedings&lt;/li&gt;
+&lt;li&gt;Other Publications (e.g., Book reviews, blogs, non-refereed pieces)&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Grants and Fellowships&lt;/li&gt;
+&lt;li&gt;Presentations
+&lt;ul&gt;
+&lt;li&gt;Invited Presentations&lt;/li&gt;
+&lt;li&gt;Workshops&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;li&gt;Professional Service
+&lt;ul&gt;
+&lt;li&gt;Service to the Department, College, and University&lt;/li&gt;
+&lt;li&gt;Service to the Profession (e.g., journals you review for)&lt;/li&gt;
+&lt;li&gt;Service to the Community&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;When you initially put your CV together, some of these categories may be combined. For example, you may not have any invited presentations/talks, so you might include a single heading of “Presentations”. Later in your career, as you accumulate invited talks, you may choose to categorize those entries under a separate sub-heading of “Invited Presentations”.&lt;/p&gt;
+&lt;p&gt;The sequencing of these headings varies, although typically “Education” and “Academic Appointments” are the first two things listed in the CV. After that, you might use the sequence of headings as an indication of importance. For example, since I am in a teaching-oriented position I include “Teaching Experience”&#34; and “Teaching Honors and Awards” before “Publications” and “Presentations”. If I were in a traditional tenure track position, I might reverse that. (Note that if you take a tenure-track position, many universities have a template for your CV that they want you to adhere to, including the sequence of categories.)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;general-formattingtypography&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;General Formatting/Typography&lt;/h2&gt;
+&lt;p&gt;Make your CV look good. It is the first impression other academics have of you as a professional if they have not met you in person. Consider the same set of publications in the figures below. The first figure below shows those publications written using the default font in Word (Calibri; ugh) and very little formatting.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/post/2019-05-01-cv-tips_files/unformatted-cv.png&#34; alt=&#34;Unformatted CV&#34; width=&#34;400&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Unformatted CV&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;Now, the same publications have been written using Bembo Standard, a readable serifed font. They have also been formatted and the links have been colored.&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/post/2019-05-01-cv-tips_files/formatted-cv.png&#34; alt=&#34;Formatted CV&#34; width=&#34;400&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Formatted CV&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Font matters. Formatting matters.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;some-tips-for-different-sections&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Some Tips for Different Sections&lt;/h2&gt;
+&lt;p&gt;Here I lay out some advice for different sections of the CV. These are not hard-and-fast rules, but are based on advice given to me and things I have picked up from reviewing many CVs (for annual student reviews, job candidates, etc.) over the years.&lt;/p&gt;
+&lt;div id=&#34;education&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Education&lt;/h3&gt;
+&lt;p&gt;This is essentially a list of your degrees. List them from most recent to least recent. Give the year of completion, the institution and department for each degree. For example mine looks like this:&lt;/p&gt;
+&lt;div style=&#34;margin-left: 10px; padding-left: 5px; border: 1px solid black; border-radius: 5px;&#34;&gt;
+&lt;p&gt;&lt;strong&gt;EDUCATION&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&#34;padding-left: 90px;text-indent: -90px;&#34;&gt;
+2006    &lt;strong&gt;Ph.D.&lt;/strong&gt;, &lt;em&gt;University of Minnesota.&lt;/em&gt; Quantitative Methods in Education, Department of Educational Psychology
+&lt;/p&gt;
+&lt;p style=&#34;padding-left: 90px;text-indent: -90px;&#34;&gt;
+1998    &lt;strong&gt;B.S.&lt;/strong&gt;, &lt;em&gt;Saint Cloud State University.&lt;/em&gt; Mathematics Education
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;If you are a Ph.D. student, you may also provide your thesis advisor (and also the thesis title if you are ABD). For example&lt;/p&gt;
+&lt;div style=&#34;margin-left: 10px; padding-left: 5px; border: 1px solid black; border-radius: 5px;&#34;&gt;
+&lt;p&gt;&lt;strong&gt;EDUCATION&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&#34;padding-left: 90px;text-indent: -90px;&#34;&gt;
+2020 (Anticipated)    &lt;strong&gt;Ph.D.&lt;/strong&gt;, &lt;em&gt;University of Minnesota.&lt;/em&gt; Quantitative Methods in Education, Department of Educational Psychology
+&lt;/p&gt;
+&lt;p style=&#34;padding-left: 85px;text-indent: -85px;margin-top:-15px;&#34;&gt;
+   &lt;strong&gt;Thesis:&lt;/strong&gt; &lt;em&gt;A Longitudinal Investigation of the Development of College Students’ Reasoning About Bivariate Data&lt;/em&gt;
+&lt;/p&gt;
+&lt;p style=&#34;padding-left: 85px;text-indent: -85px;margin-top:-15px;&#34;&gt;
+   &lt;strong&gt;Thesis Advisor:&lt;/strong&gt; Joan Garfield
+&lt;/p&gt;
+&lt;p style=&#34;padding-left: 90px;text-indent: -90px;&#34;&gt;
+1998    &lt;strong&gt;B.S.&lt;/strong&gt;, &lt;em&gt;Saint Cloud State University.&lt;/em&gt; Mathematics Education
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;publications-and-presentations&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Publications and Presentations&lt;/h3&gt;
+&lt;p&gt;For any of the categories where you are including bibliographic entries, use the style that your profession uses to format these. For example, in Educational Psychology we use APA. So all of my publications and presentations are formatted using the APA style. Within each category, it is also helpful if you:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Order the entries from most recent to least recent.&lt;/li&gt;
+&lt;li&gt;Bold your name.&lt;/li&gt;
+&lt;li&gt;Index each entry with a count. Make the oldest entry 1 and count forward in time. This has the advantage that you can easily find out how many entries you have by looking at the most recent, and also that you don’t have to re-number every time you add a new entry. (You will be amazed at how often you need to provide the counts of these things.)&lt;/li&gt;
+&lt;li&gt;If you have authored a publication with your students, indicate that. I include a super-scripted dagger next to a students name.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Here for example is how I have listed my “Other Publications”.&lt;/p&gt;
+&lt;div style=&#34;margin-left: 10px; padding-left: 5px; border: 1px solid black; border-radius: 5px;&#34;&gt;
+&lt;p&gt;&lt;strong&gt;OTHER PUBLICATIONS&lt;/strong&gt;&lt;/p&gt;
+&lt;p style=&#34;padding-left: 45px;text-indent: -45px;&#34;&gt;
+[5]  &lt;strong&gt;Zieffler, A.&lt;/strong&gt;, &amp;amp; Justice, N.† (2015). Teardowns, historical renovation, and paint-and-patch: Curricular changes and faculty development. Invited comment on G. Cobb, ‘Mere renovation is too little too late: We need to Rethink our Undergraduate Curriculum from the Ground Up’. &lt;em&gt;The American Statistician, 69&lt;/em&gt;(4). &lt;a href=&#34;http://dx.doi.org/10.1080/00031305.2015.1093029&#34; class=&#34;uri&#34;&gt;http://dx.doi.org/10.1080/00031305.2015.1093029&lt;/a&gt;
+&lt;/p&gt;
+&lt;p style=&#34;padding-left: 45px;text-indent: -45px;&#34;&gt;
+[4]  Isaak, R., &lt;strong&gt;Zieffler, A.&lt;/strong&gt;, &amp;amp; Garfield, J. (2013). Response. &lt;em&gt;Technology Innovations in Statistics Education, 7&lt;/em&gt;(3). &lt;a href=&#34;http://escholarship.org/uc/item/8gq9t3c3&#34; class=&#34;uri&#34;&gt;http://escholarship.org/uc/item/8gq9t3c3&lt;/a&gt;
+&lt;/p&gt;
+&lt;p style=&#34;padding-left: 45px;text-indent: -45px;&#34;&gt;
+[3]  Gill, B., &lt;strong&gt;Zieffler, A.&lt;/strong&gt;, Boynton, N., Alberts, K. S., Humphrey, P., McKenzie, J., &amp;amp; Posner, M. A. (2012). Response to ‘Statistics à la Mode’. &lt;em&gt;AmStat News, February&lt;/em&gt;, x–xx. &lt;a href=&#34;http://magazine.amstat.org/blog/2012/&#34; class=&#34;uri&#34;&gt;http://magazine.amstat.org/blog/2012/&lt;/a&gt; 02/01/maa-response/
+&lt;/p&gt;
+&lt;p style=&#34;padding-left: 45px;text-indent: -45px;&#34;&gt;
+[2]  Garfield, J., &amp;amp; &lt;strong&gt;Zieffler, A.&lt;/strong&gt; (2011). Response to: “Towards more accessible conceptions of statistical inference” by C. Wild, M. Pfannkuch, M. Regan and N. J. Horton. &lt;em&gt;Journal of the Royal Statistical Society. Series A, 174&lt;/em&gt;(Part 2), 280.
+&lt;/p&gt;
+&lt;p style=&#34;padding-left: 45px;text-indent: -45px;&#34;&gt;
+[1]  &lt;strong&gt;Zieffler, A.&lt;/strong&gt; (1999). A statistical journey with ninth grade students. &lt;em&gt;Math Times, Winter&lt;/em&gt;, 14.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Computing in the &#39;60s</title>
@@ -1045,34 +1173,6 @@ for(i in 1:10000){
 &lt;/table&gt;
 &lt;p&gt;St. Thomas Aademy’s loss to Centennial really shook things up. Edina and Minnetonka are now the favorites in the Class AA tournament, with Duluth East a not so distant third.&lt;/p&gt;
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>e-ATLAS Project</title>
-      <link>/project/eatlas-project/</link>
-      <pubDate>Mon, 05 Mar 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/project/eatlas-project/</guid>
-      <description>
-
-&lt;p&gt;The purpose of e-ATLAS was to develop high-quality instruments to evaluate the effectiveness of curricular reform in the teaching and learning of introductory statistics at the tertiary level. All of the instruments were designed to be administered online.&lt;/p&gt;
-
-&lt;p&gt;The two main instruments developed as part of this project were the &lt;em&gt;Statistics Teaching Inventory&lt;/em&gt; (STI) and &lt;em&gt;Goals and Outcomes Associated with Learning Statistics&lt;/em&gt; (GOALS). An additional instrument, the &lt;em&gt;Basic Literacy in Statistics (BLIS)&lt;/em&gt;, was developed by Laura Ziegler as part of her doctoral dissertation research was also a part of the e-ATLAS project.&lt;/p&gt;
-
-&lt;h2 id=&#34;statistics-teaching-inventory-sti&#34;&gt;Statistics Teaching Inventory (STI)&lt;/h2&gt;
-
-&lt;p&gt;The &lt;em&gt;Statistics Teaching Inventory&lt;/em&gt; (STI) is an assessment that can be administered to statistics instructors in order to measure their practices and beliefs related to teaching introductory statistics. There are four forms, designed for different teaching environments:
-1. Sole instructors of a face-to-face course
-2. Instructors of a course that separated into a lecture section and recitation/lab section
-3. Instructors of courses that are 100% online
-4. Instructors of hybrid courses (mixture of face-to-face and online)&lt;/p&gt;
-
-&lt;p&gt;The information gathered by the STI relates to pedagogical practices, curricular emphasis, technology use, assessment practice, beliefs about student learning, and demographic information. The instrument includes between 63 and 67 items, depending on the form.&lt;/p&gt;
-
-&lt;h2 id=&#34;goals-and-outcomes-associated-with-learning-statistics-goals&#34;&gt;Goals and Outcomes Associated with Learning Statistics (GOALS)&lt;/h2&gt;
-
-&lt;p&gt;&lt;em&gt;Goals and Outcomes Associated with Learning Statistics&lt;/em&gt; (GOALS) includes 20 forced-choice items designed to assess students&amp;rsquo; statistical reasoning in the context of an introductory tertiary level statistics course. Some of the concepts assessed include ideas of samples and sampling, inference and $p$-values, levels of confidence, study design, and covariation.&lt;/p&gt;
 </description>
     </item>
     
