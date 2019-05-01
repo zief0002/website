@@ -5,7 +5,75 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2019-04-26T00:00:00+00:00</lastmod>
+      <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/cv-tips/</loc>
+      <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/2019-05-01-cv-tips/</loc>
+      <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/2019-04-30-computer-brain/</loc>
+      <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/history/</loc>
+      <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/qme/</loc>
+      <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/</loc>
+      <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/computing/</loc>
+      <lastmod>2019-04-30T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -23,27 +91,7 @@
     
     <url>
     
-      <loc>/tags/history/</loc>
-      <lastmod>2019-04-26T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>/tags/science/</loc>
-      <lastmod>2019-04-26T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/</loc>
       <lastmod>2019-04-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -131,16 +179,6 @@
     <url>
     
       <loc>/tags/teaching/</loc>
-      <lastmod>2018-06-03T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/computing/</loc>
       <lastmod>2018-06-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -674,15 +712,6 @@
     
       <loc>/publication/2006-nctm/</loc>
       <lastmod>2006-03-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/post/2019-04-30-computer-brain/</loc>
-      <priority>0</priority>
     </url>
     
   
