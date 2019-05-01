@@ -48,14 +48,14 @@ The sequencing of these headings varies, although typically "Education" and "Aca
 
 Make your CV look good. It is the first impression other academics have of you as a professional if they have not met you in person. Consider the same set of publications in the figures below. The first figure below shows those publications written using the default font in Word (Calibri; ugh) and very little formatting. 
 
-![Unformatted CV](/post/2019-05-01-cv-tips_files/unformatted-cv.png){width=400px}
+![](/post/2019-05-01-cv-tips_files/unformatted-cv.png){width=800px}
 
 
 <br />
 
 Now, the same publications have been written using Bembo Standard, a readable serifed font. They have also been formatted and the links have been colored.
 
-![Formatted CV](/post/2019-05-01-cv-tips_files/formatted-cv.png){width=400px}
+![](/post/2019-05-01-cv-tips_files/formatted-cv.png){width=800px}
 
 Font matters. Formatting matters. 
 
