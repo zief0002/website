@@ -1,11 +1,13 @@
 ---
 title: "CV Tips"
-author: "~"
+author: '~'
 date: '2019-05-01'
-tags: ["CV Tips", "QME"]
+tags:
+- CV Tips
+- QME
 header:
-  image: ""
-  caption: ""
+  caption: ''
+  image: ''
 ---
 
 My colleague Joseph Rios and I helped organize a monthly reading and seminar series, [QME and Friends Read](https://sites.google.com/umn.edu/qmereads/home), for interested graduate students in our program. In March, we hosted a seminar on the *Curriculum Vitae*, or CV. In preparing for that seminar, I looked through many faculty and student CVs. I also read many blog posts, and scholarly work about putting together a CV. Based on all of this and my own expereiences and advice given to me, I decided to put together a post (maybe multiple posts) that includes some suggestions for compiling a CV.
