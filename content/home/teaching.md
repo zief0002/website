@@ -23,4 +23,5 @@ I teach (have taught) the following courses at the University of Minnesota:
 - EPsy 8220: Methods for categorical response data in educational research
 - EPsy 8251: Methods in data analysis for educational research I
 - EPsy 8252: Methods in data analysis for educational research II
+- EPsy 8264: Advanced multiple regression
 - EPsy 8282: Statistical analysis of longitudinal data I

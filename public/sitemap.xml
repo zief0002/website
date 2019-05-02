@@ -5,7 +5,46 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2019-05-01T00:00:00+00:00</lastmod>
+      <lastmod>2019-05-02T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/qme/</loc>
+      <lastmod>2019-05-02T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/statistics-education/</loc>
+      <lastmod>2019-05-02T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/2019-05-02-student-awards/</loc>
+      <lastmod>2019-05-02T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/</loc>
+      <lastmod>2019-05-02T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -26,26 +65,6 @@
     
       <loc>/post/2019-05-01-cv-tips/</loc>
       <lastmod>2019-05-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/qme/</loc>
-      <lastmod>2019-05-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/</loc>
-      <lastmod>2019-05-01T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   

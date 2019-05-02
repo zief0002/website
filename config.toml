@@ -49,7 +49,7 @@ defaultContentLanguageInSubdir = false
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = "default"
+  font = "lora"
 
   # Your details.
   name = "Andrew Zieffler"

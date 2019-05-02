@@ -25,14 +25,14 @@
 }
 
 html {
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
+  font-family: 'Lora', sans-serif;
+  font-size: 12px;
   color: rgba(0,0,0,0.8);
   line-height: 1.65;
 }
 @media screen and (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 15px;
   }
 }
 
@@ -79,7 +79,7 @@ ul, ol, dl {
 
 /* Navigation bar text */
 .navbar-default {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Lora', sans-serif;
   font-weight: 400;
   line-height: 1.25;
   text-rendering: optimizeLegibility;
@@ -87,7 +87,7 @@ ul, ol, dl {
 
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Cinzel', sans-serif;
   font-weight: 400;
   margin-bottom: .5rem;
   line-height: 1.25;
@@ -154,7 +154,7 @@ figcaption {
   line-height: 1.25;
   font-size: 1rem;
   margin-bottom: 1.65rem;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Cinzel', sans-serif;
   counter-increment: captions;
 }
 
@@ -1117,7 +1117,7 @@ footer a#back_to_top i {
 }
 
 nav#navbar-main li {
-  font-size: 16px;
+  font-size: 12px;
 }
 
 .navbar-default .navbar-nav>li>a,

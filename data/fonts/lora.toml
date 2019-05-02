@@ -1,0 +1,15 @@
+# Font style metadata
+name = "Lora"
+
+# Optional Google font URL
+google_fonts = "Lora:400,700|Cinzel"
+
+# Font families
+heading_font = "Cinzel"
+body_font = "Lora"
+nav_font = "Lora"
+mono_font = "Roboto Mono"
+
+# Font size
+font_size = "15"
+font_size_small = "12"
