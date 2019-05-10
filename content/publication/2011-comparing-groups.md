@@ -29,7 +29,7 @@ selected = true
 
 
 # Links (optional).
-url_pdf = "http://www.ievbras.ru/ecostat/Kiril/R/Biblio/R_eng/Zieffle%20Comparing_Groups%20Randomization_and_Bootstrap_Methods_Using_R.pdf"
+#url_pdf = "http://www.ievbras.ru/ecostat/Kiril/R/Biblio/R_eng/Zieffle%20Comparing_Groups%20Randomization_and_Bootstrap_Methods_Using_R.pdf"
 # url_preprint = ""
 url_code = "https://github.com/zief0002/comparing-groups"
 url_dataset = "https://github.com/zief0002/comparing-groups"
