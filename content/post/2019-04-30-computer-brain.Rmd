@@ -24,12 +24,7 @@ Old issues of *Byte*, *Compute*, *Family Computing* (check out the 1982 TV ad be
 
 My dad and Dan Brockton (the Sartell librarian) were early advocates for teaching programming in the high school setting. They were also instrumental in bringing early computers into the school and getting students interested in using them. Below is an article that appeared in the high school paper about one of those computers, the [Programma 101](https://www.sacatech.com/blog-Programma-101-the-first-personal-computer.php). 
 
-<div style='text-align:center;'>
-<img src="../../static/img/new-brain-sartell.png" width='400px' alt="Programma 101" />
-</div>
-
-
-
+![Programma 101](/post/2019-04-30-computer-brain_files/new-brain-sartell.png){width=400px}
 
 There are several things that stand out from this article (not the least is the gendered use of language, although it was great to see at least one female in the picture).
 

@@ -206,8 +206,9 @@
 &lt;/iframe&gt;
 &lt;/div&gt;
 &lt;p&gt;My dad and Dan Brockton (the Sartell librarian) were early advocates for teaching programming in the high school setting. They were also instrumental in bringing early computers into the school and getting students interested in using them. Below is an article that appeared in the high school paper about one of those computers, the &lt;a href=&#34;https://www.sacatech.com/blog-Programma-101-the-first-personal-computer.php&#34;&gt;Programma 101&lt;/a&gt;.&lt;/p&gt;
-&lt;div style=&#34;text-align:center;&#34;&gt;
-&lt;p&gt;&lt;img src=&#34;../../static/img/new-brain-sartell.png&#34; width=&#39;400px&#39; alt=&#34;Programma 101&#34; /&gt;&lt;/p&gt;
+&lt;div class=&#34;figure&#34;&gt;
+&lt;img src=&#34;/post/2019-04-30-computer-brain_files/new-brain-sartell.png&#34; alt=&#34;Programma 101&#34; width=&#34;400&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;Programma 101&lt;/p&gt;
 &lt;/div&gt;
 &lt;p&gt;There are several things that stand out from this article (not the least is the gendered use of language, although it was great to see at least one female in the picture).&lt;/p&gt;
 &lt;ol style=&#34;list-style-type: decimal&#34;&gt;
