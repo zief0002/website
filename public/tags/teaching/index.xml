@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 19 May 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/teaching/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>USCOTS 2019</title>
+      <link>/post/uscots-2019/</link>
+      <pubDate>Sun, 19 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/uscots-2019/</guid>
+      <description>Last week I attended the United States Conference on Teaching Statistics. The biennial conference, which took place at Penn State, attracts statistics educators and statistics education researchers from across the world. It was a fantastic conference with keynotes from Jane Watson, Allen Schirm and Ron Wasserstein, John Kruschke, and Kari Lock Morgan.
+I cajoled four of my graduate students (Jonathan Brown, Mike Huberty, Chelsey Legacy, and Vimal Rao) to tag along, and it was fun to see them interacting with the people and ideas presented.</description>
+    </item>
     
     <item>
       <title>Computing Talk at SSC 2018</title>
