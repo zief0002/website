@@ -21,9 +21,5 @@ url_source = "https://www.ncbi.nlm.nih.gov/pubmed/29196427"
 math = true
 highlight = true
 
-[header]
-image = "headers/andy-zieffler-header.jpg"
-caption = "Image Credit: A photo by Andrew Zieffler"
-
 +++
 

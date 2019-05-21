@@ -42,9 +42,5 @@ url_pdf = "https://github.com/zief0002/Public-Stuff/raw/master/files/reasoning-a
 math = true
 highlight = true
 
-[header]
-image = "headers/andy-zieffler-header.jpg"
-caption = "Image Credit: A photo by Andrew Zieffler"
-
 +++
 

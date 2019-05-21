@@ -42,9 +42,5 @@ url_dataset = "https://github.com/zief0002/comparing-groups"
 math = true
 highlight = true
 
-[header]
-image = "headers/andy-zieffler-header.jpg"
-caption = "Image Credit: A photo by Andrew Zieffler"
-
 +++
 
