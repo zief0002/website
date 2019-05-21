@@ -6,9 +6,6 @@ slug: spring-weather-in-minneapolis
 categories: []
 tags:
   - R
-header:
-  image: "headers/janneke-staaks-header-03.jpg"
-  caption: "Image Credit: A flickr photo by Janneke Staaks"  
 ---
 
 It feels like this spring has been especially terrible weather-wise. We have gotten a lot of snow and it has been cold. To evaluate whether this is the case or whether I have hindsight bias, I pulled some historical weather data for the month of April from [Weather Underground]().

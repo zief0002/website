@@ -306,7 +306,7 @@
 
 &lt;p&gt;I am giving a talk at the &lt;a href=&#34;https://ssc.ca/en/publications/ssc-liaison/vol-32-1-february-2018/ssc-2018-46th-annual-meeting-statistical-society&#34;&gt;46th Annual Meeting of the Statistical Society of Canada&lt;/a&gt; in Montreal on June 05, 2018. The talk is part of an invited session on &lt;em&gt;Teaching Statistics to Graduate Students in the Health and Social Sciences&lt;/em&gt;. Information, including the slides, is available below.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;Statistical Computing: Non-Ignorable Missingness in the Graduate-Level Social Science Curriculum&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In 2010, Nolan and Temple Lang pointed out that &amp;quot;computational literacy and programming are as fundamental to statistical practice and research as mathematics&amp;quot;. Since that time computation has become an even more important skillset for researchers and scientists who use statistics. Many graduate-level statistics programs in the social sciences have yet to adopt statistical computing into the curriculum. Students either learn computing on their own or its teaching is relegated to specialty, often advanced, coursework. In either case, it is often only a small minority of quantitatively-focused students that are exposed to computing. The majority of graduate-level social science students, however, are not quantitatively focused. To what extent should they learn statistical computing? Which aspects of statistical computing should they be exposed to? In this talk, I explore these questions and offer some advice for teaching statistical computing to graduate-level social science students.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In 2010, Nolan and Temple Lang pointed out that &#34;computational literacy and programming are as fundamental to statistical practice and research as mathematics&#34;. Since that time computation has become an even more important skillset for researchers and scientists who use statistics. Many graduate-level statistics programs in the social sciences have yet to adopt statistical computing into the curriculum. Students either learn computing on their own or its teaching is relegated to specialty, often advanced, coursework. In either case, it is often only a small minority of quantitatively-focused students that are exposed to computing. The majority of graduate-level social science students, however, are not quantitatively focused. To what extent should they learn statistical computing? Which aspects of statistical computing should they be exposed to? In this talk, I explore these questions and offer some advice for teaching statistical computing to graduate-level social science students.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Slides:&lt;/strong&gt; Available at &lt;a href=&#34;https://github.com/zief0002/website/raw/master/public/files/computing-talk-2018-05-07.pdf&#34; class=&#34;uri&#34;&gt;https://github.com/zief0002/website/raw/master/public/files/computing-talk-2018-05-07.pdf&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
@@ -464,7 +464,7 @@ so that I only had the first eleven days of April for each year represented in t
   )&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## # A tibble: 11 x 5
 ##     year days_with_snow days_over_40 days_over_50 days_over_60
-##    &amp;lt;int&amp;gt;          &amp;lt;int&amp;gt;        &amp;lt;int&amp;gt;        &amp;lt;int&amp;gt;        &amp;lt;int&amp;gt;
+##    &amp;lt;dbl&amp;gt;          &amp;lt;int&amp;gt;        &amp;lt;int&amp;gt;        &amp;lt;int&amp;gt;        &amp;lt;int&amp;gt;
 ##  1  2008              4            7            3            2
 ##  2  2009              3           10            4            0
 ##  3  2010              0           11           11            7
@@ -489,7 +489,7 @@ april %&amp;gt;%
     )&lt;/code&gt;&lt;/pre&gt;
 &lt;pre&gt;&lt;code&gt;## # A tibble: 9 x 2
 ##    year total_snow
-##   &amp;lt;int&amp;gt;      &amp;lt;dbl&amp;gt;
+##   &amp;lt;dbl&amp;gt;      &amp;lt;dbl&amp;gt;
 ## 1  2008       0.96
 ## 2  2009       0.47
 ## 3  2011       0.08

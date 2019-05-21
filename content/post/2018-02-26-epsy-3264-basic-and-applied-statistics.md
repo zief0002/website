@@ -5,9 +5,6 @@ date: '2018-02-26'
 slug: epsy-3264-basic-and-applied-statistics
 categories: [course]
 tags: [EPsy-3264, Teaching, CATALST]
-header:
-  image: "headers/janneke-staaks-header-01.jpg"
-  caption: "Image Credit: A Flickr photo by janneke staaks"
 ---
 
 EPsy 3264 is a 3-credit course designed to engage students using a modeling and simulation approach to inference. This course fulfills the *Mathematical Thinking* component of the Liberal Education requirements at the University of Minnesota. Statistics is more than just an application of mathematics or a methodology used in some other discipline. Statistics is a principled way of thinking about the world. In particular, it is a principled approach to data collection, prediction, and scientific inference. In today’s dynamic and interdisciplinary world, success in confronting new analytical issues requires both substantial knowledge of a scientific or technological area and highly flexible problem-solving strategies.

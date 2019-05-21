@@ -139,6 +139,16 @@
     
     <url>
     
+      <loc>/tags/computing/</loc>
+      <lastmod>2019-04-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>/post/2019-04-30-computer-brain/</loc>
       <lastmod>2019-04-30T00:00:00+00:00</lastmod>
     </url>
@@ -149,16 +159,6 @@
     <url>
     
       <loc>/tags/history/</loc>
-      <lastmod>2019-04-30T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/computing/</loc>
       <lastmod>2019-04-30T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

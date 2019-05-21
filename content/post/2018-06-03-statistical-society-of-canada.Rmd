@@ -4,10 +4,7 @@ author: Andrew Zieffler
 date: '2018-06-03'
 slug: ssc-computing-talk
 categories: []
-tags: ["R", "teaching", "computing"]
-header:
-  image: "headers/marcin-ignac-header.jpg"
-  caption: "Image Credit: A flickr photo by Marcin Ignac"  
+tags: ["R", "Teaching", "Computing"]
 ---
 
 I am giving a talk at the [46th Annual Meeting of the Statistical Society of Canada](https://ssc.ca/en/publications/ssc-liaison/vol-32-1-february-2018/ssc-2018-46th-annual-meeting-statistical-society) in Montreal on June 05, 2018. The talk is part of an invited session on *Teaching Statistics to Graduate Students in the Health and Social Sciences*. Information, including the slides, is available below.

@@ -3,9 +3,6 @@ title: "Statistics Education Research Seminar: Teaching Statistics from a Modeli
 author: "~"
 date: 2018-04-06
 tags: ["Teaching", "Research"]
-header:
-  image: "headers/epsy-course-announcement.png"
-  caption: "Image Credit: A photo by Sarah Jergenson"
 ---
 
 My colleague Robert delMas is teaching our doctoral-level research seminar, EPsy 8271 next fall, and it looks to be an interesting topic. The details about the course follow:

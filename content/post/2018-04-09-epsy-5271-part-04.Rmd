@@ -3,9 +3,6 @@ title: "Q&A with Becoming a Teacher of Statistics Class: Part IV"
 author: "~"
 date: 2018-04-09
 tags: ["Teaching", "FAQ"]
-header:
-  image: "headers/janneke-staaks-header-05.jpg"
-  caption: "Image Credit: A flickr photo by janneke staaks"
 ---
 
 This post is the fourth (and last) in a series of blogposts in which I respond to questions from the students in the *Becoming a Teacher of Statistics* course. In today's posting I respond to questions that asked me for predictions about the future of statistics teaching and statistics education research.

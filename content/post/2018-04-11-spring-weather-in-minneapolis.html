@@ -6,9 +6,6 @@ slug: spring-weather-in-minneapolis
 categories: []
 tags:
   - R
-header:
-  image: "headers/janneke-staaks-header-03.jpg"
-  caption: "Image Credit: A flickr photo by Janneke Staaks"  
 ---
 
 
@@ -39,7 +36,7 @@ so that I only had the first eleven days of April for each year represented in t
   )</code></pre>
 <pre><code>## # A tibble: 11 x 5
 ##     year days_with_snow days_over_40 days_over_50 days_over_60
-##    &lt;int&gt;          &lt;int&gt;        &lt;int&gt;        &lt;int&gt;        &lt;int&gt;
+##    &lt;dbl&gt;          &lt;int&gt;        &lt;int&gt;        &lt;int&gt;        &lt;int&gt;
 ##  1  2008              4            7            3            2
 ##  2  2009              3           10            4            0
 ##  3  2010              0           11           11            7
@@ -64,7 +61,7 @@ april %&gt;%
     )</code></pre>
 <pre><code>## # A tibble: 9 x 2
 ##    year total_snow
-##   &lt;int&gt;      &lt;dbl&gt;
+##   &lt;dbl&gt;      &lt;dbl&gt;
 ## 1  2008       0.96
 ## 2  2009       0.47
 ## 3  2011       0.08
