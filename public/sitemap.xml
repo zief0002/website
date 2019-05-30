@@ -5,7 +5,36 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2019-05-19T00:00:00+00:00</lastmod>
+      <lastmod>2019-05-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/change-time-and-effort/</loc>
+      <lastmod>2019-05-30T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/miscellaneous/</loc>
+      <lastmod>2019-05-30T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/</loc>
+      <lastmod>2019-05-30T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -25,16 +54,6 @@
     <url>
     
       <loc>/tags/statistics-education/</loc>
-      <lastmod>2019-05-19T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/</loc>
       <lastmod>2019-05-19T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -179,16 +198,6 @@
     
       <loc>/post/2018-08-27-inbox-zero/</loc>
       <lastmod>2018-08-27T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/miscellaneous/</loc>
-      <lastmod>2018-08-27T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   

@@ -6,8 +6,48 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 19 May 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 May 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Change: Time and Effort</title>
+      <link>/post/change-time-and-effort/</link>
+      <pubDate>Thu, 30 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/change-time-and-effort/</guid>
+      <description>&lt;p&gt;In the fall of 2008 (maybe 2007; my memory is fleeting) our department moved from Burton Hall to the, at the time, newly renovated Education Sciences Building. This building is beautiful from the outside; brick, overlooking the Mississippi River. The building was designed in such a way that (at least on my floor) there are two long parallel hallways with the faculty offices on the outside of these hallways (running the exterior wall of the building) and the interior filled with lab space (small offices) for research grants. Other than the claustrophobic closed-in linear feeling of this, the setup isn&amp;rsquo;t that terrible.&lt;/p&gt;
+
+&lt;p&gt;The space designed for students, however left a lot to be desired. The student space was clustered into two different open areas on the floor and was filled with study carrels, the thought being that each student who wasn&amp;rsquo;t placed in a research lab needed a designated carrel. The reality was that students didn&amp;rsquo;t use these at all and quit showing up to the building.&lt;/p&gt;
+
+&lt;p&gt;One of the faculty&amp;rsquo;s biggest laments is that students are never around. Perhaps it is the experiences we had as graduate students, but many of us believe that having community with other students and faculty alike is a large part of growing as a scholar. Of course the internet and online accessibility to resources has changed many aspects of human life, including graduate school. But, the choice to be around the building more often, let alone to work cooperatively (another of the faculty&amp;rsquo;s goals) is often less palettable when students are accustomed to the large tables and open areas associated with coffee shops and other study areas around campus.&lt;/p&gt;
+
+&lt;p&gt;I couldn&amp;rsquo;t blame the students for not showing up. Around 2009 I started inquiring (along with some others) about whether we could change things. This was the &amp;ldquo;way it was&amp;rdquo; we were told and we couldn&amp;rsquo;t change things. As the years went on, I kept asking, even offering to dismantle all of the carrels myself, haul them to the university storage facility and bring in chairs, couches and tables. The answer was consistently &amp;ldquo;no&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Last year, after organizing some students and other faculty we finally got a &amp;ldquo;maybe&amp;rdquo;, which turned into &amp;ldquo;yes&amp;rdquo;. This spring the carrels came down and were replaced with large tables. We also put in several whiteboards. Although we didn&amp;rsquo;t get our couch, this is an improvement. The pictures below show the new space.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/post/2019-05-30-change-time-and-effort_files/Image-2.jpeg&#34; alt=&#34;EdSciB Student Space&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/post/2019-05-30-change-time-and-effort_files/Image-1.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;/post/2019-05-30-change-time-and-effort_files/Image.jpeg&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Since this space was renovated we have been seeing many more students working in the building. One of my colleagues sent out the following email:&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Hi everyone,&lt;/p&gt;
+
+&lt;p&gt;I have been working late pretty consistently over the past 2 weeks and have good news to report: the new student space on the 1st floor is a huge hit!&lt;/p&gt;
+
+&lt;p&gt;Every evening, I have seen clusters of students at the tables working on class projects, reading papers, talking about research, and eating and drinking and socializing together. I could not be happier.&lt;/p&gt;
+
+&lt;p&gt;(It strongly reminds me of the camaraderie of my graduate school days, before the rise of cell phones and laptops and wireless networks emptied university labs and filled coffeeshops with people working alone.)&lt;/p&gt;
+
+&lt;p&gt;Last night, for example, I drifted down around 6 PM and saw Carlos, Rina, and Ashley working on R programming (perhaps for 8251), Tayler at a separate table coding data, and Jesslyn eagerly preparing to analyze the post-test data from her first-year project. I checked in 2 hours later, as I was leaving. Jesslyn and Ashley had been replaced by Ozge and Tai. Who knows how late they all worked.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I write this post to remind others (and myself) that change at a university takes time. A lot of time. It also takes a person to take the lead and keep asking. This took us almost 10 years to get changed. It was 8&amp;ndash;9 years of asking and hearing &amp;ldquo;no&amp;rdquo; before we got a maybe. Many initiatives take a lot of time and one dedicated person who gets others excited as well. Keep asking; keep working; today&amp;rsquo;s &amp;ldquo;no&amp;rdquo; is tomorrow&amp;rsquo;s &amp;ldquo;yes&amp;rdquo;. Now if only we could get a couch and a cappuccino maker!&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>USCOTS 2019</title>
@@ -591,40 +631,6 @@ ggplot(april, aes(x = temp_avg, y = fct_rev(factor(year)), fill = ..x..)) +
 &lt;p&gt;During this process, students will learn about and critique research methods, critically examine research findings from studies, and consider implications for teaching.&lt;/p&gt;
 &lt;p&gt;As a capstone to the course, each student will produce a scholarly paper that explores, in more depth, a research area covered during the course.&lt;/p&gt;
 &lt;p&gt;For more information, contact Robert delMas, &lt;a href=&#34;mailto::delma001@umn.edu&#34;&gt;delma001@umn.edu&lt;/a&gt;.&lt;/p&gt;
-&lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Q&amp;A with Becoming a Teacher of Statistics Class: Part III</title>
-      <link>/post/2018-04-02-epsy-5271-part-03/</link>
-      <pubDate>Mon, 02 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2018-04-02-epsy-5271-part-03/</guid>
-      <description>
-  &lt;link rel=&#34;stylesheet&#34; href=&#34;/css/bracket.css&#34; type=&#34;text/css&#34; /&gt;
-
-
-&lt;p&gt;This post is the third in a series of blogposts in which I respond to questions from the students in the &lt;em&gt;Becoming a Teacher of Statistics&lt;/em&gt; course. In today’s posting I respond to questions related to teaching.&lt;/p&gt;
-&lt;div id=&#34;with-a-flipped-classroom-the-professor-tapes-their-lecture-and-has-students-view-the-video-online.-i-think-the-logical-extreme-of-this-is-that-at-some-point-certain-lectures-will-become-immensely-popular-or-polished-to-the-point-of-surpassing-local-professors-lectures.-could-you-see-the-flipped-classroom-evolving-to-the-point-of-removing-the-need-for-local-professors-to-record-themselves-given-certain-excellent-online-lectures&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;With a flipped classroom, the professor tapes their lecture and has students view the video online. I think the logical extreme of this is that at some point, certain lectures will become immensely popular or polished to the point of surpassing local professors’ lectures. Could you see the flipped classroom evolving to the point of removing the need for local professors to record themselves, given certain excellent online lectures?&lt;/h4&gt;
-&lt;p&gt;Potentially. Although I hope not. In my experience, not every class emphasizes the same thing, so while there are some concepts that are consistent across courses, the “local” professors bring something unique to the class they are teaching. Maybe it is this variation that is important for the professor’s to capture, rather than re-inventing the wheel of trying to give a lecture on a common topic like OLS estimation, say. If professors could focus on how to build-on these pre-canned lectures, rather than spending time and effort re-inventing them, it seems like a better use of resources.&lt;/p&gt;
-&lt;p&gt;To play devil’s advocate for a minute, how do we know when we have hit the apex in video lectures? Is popularity a signifier of consenus of greatness? (Counterpoint: As of this writing, &lt;code&gt;@realDonaldTrump&lt;/code&gt; has 49.8 million followers on Twitter.) Or is it that we come to this conclusion once a really great statistician has produced a video on a particular topic (e.g., &lt;a href=&#34;https://lagunita.stanford.edu/courses/HumanitiesSciences/StatLearning/Winter2016/about&#34;&gt;Hastie and Tibshirani’s lectures on Machine Learning&lt;/a&gt;)?&lt;/p&gt;
-&lt;p&gt;This was tried in the early 1960’s for introductiry statistics, when the &lt;a href=&#34;https://en.wikipedia.org/wiki/Continental_Classroom&#34;&gt;Continental Classroom&lt;/a&gt; broadcast a course in probability and statistics on NBC taught by Frederick Mosteller. They also developed a textbook and other materials to accompany the course. Students received credit by enrolling in the course through a local college or university, and successfully completing the course examinations, which were mailed out to participating institutions. Aside from instant name recognition, this course was also immensely popular; more than 75,000 students took the probability and statistics course for credit at 320 colleges—which was broadcast between 6:00–7:00AM. (About 1.2 million people viewed the course but did not take it for credit.)&lt;/p&gt;
-&lt;p&gt;Sixty-plus years later, many people have probably never heard of the &lt;em&gt;Continental Classroom&lt;/em&gt;, or haven’t thought about it in many decades. The content (which you can view at the American Statistical Association’s headquarters in Alexandria, VA) is, not surprisingly, out of date. In the Twitter age things go out of date quickly. Even when attempts to update content are made, it is still hard. There was a great series of approximately 30 videos recorded in 1989, &lt;a href=&#34;https://www.amazon.com/Against-All-Odds-Statistics-episodes/dp/1559460911&#34;&gt;Against All Odds: Inside Statistics&lt;/a&gt;, that introduced topics in statistics. (These loosely corresponded with topics in David Moore’s &lt;em&gt;Introduction to the Practice of Statistics&lt;/em&gt; textbook.) By the early 2000’s these seemed quite dated. Although the videos were &lt;a href=&#34;https://www.learner.org/courses/againstallodds/unitpages/index.html&#34;&gt;updated in 2013&lt;/a&gt;, it is unclear how much the content changed. (Why are we still worrying about creating stem-and-leaf plots in 2018!??)&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;in-your-catalst-paper-written-with-huberty-you-mention-that-after-school-computer-labs-can-be-a-potential-improvement-for-the-csi-courses-you-installed-in-minnesota-schools.-since-its-been-a-couple-years-have-you-seen-any-schools-take-you-up-on-this-idea-i-would-agree-that-more-one-on-one-time-with-a-teacher-may-be-more-beneficial-for-shyer-students.-especially-for-those-in-the-beginning-of-the-course-that-have-the-preconceived-notion-that-they-suck-at-mathematics-and-therefore-will-not-do-as-well-as-in-your-course.&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;In your CATALST paper written with Huberty you mention that after school computer labs can be a potential improvement for the CSI courses you installed in Minnesota schools. Since it’s been a couple years, have you seen any schools take you up on this idea? I would agree that more one-on-one time with a teacher may be more beneficial for shyer students. Especially for those in the beginning of the course that have the preconceived notion that they “suck at mathematics and therefore will not do as well as in your course”.&lt;/h4&gt;
-&lt;p&gt;I think many of the teachers make sure time is available after school for students to work on the computers with TinkerPlots™. What I don’t know is how many students take advantage of it. Many of them are involved in after-school activities, or have other obligations that keep them from making it into the lab after school.&lt;/p&gt;
-&lt;p&gt;I think what tends to be more important than the one-on-one time is the pedagogy used in the classroom. The educational research overwhelmingly suggests that pedagogy matters for student learning, and that students in student-centered classrooms outperform their counterparts in lecture-based courses. (This is especilly true for minority and disadvantaged students; see &lt;a href=&#34;https://college.unc.edu/2014/09/02/hoganstudy/&#34;&gt;here&lt;/a&gt;.)&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;do-you-change-your-material-andor-approach-when-teaching-intro-stats-to-high-schoolers-ap-or-college-in-the-schools-for-example-versus-teaching-it-to-undergrads-versus-grad-students&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;Do you change your material and/or approach when teaching intro stats to high schoolers (AP or College in the Schools, for example) versus teaching it to undergrads versus grad students?&lt;/h4&gt;
-&lt;p&gt;Great question. Let me preface my answer with saying that although I taught high school for four years, this was around 1998 (the Backstreet Boys and N’Sync were big) and I haven’t really taught that age-level since.&lt;/p&gt;
-&lt;p&gt;From working with high school teachers, and from some recollection, the big difference is that when teaching a high school class, you have far more time than we do at the university/college level. High school courses tend to meet every day, while we only meet twice a week. This means you can allow more time for the concepts and skills to develop when teaching a high school course.&lt;/p&gt;
-&lt;p&gt;The assessments are also generally far less high-stakes than they are at the college level. In college you may have one or two exams that make up almost all of your grade. In high school, it is not uncommon to have many assessment opportunities throughout a course.&lt;/p&gt;
-&lt;p&gt;So, material-wise, I would employ many of the same materials in the high school course that we do in the college course. But, I would supplement these with other activities and materials that build-on the ideas and give students opportunities to practice what they’ve learned.&lt;/p&gt;
-&lt;p&gt;Pedagogically, I would try to approach things the same way, including discussions and cooperative learning. I believe that learning takes hard work and it is the student’s responsibility. I can facilitate that learning, but it is ultimately up to the student to take on that hard work. The brain is a muscle that needs to be worked out. Like physical work outs, you need to build-up to larger “weights”. Focusing on the process, not the product, is also important as the goal (learning) is a long-term outcome. It may be harder to convinve a high school student that this process, which takes time, is worthwhile.&lt;/p&gt;
 &lt;/div&gt;
 </description>
     </item>
