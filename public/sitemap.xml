@@ -5,7 +5,36 @@
     <url>
     
       <loc>/</loc>
-      <lastmod>2019-05-30T00:00:00+00:00</lastmod>
+      <lastmod>2019-06-03T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/quotation/</loc>
+      <lastmod>2019-06-03T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/post/richard-hamming-on-calculus/</loc>
+      <lastmod>2019-06-03T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>/tags/</loc>
+      <lastmod>2019-06-03T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -24,16 +53,6 @@
     <url>
     
       <loc>/tags/miscellaneous/</loc>
-      <lastmod>2019-05-30T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/</loc>
       <lastmod>2019-05-30T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -113,16 +132,6 @@
     
       <loc>/post/2019-05-06-cv-quotation/</loc>
       <lastmod>2019-05-02T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>/tags/quotation/</loc>
-      <lastmod>2019-05-02T00:00:00+00:00</lastmod>
-      <priority>0</priority>
     </url>
     
   
