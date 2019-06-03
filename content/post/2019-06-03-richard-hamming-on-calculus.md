@@ -1,5 +1,5 @@
 ---
-title: Richard Hamming on Calculus
+title: Richard Hamming on the Teaching of Mathematics
 author: Andy
 date: '2019-06-03'
 slug: richard-hamming-on-calculus
