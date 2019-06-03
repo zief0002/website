@@ -19,6 +19,7 @@ Blogs I follow:
 
 - [R Bloggers](https://www.google.com/url?q=http://r-bloggers.com&sa=D&ust=1520187345253000&usg=AFQjCNFUpFqK5Vl6LgCCppwwqZMD47N1xQ)
 - [R Weekly](https://rweekly.org)
-- [Educate-R](https://brandonlebeau.org/)
+- [Educate-R](https://brandonlebeau.org/) &mdash; Brandon LeBeau's blog
+- [Statistical Journeys](https://statisticaljourneys.home.blog/ (Vimal’s blog)) &mdash; Vimal Rao's blog
 
 
