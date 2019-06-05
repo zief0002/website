@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Sun, 03 Jun 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Higher Education in Minnesota</title>
+      <link>/post/higher-education-in-minnesota/</link>
+      <pubDate>Wed, 05 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/higher-education-in-minnesota/</guid>
+      <description>I was recently perusing a book from 1960, Minnesota Heritage: A Panoramic Narrative of the Historical Development of the North Star State and came across the following map showing the locations of the colleges and universities in the state at the time.
+ Figure 1: Minnesota Colleges and Universities in 1960  
+The text referring to the map made an inference about the accessibility to higher education,
+ At a glance the map shows, these facilities for higher education are quite uneveny distributed.</description>
+    </item>
     
     <item>
       <title>Computing Talk at SSC 2018</title>
