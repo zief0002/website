@@ -6,8 +6,174 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 17 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What to do about p-values?</title>
+      <link>/post/what-to-do-about-p-values/</link>
+      <pubDate>Wed, 26 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/what-to-do-about-p-values/</guid>
+      <description>
+
+
+&lt;p&gt;In March, the ASA published a special issue of &lt;em&gt;The American Statistician&lt;/em&gt; (TAS) related to statistical inference in the 21st century. In the initial article, &lt;em&gt;Moving to a World Beyond “p &amp;lt; 0.05”&lt;/em&gt;, Wassersein, Schirm, and Lazar (2019) write for the ASA saying,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“The &lt;em&gt;ASA Statement on P-Values and Statistical Significance&lt;/em&gt; stopped just short of recommending that declarations of “statistical significance” be abandoned. We take that step here. We conclude, based on our review of the articles in this special issue and the broader literature, that it is time to stop using the term “statistically significant” entirely. Nor should variants such as “significantly different,” “p &amp;lt; 0.05,” and “nonsignificant” survive, whether expressed in words, by asterisks in a table, or in some other way. (p. 2)&#34;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Since reading this, I have been thinking about how to address these suggestions (mandates?) in our statistics curriculum. The suggestions offered in the article are nice, but a bit big-picture for applied scientists, things like:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Accept uncertainty&lt;/li&gt;
+&lt;li&gt;Be thoughtful&lt;/li&gt;
+&lt;li&gt;Be open&lt;/li&gt;
+&lt;li&gt;Be modest&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Ron Wasserstein in his talk at USCOTS wasn’t much more helpful in what to do, but gave a gem of a quote when he said,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;“Small p-values are like a right-swipe in Tinder. It means you have an interest. It doesn’t mean you’re ready to book the wedding venue.”&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;figure&gt;
+&lt;img src=&#34;/post/2019-06-26-what-to-do-about-p-values_files/200996_web.jpg&#34; alt=&#34;&#34; width=&#34;70%&#34;/&gt;
+&lt;figcaption style=&#34;text-align:center;&#34;&gt;
+Ron Wasserstein’s suggestion on how to think about p-values.
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;But how does all of this translate in a statistical methods course (built around the general linear model) for graduate students in the social sciences? That is what I have been thinking about since March, and so far I have a few, albeit very few, ideas abut how to do this. Here are some things I plan on changing/incorporating into the course.&lt;/p&gt;
+&lt;div id=&#34;interpreting-results-from-hypothesis-tests&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Interpreting Results from Hypothesis Tests&lt;/h3&gt;
+&lt;p&gt;First off, I will be actively discouraging the use of anything related to “&lt;span class=&#34;math inline&#34;&gt;\(p&amp;lt;.05\)&lt;/span&gt;” or the use of the word “significance”. I have done this in the past, but this year I am really goiing to go after it. The question is what to do instead? I am going to try using language such as “consistent with” or “compatible with” in these interpretations. For example,&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The p-value of .003 suggests that the empirical data are inconsistent with the hypothesis that the regression coefficient differs from zero only because of sampling error. This, along with the positive sample slope provide evidence that time spent on homework likely has a positive association with GPA.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;This type of interpretation is not that different than I have had students use in the past. I think the bigger difference is for results with larger p-values. Here the emphasis is&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;The p-value of .13 does not provide evidence against the hypothesis that the regression coefficient differs from zero only because of sampling error. While the empirical data are consistent with this hypothesis, it may also be the case that there is a positive relationship between time spent on homework and GPA (as evidenced by the positve sample slope) but the data do not contain enough statistical information to ascertain this relationship.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;The big diffeence is I want to eliminate the “reject” or “fail to reject” language I have used in the past. In the second case, I also want students to illuminate the idea that data are consistent with multiple hypothesized values.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;confidence-intervals-as-compatibility-intervals&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Confidence Intervals as Compatibility Intervals&lt;/h3&gt;
+&lt;p&gt;When teaching about confidence intervals, I am thinking about focusing on them as “compatibility intervals” as suggested by Amrhein, Greenland, and McShane (2019). Here are four points I plan on stressing:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Just because the interval gives the values most compatible with the data, given the assumptions, it doesn’t mean values outside it are incompatible; they are just less compatible.&lt;/li&gt;
+&lt;li&gt;Not all values inside are equally compatible with the data, given the assumptions. The point estimate is the most compatible, and values near it are more compatible than those near the limits.&lt;/li&gt;
+&lt;li&gt;Like the 0.05 threshold from which it came, the default 95% used to compute intervals is itself an arbitrary convention.&lt;/li&gt;
+&lt;li&gt;Last, and most important of all, be humble: compatibility assessments hinge on the correctness of the statistical assumptions used to compute the interval. In practice, these assumptions are at best subject to considerable uncertainty.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;To help with these ideas I am going to have students use visual representations of these that make the uncertainty more apparant. In the past I have had students create coefficient plots, but these tended to use lines to show the CIs for each of the regression coefficients. This year I am going to use &lt;a href=&#34;https://github.com/wilkelab/ungeviz&#34;&gt;Claus Wilke’s ungeviz package&lt;/a&gt; to create these plots. This package employs color density to indicate uncertainty; darker more dense color is associated with more certainty and lighter less dense color is associated with less certainty.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-1&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/2019-06-26-what-to-do-about-p-values_files/figure-html/unnamed-chunk-1-1.png&#34; alt=&#34;Coefficient plots for a multiple regression model using time spent on homework and level of parent education to predict GPA. The plot on the left shows the type of coefficient plot I used to have students create, and the plot on the right uses color density to show the uncertainty.&#34; width=&#34;90%&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Coefficient plots for a multiple regression model using time spent on homework and level of parent education to predict GPA. The plot on the left shows the type of coefficient plot I used to have students create, and the plot on the right uses color density to show the uncertainty.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The syntax is straightforward. After fitting a linear model, obtain the coefficient-level output using &lt;code&gt;tidy()&lt;/code&gt; and then use Wilke’s &lt;code&gt;stat_confidence_density()&lt;/code&gt; function. I found his package documentation quite good and easy to implement. Here is the syntax I used. (The &lt;code&gt;keith-gpa.csv&lt;/code&gt; data used is available &lt;a href=&#34;http://zief0002.github.io/epsy-8251/#data&#34;&gt;here&lt;/a&gt;.)&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;# Fit model
+lm.1 = lm(gpa ~ 1 + homework + parent_ed, data = keith)
+
+# Coefficient plot
+broom::tidy(lm.1) %&amp;gt;%
+  filter(term != &amp;quot;(Intercept)&amp;quot;) %&amp;gt;%
+  ggplot(aes(x = estimate, y = term)) +
+    stat_confidence_density(aes(moe = std.error, fill = stat(ndensity)), height = 0.15, confidence = 0.68) +
+    geom_point(aes(x = estimate), size = 2) +
+    xlim(-1, 3) +
+    theme_bw() +
+    scale_fill_gradient(low = &amp;quot;#eff3ff&amp;quot;, high = &amp;quot;#6baed6&amp;quot;) +
+    theme(
+      panel.grid.major = element_blank(),
+      panel.grid.minor = element_blank()
+      ) +
+    scale_y_discrete(name = &amp;quot;Coefficients&amp;quot;, labels = c(&amp;quot;Intercept&amp;quot;, &amp;quot;Time spent\non homework&amp;quot;)) +
+    xlab(&amp;quot;Estimate&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;div id=&#34;regression-smoothers&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Regression Smoothers&lt;/h3&gt;
+&lt;p&gt;I also want students to consider uncertainty in plots of their regression lines. In the past I have used &lt;code&gt;geom_smooth()&lt;/code&gt; with the argument &lt;code&gt;se=TRUE&lt;/code&gt; (default). However, this just draws the confidence enevelope as lines, which has the same issues as the earlier coefficient plot. To voercome this, I used ideas from &lt;a href=&#34;https://www.nicebread.de/visually-weighted-watercolor-plots-new-variants-please-vote/&#34;&gt;Felix Schonbrodt&lt;/a&gt; to bootstrap potential regression lines and overlay them on a plot so that I could implement color density to illustrate uncertainty. I wrote these into a function &lt;code&gt;stat_watercolor_smooth()&lt;/code&gt; in my &lt;a href=&#34;https://github.com/zief0002/educate&#34;&gt;educate package available via github&lt;/a&gt;. Note that I am NOT an R programmer; at best a script kiddie, so I do not promise these are curated nor great code.&lt;/p&gt;
+&lt;p&gt;For example, here is a line fitted using a simple linear regression.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(educate)
+
+ggplot(data = keith, aes(x = homework, y = gpa)) +
+  stat_watercolor_smooth(k = 1000, method = &amp;quot;lm&amp;quot;) +
+  geom_smooth(method = &amp;quot;lm&amp;quot;, se = FALSE, size = 0.5, color = &amp;quot;black&amp;quot;) +
+  theme_bw() +
+  xlab(&amp;quot;Time spent on homework (in hours)&amp;quot;) +
+  ylab(&amp;quot;GPA (on a 100-pt scale)&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-3&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/2019-06-26-what-to-do-about-p-values_files/figure-html/unnamed-chunk-3-1.png&#34; alt=&#34;Regression line fitted using the empirical data (black) and uncertainty in its location based on the location of 1000 bootstrapped lines&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Regression line fitted using the empirical data (black) and uncertainty in its location based on the location of 1000 bootstrapped lines
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;By omitting the &lt;code&gt;method=&#34;lm&#34;&lt;/code&gt; arguement a loess smoother will be fitted, similar to &lt;code&gt;geom_smooth()&lt;/code&gt;. This can be useful for evaluating the linearity assumption in regression.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;broom::augment(lm.1) %&amp;gt;%
+  ggplot(aes(x =  .fitted, y = .resid)) +
+    geom_point() +
+    stat_watercolor_smooth(k = 1000) +
+    geom_hline(yintercept = 0, size = 0.5, color = &amp;quot;black&amp;quot;) +
+    theme_bw() +
+    xlab(&amp;quot;Model fitted values&amp;quot;) +
+    ylab(&amp;quot;Model residuals&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-4&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/2019-06-26-what-to-do-about-p-values_files/figure-html/unnamed-chunk-4-1.png&#34; alt=&#34;Plot of the model residuals versus the fitted values. The blue lines show 1000 bootstrapped loess smoothers for the data. The line at y=0 is also displayed (black).&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 3: Plot of the model residuals versus the fitted values. The blue lines show 1000 bootstrapped loess smoothers for the data. The line at y=0 is also displayed (black).
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;The uncertainty displayed in the plot suggests that empirical values are not inconsistent with the assumption of linearity (i.e., the uncertainty in the conditional mean values encompasses 0).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;density-plots-and-uncertainty&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Density Plots and Uncertainty&lt;/h3&gt;
+&lt;p&gt;I use density plots in these methods courses and have used the &lt;code&gt;sm.density()&lt;/code&gt; package for many years due to its ability to produce confidence envelopes for particular models. One drawback is that this package uses base R graphics. So this summer I wrote some syntax to implement some of these features using ggplot. These functions are available in my &lt;a href=&#34;https://github.com/zief0002/educate&#34;&gt;educate package via github&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I used the same idea of In this package I bootstrap to create a spaghetti plot of hypothetical densities (which produce a “confidence enevelope”) and then use color density to show uncertainty.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;library(educate)
+
+ggplot(data = keith, aes(x = gpa)) +
+  stat_watercolor_density(k = 1000) +
+  stat_density(size = 0.5, geom = &amp;quot;line&amp;quot;) +
+  theme_bw() +
+  xlab(&amp;quot;GPA (on a 100-pt scale)&amp;quot;) +
+  ylab(&amp;quot;Probability density&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-5&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/2019-06-26-what-to-do-about-p-values_files/figure-html/unnamed-chunk-5-1.png&#34; alt=&#34;Probability density plot of the GPA variable. The plot also displays the uncertainty of the density via 1000 bootstrapped densities.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 4: Probability density plot of the GPA variable. The plot also displays the uncertainty of the density via 1000 bootstrapped densities.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;We can also use this to evaluate normality assumptions. This is quite useful for examining model assumptions. For example, here I plot the density of the marginal residuals from the previously fitted linear model.&lt;/p&gt;
+&lt;pre class=&#34;r&#34;&gt;&lt;code&gt;broom::augment(lm.1) %&amp;gt;%
+ggplot(aes(x = .resid)) +
+  stat_watercolor_density(k = 1000, model = &amp;quot;normal&amp;quot;) +
+  stat_density(size = 0.5, geom = &amp;quot;line&amp;quot;) +
+  theme_bw() +
+  xlab(&amp;quot;Model residuals&amp;quot;) +
+  ylab(&amp;quot;Probability density&amp;quot;)&lt;/code&gt;&lt;/pre&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:unnamed-chunk-6&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;/post/2019-06-26-what-to-do-about-p-values_files/figure-html/unnamed-chunk-6-1.png&#34; alt=&#34;Probability density plot of the model residuals. The plot also displays 1000 bootstrapped densities drawn from a normal distribution.&#34; width=&#34;672&#34; /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 5: Probability density plot of the model residuals. The plot also displays 1000 bootstrapped densities drawn from a normal distribution.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Here the empirial density associated with the model residuals is not inconsistent with the assumption of normality (at least marginally).&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;conclusion&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Conclusion&lt;/h3&gt;
+&lt;p&gt;These are my inital ideas. I am really curious to talk with other statistics educators to hear how they are addressing the &lt;em&gt;p&lt;/em&gt;-value post TAS publication.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;reference&#34; class=&#34;section level3&#34;&gt;
+&lt;h3&gt;Reference&lt;/h3&gt;
+&lt;p style=&#34;text-indent: -22px; margin-left: 22px;&#34;&gt;
+Amrhein, V., Greenland, S., &amp;amp; McShane, B. (2019). Comment: Retire statistical significance. &lt;em&gt;Nature, 567&lt;/em&gt;, 305–307.
+&lt;/p&gt;
+&lt;p style=&#34;text-indent: -22px; margin-left: 22px;&#34;&gt;
+Wasserstein, R. L., Schirm, A. L., &amp;amp; Lazar, N. A. (2019). Moving to a world Beyond “p &amp;lt; 0.05.” &lt;em&gt;The American Statistician, 73&lt;/em&gt;(sup1), 1–19. &lt;a href=&#34;http://doi.org/10.1080/00031305.2019.1583913&#34; class=&#34;uri&#34;&gt;http://doi.org/10.1080/00031305.2019.1583913&lt;/a&gt;
+&lt;/p&gt;
+&lt;p&gt;I have been in a&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>2019 StatPREP Workshops</title>
@@ -591,124 +757,6 @@ Figure 3: Minnesota population density as of the 2000 census. Accessed from &lt;
 &lt;p&gt;&lt;strong&gt;Title:&lt;/strong&gt; &lt;em&gt;Statistical Computing: Non-Ignorable Missingness in the Graduate-Level Social Science Curriculum&lt;/em&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; In 2010, Nolan and Temple Lang pointed out that &#34;computational literacy and programming are as fundamental to statistical practice and research as mathematics&#34;. Since that time computation has become an even more important skillset for researchers and scientists who use statistics. Many graduate-level statistics programs in the social sciences have yet to adopt statistical computing into the curriculum. Students either learn computing on their own or its teaching is relegated to specialty, often advanced, coursework. In either case, it is often only a small minority of quantitatively-focused students that are exposed to computing. The majority of graduate-level social science students, however, are not quantitatively focused. To what extent should they learn statistical computing? Which aspects of statistical computing should they be exposed to? In this talk, I explore these questions and offer some advice for teaching statistical computing to graduate-level social science students.&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;Slides:&lt;/strong&gt; Available at &lt;a href=&#34;https://github.com/zief0002/website/raw/master/public/files/computing-talk-2018-05-07.pdf&#34; class=&#34;uri&#34;&gt;https://github.com/zief0002/website/raw/master/public/files/computing-talk-2018-05-07.pdf&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>R Markdown Theme Gallery</title>
-      <link>/post/r-markdown-theme-gallery/</link>
-      <pubDate>Thu, 12 Apr 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/r-markdown-theme-gallery/</guid>
-      <description>
-
-
-&lt;p&gt;R Markdown is a great way to integrate R code into a document. An example of the &lt;code&gt;default&lt;/code&gt; theme used in R Markdown HTML documents is shown below.&lt;/p&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/default.png&#34; /&gt;&lt;/p&gt;
-&lt;div id=&#34;pre-packaged-themes&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Pre-Packaged Themes&lt;/h2&gt;
-&lt;p&gt;There are several other canned themes you can use rather than the &lt;code&gt;default&lt;/code&gt; theme. There are 12 additional themes that you can use without installing any other packages: “cerulean”, “cosmo”, “flatly”, “journal”, “lumen”, “paper”, “readable”, “sandstone”, “simplex”, “spacelab”, “united”, and “yeti”. You can read the &lt;a href=&#34;https://rmarkdown.rstudio.com/html_document_format.html#appearance_and_style&#34;&gt;R Markdown documentation&lt;/a&gt; for detail about how to change your theme from the &lt;code&gt;default&lt;/code&gt;. Below are screenshots for each of them.&lt;/p&gt;
-&lt;div id=&#34;cerulean-theme&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;cerulean&lt;/code&gt; Theme&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/cerulean.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;cosmo-theme&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;cosmo&lt;/code&gt; Theme&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/cosmo.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;flatly-theme&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;flatly&lt;/code&gt; Theme&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/flatly.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;journal-theme&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;journal&lt;/code&gt; Theme&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/journal.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;lumen-theme&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;lumen&lt;/code&gt; Theme&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/lumen.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;paper-theme&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;paper&lt;/code&gt; Theme&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/paper.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;readable-theme&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;readable&lt;/code&gt; Theme&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/readable.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;sandstone-theme&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;sandstone&lt;/code&gt; Theme&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/sandstone.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;simplex-theme&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;simplex&lt;/code&gt; Theme&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/simplex.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;spacelab-theme&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;spacelab&lt;/code&gt; Theme&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/spacelab.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;united-theme&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;united&lt;/code&gt; Theme&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/united.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;yeti-theme&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;yeti&lt;/code&gt; Theme&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/yeti.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
-&lt;div id=&#34;even-more-themes&#34; class=&#34;section level2&#34;&gt;
-&lt;h2&gt;Even More Themes&lt;/h2&gt;
-&lt;p&gt;There are several add-on R packages that you can install to implement even more R Markdown HTML themes. For example &lt;a href=&#34;https://yixuan.cos.name/prettydoc/&#34;&gt;&lt;code&gt;prettydoc&lt;/code&gt;&lt;/a&gt;, &lt;a href=&#34;https://github.com/juba/rmdformats&#34;&gt;&lt;code&gt;rmdformats&lt;/code&gt;&lt;/a&gt;, &lt;a href=&#34;https://github.com/hrbrmstr/hrbrthemes&#34;&gt;&lt;code&gt;hrbrthemes&lt;/code&gt;&lt;/a&gt;, &lt;a href=&#34;https://github.com/rstudio/tufte&#34;&gt;&lt;code&gt;tufte&lt;/code&gt;&lt;/a&gt;, and &lt;a href=&#34;http://dirk.eddelbuettel.com/code/tint.html&#34;&gt;&lt;code&gt;tint&lt;/code&gt;&lt;/a&gt;. Below I show screenshots of the themes from these packages as well.&lt;/p&gt;
-&lt;div id=&#34;ipsum-theme-from-hrbrthemes-package&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;ipsum&lt;/code&gt; Theme (from &lt;code&gt;hrbrthemes&lt;/code&gt; Package)&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/hrbrthemes-ipsum.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;architect-theme-from-prettydoc-package&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;architect&lt;/code&gt; Theme (from &lt;code&gt;prettydoc&lt;/code&gt; Package)&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/prettydoc-architect.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;cayman-theme-from-prettydoc-package&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;cayman&lt;/code&gt; Theme (from &lt;code&gt;prettydoc&lt;/code&gt; Package)&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/prettydoc-cayman.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;hpstr-theme-from-prettydoc-package&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;hpstr&lt;/code&gt; Theme (from &lt;code&gt;prettydoc&lt;/code&gt; Package)&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/prettydoc-hpstr.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;leonids-theme-from-prettydoc-package&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;leonids&lt;/code&gt; Theme (from &lt;code&gt;prettydoc&lt;/code&gt; Package)&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/prettydoc-leonids.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;tactile-theme-from-prettydoc-package&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;tactile&lt;/code&gt; Theme (from &lt;code&gt;prettydoc&lt;/code&gt; Package)&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/prettydoc-tactile.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;html_clean-theme-from-rmdformats-package&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;html_clean&lt;/code&gt; Theme (from &lt;code&gt;rmdformats&lt;/code&gt; Package)&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/rmdformats-html_clean.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;html_docco-theme-from-rmdformats-package&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;html_docco&lt;/code&gt; Theme (from &lt;code&gt;rmdformats&lt;/code&gt; Package)&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/rmdformats-html_docco.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;material-theme-from-rmdformats-package&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;material&lt;/code&gt; Theme (from &lt;code&gt;rmdformats&lt;/code&gt; Package)&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/rmdformats-material.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;readthedown-theme-from-rmdformats-package&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;readthedown&lt;/code&gt; Theme (from &lt;code&gt;rmdformats&lt;/code&gt; Package)&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/rmdformats-readthedown.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;tinthtml-theme-from-tint-package&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;tintHtml&lt;/code&gt; Theme (from &lt;code&gt;tint&lt;/code&gt; Package)&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/tint-tintHtml.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;div id=&#34;tufte_html-theme-from-tufte-package&#34; class=&#34;section level4&#34;&gt;
-&lt;h4&gt;&lt;code&gt;tufte_html&lt;/code&gt; Theme (from &lt;code&gt;tufte&lt;/code&gt; Package)&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;/img/rmarkdown-themes/tufte-tufte_html.png&#34; /&gt;&lt;/p&gt;
-&lt;/div&gt;
-&lt;/div&gt;
 </description>
     </item>
     

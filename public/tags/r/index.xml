@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Mon, 17 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Jun 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>What to do about p-values?</title>
+      <link>/post/what-to-do-about-p-values/</link>
+      <pubDate>Wed, 26 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/what-to-do-about-p-values/</guid>
+      <description>In March, the ASA published a special issue of The American Statistician (TAS) related to statistical inference in the 21st century. In the initial article, Moving to a World Beyond “p &amp;lt; 0.05”, Wassersein, Schirm, and Lazar (2019) write for the ASA saying,
+ “The ASA Statement on P-Values and Statistical Significance stopped just short of recommending that declarations of “statistical significance” be abandoned. We take that step here. We conclude, based on our review of the articles in this special issue and the broader literature, that it is time to stop using the term “statistically significant” entirely.</description>
+    </item>
     
     <item>
       <title>2019 StatPREP Workshops</title>
