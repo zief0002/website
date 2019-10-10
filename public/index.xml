@@ -6,8 +6,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.</copyright>
-    <lastBuildDate>Wed, 24 Jul 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Illustrating the Gender Gap in Fiction</title>
+      <link>/post/illustrating-the-gender-gap-in-fiction/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/illustrating-the-gender-gap-in-fiction/</guid>
+      <description>
+
+
+&lt;p&gt;&lt;a href=&#34;http://www.loganberrybooks.com/&#34;&gt;Loganberry Books&lt;/a&gt;, an independent bookstore in Cleveland, intitiated a social experiment for in March 2019 called &lt;em&gt;Illustrating the Gender Gap in Fiction&lt;/em&gt;. This experiment, in honor of Women’s History Month, was decribed as, “a live performance art project where we will shelve the works by men in our LitArts room backwards”. What a cool idea, and very eye-opening.&lt;/p&gt;
+&lt;figure&gt;
+&lt;img src=&#34;https://img.huffingtonpost.com/asset/58bef44c1500003b16abdba9.jpeg?cache=llc8jv8akx&amp;ops=scalefit_720_noupscale&#34; alt=&#34;&#34; width=&#34;70%&#34;/&gt;
+&lt;figcaption style=&#34;text-align:center;&#34;&gt;
+Shelves of backward books emphasize the gender imbalance in literature.
+&lt;/figcaption&gt;
+&lt;/figure&gt;
+&lt;p&gt;This would likely be worse if the experiment was carried out with mathematics, statistics, and computer science books. May have to replicate this in my office at some point.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Dissertation Writing</title>
@@ -752,15 +772,6 @@ Figure 3: Minnesota population density as of the 2000 census. Accessed from &lt;
 &lt;p&gt;I did it by immediately copying the snippets of email I wanted into Evernote notes (my notetaking system). I also attended to to-dos more immediately, or added them to a note of “To-Dos”.&lt;/p&gt;
 &lt;p&gt;I doubt I will stay at zero emails in my inbox, but I have been at fewer than 10 emails all summer. Hoping to keep things at this level as the semester gears up.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Every Rose has It&#39;s Thorn: Secondary Teachers&#39; Reasoning about Statistical Models</title>
-      <link>/publication/2018-zdm/</link>
-      <pubDate>Thu, 07 Jun 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/publication/2018-zdm/</guid>
-      <description></description>
     </item>
     
   </channel>
